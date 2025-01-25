@@ -9,4 +9,8 @@ lighthouse_results/**
 _posts/2015-10-20-math.md
 _sass/font-awesome/*.scss
 _sass/tabler-icons/*.scss
+<<<<<<< HEAD
 _scripts/*
+=======
+_scripts/search.liquid.js
+>>>>>>> 0d4be64a (Initial commit)

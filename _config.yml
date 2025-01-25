@@ -42,6 +42,11 @@ repo_trophies:
 # will use title and url fields
 # Take a look to https://github.com/jekyll/jekyll-feed for more customization
 
+<<<<<<< HEAD
+=======
+rss_icon: true
+
+>>>>>>> 0d4be64a (Initial commit)
 # -----------------------------------------------------------------------------
 # Layout
 # -----------------------------------------------------------------------------
@@ -50,7 +55,10 @@ navbar_fixed: true
 footer_fixed: true
 search_enabled: true
 socials_in_search: true
+<<<<<<< HEAD
 posts_in_search: true
+=======
+>>>>>>> 0d4be64a (Initial commit)
 bib_search: true
 
 # Dimensions
@@ -143,14 +151,34 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
+<<<<<<< HEAD
   books:
     output: true
+=======
+>>>>>>> 0d4be64a (Initial commit)
   news:
     defaults:
       layout: post
     output: true
+<<<<<<< HEAD
   projects:
     output: true
+=======
+    permalink: /:collection/:title/
+  projects:
+    output: true
+    permalink: /:collection/:title/
+
+announcements:
+  enabled: true
+  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
+  limit: 5 # leave blank to include all the news in the `_news` folder
+
+latest_posts:
+  enabled: true
+  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
+  limit: 3 # leave blank to include all the blog posts
+>>>>>>> 0d4be64a (Initial commit)
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
@@ -197,7 +225,11 @@ keep_files:
 
 # Plug-ins
 plugins:
+<<<<<<< HEAD
   - jekyll-archives-v2
+=======
+  - jekyll-archives
+>>>>>>> 0d4be64a (Initial commit)
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-get-json
@@ -231,7 +263,11 @@ sass:
 
 jekyll-minifier:
   compress_javascript: false # set to false since we are using terser as the js minifier
+<<<<<<< HEAD
   exclude: ["robots.txt", "assets/js/search/*.js"]
+=======
+  # exclude: ["robots.txt", "assets/js/search/*.js"]
+>>>>>>> 0d4be64a (Initial commit)
 
 # -----------------------------------------------------------------------------
 # Terser
@@ -246,6 +282,7 @@ terser:
 # -----------------------------------------------------------------------------
 
 jekyll-archives:
+<<<<<<< HEAD
   posts:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
     permalinks:
@@ -254,6 +291,17 @@ jekyll-archives:
       categories: "/blog/:type/:name/"
   books:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+=======
+  enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
+  layouts:
+    year: archive-year
+    tag: archive-tag
+    category: archive-category
+  permalinks:
+    year: "/blog/:year/"
+    tag: "/blog/tag/:name/"
+    category: "/blog/category/:name/"
+>>>>>>> 0d4be64a (Initial commit)
 
 display_tags: ["formatting", "images", "links", "math", "code", "blockquotes"] # these tags will be displayed on the front page of your blog
 display_categories: ["external-services"] # these categories will be displayed on the front page of your blog
@@ -546,12 +594,15 @@ third_party_libraries:
     url:
       js: "https://cdn.jsdelivr.net/npm/photoswipe@{{version}}/dist/photoswipe-lightbox.esm.min.js"
     version: "5.4.4"
+<<<<<<< HEAD
   plotly:
     integrity:
       js: "sha256-oy6Be7Eh6eiQFs5M7oXuPxxm9qbJXEtTpfSI93dW16Q="
     url:
       js: "https://cdn.jsdelivr.net/npm/plotly.js@{{version}}/dist/plotly.min.js"
     version: "3.0.1"
+=======
+>>>>>>> 0d4be64a (Initial commit)
   polyfill:
     url:
       js: "https://cdnjs.cloudflare.com/polyfill/v{{version}}/polyfill.min.js?features=es6"

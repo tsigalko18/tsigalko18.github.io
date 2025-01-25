@@ -2136,7 +2136,11 @@ d-appendix > distill-appendix {
 }
 
 .citation {
+<<<<<<< HEAD
   color: var(--global-theme-color);
+=======
+  color: hsla(206, 90%, 20%, 0.7);
+>>>>>>> 0d4be64a (Initial commit)
 }
 
 .citation-number {
@@ -2144,7 +2148,11 @@ d-appendix > distill-appendix {
   white-space: nowrap;
   font-family: -apple-system, BlinkMacSystemFont, "Roboto", Helvetica, sans-serif;
   font-size: 75%;
+<<<<<<< HEAD
   color: var(--global-theme-color);
+=======
+  color: hsla(206, 90%, 20%, 0.7);
+>>>>>>> 0d4be64a (Initial commit)
   display: inline-block;
   line-height: 1.1em;
   text-align: center;
@@ -2596,7 +2604,11 @@ d-citation-list .references .title {
           var env = {
             callback: callback,
             container: container,
+<<<<<<< HEAD
             selector: 'd-code',
+=======
+            selector: 'code[class*="language-"], [class*="language-"] code, code[class*="lang-"], [class*="lang-"] code',
+>>>>>>> 0d4be64a (Initial commit)
           };
 
           _.hooks.run("before-highlightall", env);
@@ -4277,7 +4289,11 @@ sup {
 }
 
 span {
+<<<<<<< HEAD
   color: var(--global-theme-color);
+=======
+  color: hsla(206, 90%, 20%, 0.7);
+>>>>>>> 0d4be64a (Initial commit)
   cursor: default;
 }
 
@@ -4446,6 +4462,7 @@ d-footnote-list a.footnote-backlink {
   top: 0;
   left: 0;
   width: 100%;
+<<<<<<< HEAD
   /* Original styles retained and new theming variables added */
   border: 1px solid var(--global-divider-color); /* Themed border */
   background-color: var(--global-card-bg-color); /* Themed background */
@@ -4466,6 +4483,16 @@ d-footnote-list a.footnote-backlink {
 .panel a:hover {
   color: var(--global-hover-color);
   text-decoration: underline;
+=======
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: rgba(250, 250, 250, 0.95);
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  box-sizing: border-box;
+
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+>>>>>>> 0d4be64a (Initial commit)
 }
 
 </style>

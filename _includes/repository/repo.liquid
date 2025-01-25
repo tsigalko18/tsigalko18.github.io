@@ -5,6 +5,7 @@
   {% assign show_owner = true %}
 {% endif %}
 
+<<<<<<< HEAD
 {% assign lang = site.lang | split: '-' | first %}
 
 {% case lang %}
@@ -25,6 +26,8 @@
     {% comment %} https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file#available-locales {% endcomment %}
 {% endcase %}
 
+=======
+>>>>>>> 0d4be64a (Initial commit)
 {% if site.data.repositories.repo_description_lines_max %}
   {% assign max_lines = site.data.repositories.repo_description_lines_max %}
 {% else %}
@@ -36,12 +39,20 @@
     <img
       class="only-light w-100"
       alt="{{ include.repository }}"
+<<<<<<< HEAD
       src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_light }}&locale={{ lang }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}"
+=======
+      src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_light }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}"
+>>>>>>> 0d4be64a (Initial commit)
     >
     <img
       class="only-dark w-100"
       alt="{{ include.repository }}"
+<<<<<<< HEAD
       src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_dark }}&locale={{ lang }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}"
+=======
+      src="https://github-readme-stats.vercel.app/api/pin/?username={{ repo_url[0] }}&repo={{ repo_url[1] }}&theme={{ site.repo_theme_dark }}&show_owner={{ show_owner }}&description_lines_count={{ max_lines }}"
+>>>>>>> 0d4be64a (Initial commit)
     >
   </a>
 </div>

@@ -5,7 +5,10 @@
 @use "sass:color";
 
 :root {
+<<<<<<< HEAD
   color-scheme: light;
+=======
+>>>>>>> 0d4be64a (Initial commit)
   --global-bg-color: #{$white-color};
   --global-code-bg-color: #{$code-bg-color-light};
   --global-text-color: #{$black-color};
@@ -77,7 +80,10 @@
 }
 
 html[data-theme="dark"] {
+<<<<<<< HEAD
   color-scheme: dark;
+=======
+>>>>>>> 0d4be64a (Initial commit)
   --global-bg-color: #{$grey-color-dark};
   --global-code-bg-color: #{$code-bg-color-dark};
   --global-text-color: #{$grey-color-light};

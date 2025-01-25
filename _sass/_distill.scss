@@ -132,6 +132,7 @@ d-article {
 
   d-footnote {
     scroll-margin-top: 66px;
+<<<<<<< HEAD
     color: var(--global-theme-color) !important; /* Footnote text color */
     &:hover {
       color: var(--global-hover-color) !important; /* Footnote hover color */
@@ -146,6 +147,8 @@ d-article {
     &:hover {
       color: var(--global-hover-color) !important;
     }
+=======
+>>>>>>> 0d4be64a (Initial commit)
   }
 }
 

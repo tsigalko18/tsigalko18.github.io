@@ -4,7 +4,11 @@ gem 'jekyll'
 
 # Core plugins that directly affect site building
 group :jekyll_plugins do
+<<<<<<< HEAD
     gem 'jekyll-archives-v2'
+=======
+    gem 'jekyll-archives'
+>>>>>>> 0d4be64a (Initial commit)
     gem 'jekyll-email-protect'
     gem 'jekyll-feed'
     gem 'jekyll-get-json'
@@ -32,7 +36,11 @@ group :other_plugins do
     gem 'httparty'
     gem 'observer'       # used by jekyll-scholar
     gem 'ostruct'        # used by jekyll-twitter-plugin
+<<<<<<< HEAD
     # gem 'terser'         # used by jekyll-terser
+=======
+    gem 'terser'         # used by jekyll-terser
+>>>>>>> 0d4be64a (Initial commit)
     # gem 'unicode_utils' -- should be already installed by jekyll
     # gem 'webrick' -- should be already installed by jekyll
 end

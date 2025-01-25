@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {% assign lang = site.lang | split: '-' | first %}
 
 {% case lang %}
@@ -18,17 +19,27 @@
     {% comment %} https://github.com/anuraghazra/github-readme-stats?tab=readme-ov-file#available-locales {% endcomment %}
 {% endcase %}
 
+=======
+>>>>>>> 0d4be64a (Initial commit)
 <div class="repo p-2 text-center">
   <a href="https://github.com/{{ include.username }}">
     <img
       class="only-light w-100"
       alt="{{ include.username }}"
+<<<<<<< HEAD
       src="https://github-readme-stats.vercel.app/api/?username={{ include.username }}&theme={{ site.repo_theme_light }}&locale={{ lang }}&show_icons=true"
+=======
+      src="https://github-readme-stats.vercel.app/api/?username={{ include.username }}&theme={{ site.repo_theme_light }}&show_icons=true"
+>>>>>>> 0d4be64a (Initial commit)
     >
     <img
       class="only-dark w-100"
       alt="{{ include.username }}"
+<<<<<<< HEAD
       src="https://github-readme-stats.vercel.app/api/?username={{ include.username }}&theme={{ site.repo_theme_dark }}&locale={{ lang }}&show_icons=true"
+=======
+      src="https://github-readme-stats.vercel.app/api/?username={{ include.username }}&theme={{ site.repo_theme_dark }}&show_icons=true"
+>>>>>>> 0d4be64a (Initial commit)
     >
   </a>
 </div>
