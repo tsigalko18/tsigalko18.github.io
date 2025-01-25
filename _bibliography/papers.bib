@@ -1,115 +1,667 @@
----
----
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@inproceedings{2025-Baresi-ICSE, 
+  author = {Luciano Baresi and Davide Yi Xian Hu and Andrea Stocco and Paolo Tonella},
+  title = {Efficient Domain Augmentation for Autonomous Driving Testing Using Diffusion Models},
+  booktitle = {Proceedings of the 47th International Conference on Software Engineering},
+  series = {ICSE '25},
+  publisher = {IEEE},
+  pdf = {2025-Baresi-ICSE.pdf},
+  pages = {12 pages},
+  abbr = {ICSE},
+  year = {2025},
+  bibtex_show={true}
 }
 
-@book{einstein1956investigations,
+@inproceedings{2025-Lambertenghi-ICST, 
+  author = {Stefano Carlo Lambertenghi and Hannes Leonhard and Andrea Stocco},
+  title = {Benchmarking Image Perturbations for Testing Automated Driving Assistance Systems},
+  booktitle = {Proceedings of the 18th IEEE International Conference on Software Testing, Verification and Validation},
+  series = {ICST '25},
+  publisher = {IEEE},
+  pdf = {2025-Lambertenghi-ICST.pdf},
+  pages = {12 pages},
+  abbr = {ICST},
+  year = {2025},
+  bibtex_show={true}
+}
+
+@inproceedings{2025-Maryam-ICST, 
+  author = {Maryam and Matteo Biagiola and Andrea Stocco and Vincenzo Riccio},
+  title = {Benchmarking Generative AI Models for Deep Learning Test Input Generation},
+  booktitle = {Proceedings of the 18th IEEE International Conference on Software Testing, Verification and Validation},
+  series = {ICST '25},
+  publisher = {IEEE},
+  pdf = {2025-Maryam-ICST.pdf},
+  pages = {12 pages},
+  abbr = {ICST},
+  year = {2025},
+  bibtex_show={true}
+}
+
+@inproceedings{2025-Ali-ICSEW,
+  title={OpenCat: Improving Interoperability of ADS Testing}, 
+  author={Qurban Ali and Andrea Stocco and Leonardo Mariani and Oliviero Riganelli},
+  year={2025},
+  booktitle = {Proceedings of the 47th International Conference on Software Engineering Workshops},
+  series = {ICSEW '24},
+  publisher = {IEEE},
+  pdf = {2025-Ali-ICSEW.pdf},
+  pages = {10 pages},
+  abbr = {ICSEW},
+  bibtex_show={true}
+}
+
+@misc{2024-Naziri-arXiv,
+  title={Misbehaviour Forecasting for Focused Autonomous Driving Systems Testing}, 
+  author={Molla Mohammad Abid Naziri and Stefano Carlo Lambertenghi and Andrea Stocco and Marcelo d'Amorim},
+  year={2024},
+  eprint={},
+  archivePrefix={},
+  primaryClass={},
+  url={}, 
+  pdf = {2024-Naziri-arXiv.pdf},
+  abbr = {pre-print},
+  bibtex_show={true}
+}
+
+@misc{2024-Dozono-arXiv,
+  title={Large Language Models for Secure Code Assessment: A Multi-Language Empirical Study}, 
+  author={Kohei Dozono and Tiago Espinha Gasiba and Andrea Stocco},
+  year={2024},
+  eprint={2408.06428},
+  archivePrefix={arXiv},
+  primaryClass={cs.SE},
+  url={https://arxiv.org/abs/2408.06428}, 
+  pdf = {2024-Dozono-arXiv.pdf},
+  abbr = {pre-print},
+  bibtex_show={true}
+}
+
+@misc{2024-Abdellatif-arXiv,
+  title={Deep Learning System Boundary Testing through Latent Space Style Mixing}, 
+  author={Amr Abdellatif and Xingcheng Chen and Vincenzo Riccio and Andrea Stocco},
+  year={2024},
+  eprint={2408.06258},
+  archivePrefix={arXiv},
+  primaryClass={cs.SE},
+  url={https://arxiv.org/abs/2408.06258}, 
+  pdf = {2024-Abdellatif-arXiv.pdf},
+  abbr = {pre-print},
+  bibtex_show={true}
+}
+
+@misc{2024-Ricca-arXiv,
+  title={A Multi-Year Grey Literature Review on AI-assisted Test Automation}, 
+  author={Filippo Ricca and Alessandro Marchetto and Andrea Stocco},
+  year={2024},
+  eprint={2408.06224},
+  archivePrefix={arXiv},
+  primaryClass={cs.SE},
+  url={https://arxiv.org/abs/2408.06224}, 
+  pdf = {2024-Ricca-arXiv.pdf},
+  abbr = {pre-print},
+  bibtex_show={true}
+}
+
+@article{2025-Sharifi-TOSEM, 
+  author = {Sepehr Sharifi and Andrea Stocco and Lionel C. Briand},
+  title={System Safety Monitoring of Learned Components Using Temporal Metric Forecasting},
+  journal = {ACM Transactions on Software Engineering and Methodology},
+  publisher = {ACM},
+  year = {2025},
+  abbr = {TOSEM},
+  url = {https://doi.org/10.1145/3712196},
+  doi = {10.1145/3712196},
+  pdf = {2025-Sharifi-TOSEM.pdf},
+  month = {jan},
+  publisher = {Association for Computing Machinery},
+  address = {New York, NY, USA},
+  issn = {1049-331X},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+  abstract = {In learning-enabled autonomous systems, safety monitoring of learned components is crucial to ensure their outputs do not lead to system safety violations, given the operational context of the system. However, developing a safety monitor for practical deployment in real-world applications is challenging. This is due to limited access to internal workings and training data of the learned component. Furthermore, safety monitors should predict safety violations with low latency, while consuming a reasonable computation resource amount.To address the challenges, we propose a safety monitoring method based on probabilistic time series forecasting. Given the learned component outputs and an operational context, we empirically investigate different Deep Learning (DL)-based probabilistic forecasting to predict the objective measure capturing the satisfaction or violation of a safety requirement (safety metric). We empirically evaluate safety metric and violation prediction accuracy, and inference latency and resource usage of four state-of-the-art models, with varying horizons, using autonomous aviation and autonomous driving case studies. Our results suggest that probabilistic forecasting of safety metrics, given learned component outputs and scenarios, is effective for safety monitoring. Furthermore, for both case studies, the Temporal Fusion Transformer (TFT) was the most accurate model for predicting imminent safety violations, with acceptable latency and resource consumption.},
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+@inproceedings{2024-Lambertenghi-ICST, 
+  author = {Stefano Carlo Lambertenghi and Andrea Stocco},
+  title = {Assessing Quality Metrics for Neural Reality Gap Input Mitigation in Autonomous Driving Testing},
+  booktitle = {Proceedings of the 17th IEEE International Conference on Software Testing, Verification and Validation},
+  series = {ICST '24},
+  publisher = {IEEE},
+  pdf = {2024-Lambertenghi-ICST.pdf},
+  pages = {12 pages},
+  abbr = {ICST},
+  year = {2024},
+  bibtex_show={true}
+}
+
+@inproceedings{2024-Grewal-ICST, 
+  author = {Ruben Grewal and Paolo Tonella and Andrea Stocco},
+  title = {Predicting Safety Misbehaviours in Autonomous Driving Systems using Uncertainty Quantification},
+  booktitle = {Proceedings of the 17th IEEE International Conference on Software Testing, Verification and Validation},
+  series = {ICST '24},
+  publisher = {IEEE},
+  pdf = {2024-Grewal-ICST.pdf},
+  pages = {12 pages},
+  abbr = {ICST},
+  year = {2024},
+  bibtex_show={true}
+}
+
+@article{2023-Stocco-arXiv, 
+  author = {Andrea Stocco and Alexandra Willi and Luigi Libero Lucio Starace and Matteo Biagiola and Paolo Tonella},
+  title = {Neural Embeddings for Web Testing},
+  year = {2023},
+  abbr = {pre-print},
+  pdf = {2023-Stocco-arXiv.pdf},
+  eprint = {2306.07400},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.SE},
+  bibtex_show={true}
+}
+
+@article{2024-Biagiola-EMSE, 
+  author = {Matteo Biagiola and Andrea Stocco and Vincenzo Riccio and Paolo Tonella},
+  title = {Two is Better Than One: Digital Siblings to Improve Autonomous Driving Testing},
+  journal = {Empirical Software Engineering},
+  publisher = {Springer},
+  year = {2024},
+  abbr = {EMSE},
+  pdf = {2024-Biagiola-EMSE.pdf},
+  note = {[Invited Journal-first track at ICSE 2025]},
+  bibtex_show={true}
+}
+
+@inproceedings{2023-Ricca-QUATIC,
+  author = {Filippo Ricca and Alessandro Marchetto and Andrea Stocco},
+  title = {A Retrospective Analysis of Grey Literature for AI-supported Test Automation},
+  booktitle = {Proceedings of the 16th International Conference on the Quality of Information and Communications Technology},
+  publisher = {Springer},
+  series = {QUATIC 2023},
+  abbr = {QUATIC},
+  pdf = {2023-Ricca-QUATIC.pdf},
+  award = {[Best Paper Award]},
+  award_name = {Best Paper Award},
+  year = {2023},
+  bibtex_show={true}
+}
+
+@article{2023-Stocco-EMSE,
+  author    = {Andrea Stocco and Brian Pulfer and Paolo Tonella},
+  title     = {{Model vs System Level Testing of Autonomous Driving Systems: A Replication and Extension Study}},
+  journal = {Empirical Software Engineering},
+  publisher = {Springer},
+  volume    = {},
+  year      = {2023},
+  pdf = {2023-Stocco-EMSE.pdf},
+  note = {Invited journal first track at ICSE 2024},
+  abbr = {EMSE},
+  bibtex_show={true}
+}
+
+@inproceedings{2022-Stocco-ASE,
+  author    = {Andrea Stocco and Paulo J. Nunes and Marcelo d'Amorim and Paolo Tonella},
+  title     = {{ThirdEye}: Attention Maps for Safe Autonomous Driving Systems},
+  booktitle = {Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering},
+  publisher = {IEEE/ACM},
+  series = {ASE '22},
+  abbr = {ASE},
+  pdf = {2022-Stocco-ASE.pdf},
+  year = {2022},
+  doi = {10.1145/3551349.3556968},
+  slides = {2022-Stocco-ASE-slides.pdf}
+}
+
+@article{2022-Stocco-TSE,
+  author    = {Andrea Stocco and Brian Pulfer and Paolo Tonella},
+  title     = {{Mind the Gap! A Study on the Transferability of Virtual vs Physical-world Testing of Autonomous Driving Systems}},
+  journal   = {IEEE Transactions on Software Engineering},
+  volume    = {},
+  year      = {2022},
+  url       = {https://arxiv.org/abs/2112.11255},
+  pdf = {2022-Stocco-TSE.pdf},
+  publisher = {IEEE},
+  note = {[Invited journal First track at ICSE 2023]},
+  abbr = {TSE},
+}
+
+@article{2021-Stocco-JSEP,
+  author = {Andrea Stocco and Paolo Tonella},
+  title = {Confidence-driven Weighted Retraining for Predicting Safety-Critical Failures in Autonomous Driving Systems},
+  journal = {Journal of Software: Evolution and Process},
+  pages = {e2386},
+  volume = {34},
+  number = {10},
+  publisher = {John Wiley & Sons},
+  url = {https://doi.org/10.1002/smr.2386},
+  doi = {10.1002/smr.2386},
+  pdf = {2021-Stocco-JSEP.pdf},
+  abbr = {JSEP},
+  year = {2021}
+}
+
+@inproceedings{2021-Ricca-NEXTA,
+  author = {Filippo Ricca and Alessandro Marchetto and Andrea Stocco},
+  title = {AI-based Test Automation: A Grey Literature Analysis},
+  booktitle = {Proceedings of the 14th IEEE International Conference on Software Testing, Verification and Validation Workshops},
+  publisher = {Springer},
+  series = {ICSTW 2021},
+  abbr = {ICSTW},
+  pdf = {2021-Ricca-ICSTW.pdf},
+  note = {[Best Presentation Award]},
+  year = {2021}
+}
+
+@inproceedings{2021-Jahangirova-ICST,
+  author = {Gunel Jahangirova and Andrea Stocco and Paolo Tonella},
+  title = {Quality Metrics and Oracles for Autonomous Vehicles Testing},
+  booktitle = {Proceedings of the 14th IEEE International Conference on Software Testing, Verification and Validation},
+  series = {ICST '21},
+  publisher = {IEEE},
+  pdf = {2021-Jahangirova-ICST.pdf},
+  pages = {12 pages},
+  abbr = {ICST},
+  year = {2021}
+}
+
+@inproceedings{2021-Ricca-SOFSEM,
+  author = {Filippo Ricca and Andrea Stocco},
+  title = {Web Test Automation: Insights from the Grey Literature},
+  booktitle = {Proceedings of the 47th International Conference on Current Trends in Theory and Practice of Computer Science},
+  publisher = {Springer},
+  series = {SOFSEM 2021},
+  abbr = {SOFSEM},
+  pdf = {2021-Ricca-SOFSEM.pdf},
+  note = {[Best Paper Nominee]},
+  year = {2021},
+}
+
+@article{2020-Bajammal-TSE,
+  author = {Mohammad Bajammal and Andrea Stocco and Davood Mazinanian and Ali Mesbah},
+  title = {{A Survey on the Use of Computer Vision to Improve Software Engineering Tasks}},
+  journal = {IEEE Transactions on Software Engineering},
+  publisher = {IEEE},
+  abbr = {TSE},
+  pdf = {2020-Bajammal-TSE.pdf},
+  year = {2020}
+}
+
+@inproceedings{2020-Stocco-GAUSS,
+  author = {Andrea Stocco and Paolo Tonella},
+  title = {Towards Anomaly Detectors that Learn Continuously},
+  booktitle = {Proceedings of the 31st International Symposium on Software Reliability Engineering Workshops},
+  publisher = {IEEE},
+  series = {ISSREW 2020},
+  abbr = {ISSREW},
+  year = {2020},
+  pdf = {2020-Stocco-GAUSS.pdf},
+  slides = {2020-Stocco-GAUSS-slides.pdf}
+}
+
+@article{2020-Riccio-EMSE,
+  author = {Vincenzo Riccio and Gunel Jahangirova and Andrea Stocco and Nargiz Humbatova and Michael Weiss and Paolo Tonella},
+  title = {{Testing Machine Learning based Systems: A Systematic Mapping}},
+  journal = {Empirical Software Engineering},
+  publisher = {Springer},
+  pdf = {2020-Riccio-EMSE.pdf},
+  abbr = {EMSE},
+  year = {2020}
+}
+
+@article{2020-Gyimesi-STVR,
+  author = {P\'{e}ter Gyimesi and B\'{e}la Vancsics and Andrea Stocco and Davood Mazinanian and \'{A}rp\'{a}d Besz\'{e}des and Rudolf Ferenc and Ali Mesbah},
+  title = {{BugJS}: A Benchmark and Taxonomy of JavaScript Bugs},
+  journal = {Software Testing, Verification And Reliability},
+  publisher = {John Wiley & Sons},
+  pdf = {2020-Gyimesi-STVR.pdf},
+  abbr = {STVR},
+  year = {2020}
+}
+
+@inproceedings{2020-Stocco-ICSE,
+  author = {Andrea Stocco and Michael Weiss and Marco Calzana and Paolo Tonella},
+  title = {Misbehaviour Prediction for Autonomous Driving Systems},
+  booktitle = {Proceedings of the 42nd International Conference on Software Engineering},
+  series = {ICSE '20},
+  publisher = {ACM},
+  pages = {12 pages},
+  pdf = {2020-Stocco-ICSE.pdf},
+  abbr = {ICSE},
+  year = {2020},
+  supp = {2020-Stocco-ICSE-poster-abstract.pdf},
+  poster = {2020-Stocco-ICSE-poster-poster-portrait.pdf},
+}
+
+@inproceedings{2020-Humbatova-ICSE,
+  author = {Nargiz Humbatova and Gunel Jahangirova and Gabriele Bavota and Vincenzo Riccio and Andrea Stocco and Paolo Tonella},
+  title = {Taxonomy of Real Faults in Deep Learning Systems},
+  booktitle = {Proceedings of the 42nd International Conference on Software Engineering},
+  series = {ICSE '20},
+  publisher = {ACM},
+  pages = {12 pages},
+  pdf = {2020-Humbatova-ICSE.pdf},
+  note = {[Best Artifact Award]},
+  abbr = {ICSE},
+  year = {2020}
+}
+
+@inproceedings{2020-Yandrapally-ICSE,
+  author = {Rahulkrishna Yandrapally and Andrea Stocco and Ali Mesbah},
+  title = {Near-Duplicate Detection in Web App Model Inference},
+  booktitle = {Proceedings of the 42nd International Conference on Software Engineering},
+  series = {ICSE '20},
+  publisher = {ACM},
+  pages = {12 pages},
+  abbr = {ICSE},
+  pdf = {2020-Yandrapally-ICSE.pdf},
+  year = {2020}
+}
+
+@inproceedings{2020-Biagiola-ICST,
+  author = {Matteo Biagiola and Andrea Stocco and Filippo Ricca and Paolo Tonella},
+  title = {Dependency-Aware Web Test Generation},
+  booktitle = {Proceedings of the 13th IEEE International Conference on Software Testing, Verification and Validation},
+  series = {ICST '20},
+  publisher = {IEEE},
+  pdf = {2020-Biagiola-ICST2020.pdf},
+  pages = {12 pages},
+  abbr = {ICST},
+  year = {2020}
+}
+
+@inproceedings{2019-Stocco-Proweb,
+  author = {Stocco, Andrea},
+  title = {How Artificial Intelligence Can Improve Web Development and Testing},
+  booktitle = {Companion of the 3rd International Conference on Art, Science, and Engineering of Programming},
+  series = {Programming '19},
+  year = {2019},
+  location = {Genova, Italy},
+  pages = {13:1--13:4},
+  articleno = {13},
+  numpages = {4},
+  pdf = {2019-Stocco-Proweb.pdf},
+  url = {http://doi.acm.org/10.1145/3328433.3328447},
+  doi = {10.1145/3328433.3328447},
+  publisher = {ACM},
+  address = {New York, NY, USA},
+  abbr = {ProWeb},
+  keywords = {artificial intelligence, web development, web testing},
+}
+
+@inproceedings{2019-Biagiola-FSE-Diversity,
+  author = {Matteo Biagiola and Andrea Stocco and Filippo Ricca and Paolo Tonella},
+  title = {Diversity-based Web Test Generation},
+  booktitle = {Proceedings of the 27th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering},
+  series = {ESEC/FSE 2019},
+  publisher = {ACM},
+  pages = {12 pages},
+  abbr = {ESEC/FSE},
+  pdf = {2019-Biagiola-FSE19-Diversity.pdf},
+  year = {2019}
+}
+
+@inproceedings{2019-Biagiola-FSE-Dependencies,
+  author = {Matteo Biagiola and Andrea Stocco and Ali Mesbah and Filippo Ricca and Paolo Tonella},
+  title = {Web Test Dependency Detection},
+  booktitle = {Proceedings of the 27th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering},
+  series = {ESEC/FSE 2019},
+  publisher = {ACM},
+  pages = {12 pages},
+  abbr = {ESEC/FSE},
+  pdf = {2019-Biagiola-FSE19-Dependencies.pdf},
+  year = {2019}
+}
+
+@inproceedings{2019-Gyimesi-ICST,
+  author = {P\'{e}ter Gyimesi and B\'{e}la Vancsics and Andrea Stocco and Davood Mazinanian and \'{A}rp\'{a}d Besz\'{e}des and Rudolf Ferenc and Ali Mesbah},
+  title = {{BugJS}: A Benchmark of JavaScript Bugs},
+  booktitle = {Proceedings of the 12th IEEE International Conference on Software Testing, Verification and Validation},
+  series = {ICST 2019},
+  publisher = {IEEE},
+  pages = {12 pages},
+  abbr = {ICST},
+  pdf = {2019-Gyimesi-ICST19.pdf},
+  year = {2019}
+}
+
+@incollection{2018-Ricca-Advances,
+  author = {Filippo Ricca and Maurizio Leotta and Andrea Stocco},
+  title = {{Three Open Problems in the Context of E2E Web Testing and a Vision: NEONATE}},
+  series = {Advances in Computers},
+  publisher = {Elsevier},
+  pdf = {2018-Ricca-Advances.pdf},
+  abbr = {Adv. <br> Comp.},
+  year = {2018},
+}
+
+@inproceedings{2018-Stocco-FSE-demo,
+  author = {Andrea Stocco and Rahulkrishna Yandrapally and Ali Mesbah},
+  title = {{VISTA}: Web Test Repair Using Computer Vision},
+  booktitle = {Proceedings of the 26th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering},
+  series = {ESEC/FSE 2018 - Demonstration Track},
+  publisher = {ACM},
+  pages = {876-879},
+  abbr = {ESEC/FSE<br>Demo Track},
+  pdf = {2018-Stocco-FSE18-demo.pdf},
+  year = {2018}
+}
+
+@inproceedings{2018-Stocco-FSE,
+  author = {Andrea Stocco and Rahulkrishna Yandrapally and Ali Mesbah},
+  title = {Visual Web Test Repair},
+  booktitle = {Proceedings of the 26th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering},
+  series = {ESEC/FSE 2018},
+  publisher = {ACM},
+  pages = {503-514},
+  abbr = {ESEC/FSE},
+  pdf = {2018-Stocco-FSE18.pdf},
+  year = {2018}
+}
+
+@inproceedings{2018-Arash-ICSE,
+  author = {Arash Vahabzadeh and Andrea Stocco and Ali Mesbah},
+  title = {Fine-Grained Test Minimization},
+  booktitle = {Proceedings of the 40th ACM/IEEE International Conference on Software Engineering},
+  series = {ICSE 2018},
+  publisher = {ACM},
+  pages = {210-221},
+  abbr = {ICSE},
+  pdf = {2018-Vahabzadeh-ICSE18.pdf},
+  year = {2018}
+}
+
+@phdthesis{phdthesis,
+  author       = {Andrea Stocco},
+  title        = {Automatic page object generation to support {E2E} testing of web applications},
+  school       = {Universit{\`a} degli Studi di Genova},
+  abbr = {Ph.D. <br> Thesis},
+  year         = {2017}
+}
+
+@article{2016-Leotta-JSEP,
+	author = {Maurizio Leotta and Andrea Stocco and Filippo Ricca and Paolo Tonella},
+	journal = {Journal of Software: Evolution and Process},
+	pages = {28:177-204},
+	publisher = {John Wiley & Sons},
+	url = {http://dx.doi.org/10.1002/smr.1771},
+	doi = {10.1002/smr.1771},
+	title = {{ROBULA+}: An Algorithm for Generating Robust {XPath} Locators for Web Testing},
+  pdf = {2016-Leotta-JSEP.pdf},
+	note = {[Invited journal First track at ICSME 2016]},
+  abbr = {JSEP},
+	year = {2016}
+}
+
+@article{2017-Stocco-SQJ,
+ author = {Stocco, Andrea and Leotta, Maurizio and Ricca, Filippo and Tonella, Paolo},
+ title = {{APOGEN: Automatic Page Object Generator for Web Testing}},
+ journal = {Software Quality journal},
+ volume = {25},
+ number = {3},
+ month = {sep},
+ year = {2017},
+ issn = {0963-9314},
+ pages = {1007-1039},
+ numpages = {33},
+ pdf = {2017-Stocco-SQJ.pdf},
+ url = {https://doi.org/10.1007/s11219-016-9331-9},
+ doi = {10.1007/s11219-016-9331-9},
+ acmid = {3129059},
+ abbr = {SQJ},
+ publisher = {Kluwer Academic publishers},
+ address = {Hingham, MA, USA},
+ keywords = {Clustering, End-to-end testing, Page object pattern, Reverse engineering, Selenium WebDriver, Web testing}
+}
+
+@article{PESTO-journal,
+  author = {Maurizio Leotta and Andrea Stocco and Filippo Ricca and Paolo Tonella},
+  journal = {Software Testing, Verification And Reliability},
+  publisher = {John Wiley & Sons},
+  title = {{PESTO}: Automated Migration of {DOM}-based Web Tests towards the Visual Approach},
+  abbr = {STVR},
+  year = {2017},
+  pdf = {2018-Leotta-STVR.pdf}
+}
+
+@inproceedings{2016-Stocco-ICWE,
+	author = {Andrea Stocco and Maurizio Leotta and Filippo Ricca and Paolo Tonella},
+	booktitle = {Proceedings of the 16th International Conference on Web Engineering},
+	pages = {132-151},
+	series = {ICWE 2016},
+	publisher = {Springer},
+  pdf = {2016-Stocco-ICWE.pdf},
+	title = {Clustering-Aided Page Object Generation for Web Testing},
+	year = {2016},
+  abbr = {ICWE},
+	note = {[Best Student Paper Award]},
+	doi = {10.1007/978-3-319-38791-8_8},
+	url = {http://link.springer.com/chapter/10.1007\%2F978-3-319-38791-8_8}
+}
+
+@inproceedings{2016-Stocco-ICWE-demo,
+	author = {Andrea Stocco and Maurizio Leotta and Filippo Ricca and Paolo Tonella},
+	booktitle = {Proceedings of the 16th International Conference on Web Engineering},
+	pages = {533-537},
+	series = {ICWE 2016 - Demo Track},
+	publisher = {Springer},
+  pdf = {2016-Stocco-ICWE-demo.pdf},
+	title = {Automatic Page Object Generation with APOGEN},
+	doi = {10.1007/978-3-319-38791-8_42},
+	url = {http://dx.doi.org/10.1007/978-3-319-38791-8_42},
+	year = {2016},
+  abbr = {ICWE<br>Demo Track},
+}
+
+@inproceedings{2016-Hammoudi-FSE,
+	author = {Mouna Hammoudi and Gregg Rothermel and Andrea Stocco},
+	booktitle = {Proceedings of the 24th ACM SIGSOFT International Symposium on the Foundations of Software Engineering},
+	pages = {751-762},
+	series = {FSE 2016},
+	title = {{WATERFALL}: An Incremental Approach for Repairing Record-Replay Tests of Web Applications},
+  pdf = {2016-Hammoudi-FSE.pdf},
+	doi = {10.1145/2950290.2950294},
+  abbr = {FSE},
+	url = {http://doi.acm.org/10.1145/2950290.2950294},
+	year = {2016}
+}
+
+@inproceedings{2015-Stocco-AST,
+	author = {Andrea Stocco and Maurizio Leotta and Filippo Ricca and Paolo Tonella},
+	booktitle = {Proceedings of the 10th IEEE/ACM International Workshop on Automation of Software Test},
+	pages = {70-74},
+	publisher = {IEEE/ACM},
+	series = {AST 2015},
+  pdf = {2015-Stocco-AST.pdf},
+	url = {http://sepl.dibris.unige.it/publications/2015-stocco-AST.pdf},
+	doi = {10.1109/AST.2015.26},
+	title = {Why Creating Web Page Objects Manually If It Can Be Done Automatically?},
+  abbr = {AST},
+	year = {2015}
+}
+
+@inproceedings{2015-Leotta-SBST,
+	author = {Maurizio Leotta and Andrea Stocco and Filippo Ricca and Paolo Tonella},
+	booktitle = {Proceedings of the 8th International Workshop on Search-Based Software Testing},
+	pages = {36-39},
+	publisher = {ACM},
+	series = {SBST 2015},
+  pdf = {2015-Leotta-SBST.pdf},
+  slides = {2015-Leotta-SBST-slides.pdf},
+	url = {http://sepl.dibris.unige.it/publications/2015-leotta-SBST.pdf},
+	doi = {10.1109/SBST.2015.16},
+	title = {Meta-Heuristic Generation of Robust {XP}ath Locators for Web Testing},
+  abbr = {SBST},
+	year = {2015}
+}
+
+@inproceedings{2015-Leotta-ICST,
+	author = {Maurizio Leotta and Andrea Stocco and Filippo Ricca and Paolo Tonella},
+	booktitle = {Proceedings of the 8th IEEE International Conference on Software Testing, Verification and Validation},
+	pages = {1-10},
+	publisher = {IEEE},
+	url = {http://sepl.dibris.unige.it/publications/2015-leotta-ICST.pdf},
+	series = {ICST 2015},
+	doi = {10.1109/ICST.2015.7102611},
+	title = {Using Multi-Locators to Increase the Robustness of Web Test Cases},
+  pdf = {2015-Leotta-ICST.pdf},
+  abbr = {ICST},
+	year = {2015}
+}
+
+@inproceedings{2015-Leotta-SAC,
+	author = {Maurizio Leotta and Andrea Stocco and Filippo Ricca and Paolo Tonella},
+	booktitle = {Proceedings of the 30th ACM/SIGAPP Symposium on Applied Computing},
+	pages = {36-39},
+	publisher = {ACM},
+	series = {SAC 2015},
+  pdf = {2015-Leotta-SAC.pdf},
+	url = {http://sepl.dibris.unige.it/publications/2015-leotta-SAC.pdf},
+	doi = {10.1145/2695664.2695847},
+	title = {{Automated Generation of Visual Web Tests from DOM-based Web Tests}},
+  abbr = {SAC},
+	year = {2015}
+}
+
+@inproceedings{2014-Stocco-SCAM-demo,
+	author = {Andrea Stocco and Maurizio Leotta and Filippo Ricca and Paolo Tonella},
+	booktitle = {Proceedings of the 14th International Working Conference on Source Code Analysis and Manipulation},
+	pages = {65-70},
+	publisher = {IEEE},
+	series = {SCAM 2014 - Demonstration Track},
+	doi = {10.1109/SCAM.2014.36},
+  pdf = {2014-Stocco-SCAM-demo.pdf},
+	title = {PESTO: A Tool for Migrating {DOM}-based to Visual Web Tests},
+  abbr = {SCAM<br>Demo Track},
+	year = {2014},
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+  abstract = {Test automation tools are widely adopted for testing complex Web applications. Three generations of tools exist: first, based on screen coordinates; second, based on DOM–based commands; and third, based on visual image recognition. In our previous work, we proposed Pesto, a tool able to migrate second-generation Selenium WebDriver test suites towards third-generation Sikuli ones. In this work, we extend Pesto to manage Web elements having (1) complex visual interactions and (2) multiple visual appearances. Pesto relies on aspect-oriented programming, computer vision, and code transformations. Our new improved tool has been evaluated on two Web test suites developed by an independent tester. Experimental results show that Pesto manages and transforms correctly test suites with Web elements having complex visual interactions and multistate elements. By using Pesto, the migration of existing DOM–based test suites to the visual approach requires a low manual effort, since our approach proved to be very accurate.}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+@inproceedings{2014-Leotta-WoSAR,
+	author = {Maurizio Leotta and Andrea Stocco and Filippo Ricca and Paolo Tonella},
+	booktitle = {Proceedings of the 25th International Symposium on Software Reliability Engineering Workshops},
+	pages = {449-454},
+	publisher = {IEEE},
+	series = {ISSREW 2014},
+	doi = {10.1109/ISSREW.2014.17},
+	title = {Reducing Web Test Cases Aging by means of Robust {XP}ath Locators},
+  pdf = {2014-Leotta-ISSREW.pdf},
+  abbr = {ISSREW},
+	year = {2014},
+  abstract={In the context of web regression testing, the main aging factor for a test suite is related to the continuous evolution of the underlying web application that makes the test cases broken. This rapid decay forces the quality experts to evolve the test ware. One of the major costs of test case evolution is due to the manual effort necessary to repair broken web page element locators. Locators are lines of source code identifying the web elements the test cases interact with. Web test cases rely heavily on locators, for instance to identify and fill the input portions of a web page (e.g., The form fields), to execute some computations (e.g., By locating and clicking on buttons) and to verify the correctness of the output (by locating the web page elements showing the results). In this paper we present ROBULA (ROBUst Locator Algorithm), a novel algorithm able to partially prevent and thus reduce the aging of web test cases by automatically generating robust XPath-based locators that are likely to work also when new releases of the web application are created. Preliminary results show that XPath locators produced by ROBULA are substantially more robust than absolute and relative locators, generated by state of the practice tools such as Fire Path. Fragility of the test suites is reduced on average by 56% for absolute locators and 41% for relative locators.},
+  bibtex_show={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
+@inproceedings{2013-Ricca-WSE,
+	author = {Filippo Ricca and Maurizio Leotta and Andrea Stocco and Diego Clerissi and Paolo Tonella},
+	booktitle = {Proceedings of the 15th International Symposium on Web Systems Evolution},
+	pages = {39-44},
+	publisher = {IEEE},
+	series = {WSE 2013},
+	doi = {10.1109/WSE.2013.6642415},
+  pdf = {2013-Ricca-WSE.pdf},
+	title = {Web Testware Evolution},
+  abbr = {WSE},
+	year = {2013},
+  issn         = {2160-6153},
   bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+  abstract     = {Web applications evolve at a very fast rate, to accommodate new functionalities, presentation styles and interaction modes. The test artefacts developed during web testing must be evolved accordingly. Among the other causes, one critical reason why test cases need maintenance during web evolution is that the locators used to uniquely identify the page elements under test may fail or may behave incorrectly. The robustness of web page locators used in test cases is thus critical to reduce the test maintenance effort. We present an algorithm that generates robust web page locators for the elements under test and we describe the design of an empirical study that we plan to execute to validate such robust locators.}
 }

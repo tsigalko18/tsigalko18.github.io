@@ -1,34 +1,107 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+Ali:
+  url: https://www.linkedin.com/in/lakhanqurban/
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+Mariani:
+  url: https://dblp.org/pid/27/2914.html
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+Riganelli:
+  url: https://dblp.org/pid/67/4174.html
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+Baresi:
+    url: https://dblp.org/pid/b/LucianoBaresi.html
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+Hu:
+    url: https://dblp.org/pid/275/0097.html
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+Dozono:
+    url: https://www.cs.cit.tum.de/sse/dozono/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+Gasiba:
+    url: https://scholar.google.com/citations?user=OP2G4tcAAAAJ&hl=en
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+Abdellatif:
+    url: https://www.linkedin.com/in/wafaamr/
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+Chen:
+    url: https://www.linkedin.com/in/xingcheng-chen-aab980263/
+
+Naziri:
+    url: https://www.linkedin.com/in/abidnazirisami/
+
+Sharifi:
+    url: https://dblp.uni-trier.de/pid/270/9535.html
+
+Briand:
+    url: https://dblp.uni-trier.de/pid/93/1501.html
+
+Lambertenghi:
+    url: https://www.linkedin.com/in/stefano-carlo-lambertenghi-a30b9592/
+
+Grewal:
+    url: https://www.linkedin.com/in/ruben-grewal-0a2b67226
+
+Starace:
+    url: https://luistar.github.io/
+
+d’Amorim:
+    url: https://www.cin.ufpe.br/~damorim/
+
+Pulfer:
+  url: https://www.brianpulfer.ch/#/
+
+Marchetto:
+  url: https://scholar.google.com/citations?user=bhyWZj0AAAAJ&hl=it
+
+Tonella:
+    url: https://dblp.uni-trier.de/pid/54/2734.html
+
+Mesbah:
+    url: https://dblp.uni-trier.de/pid/72/4471-1.html
+
+Ricca:
+    url: https://dblp.org/pid/88/555.html
+
+Riccio:
+  url: https://dblp.uni-trier.de/pid/177/1943.html
+
+Jahangirova:
+  url: https://dblp.uni-trier.de/pid/183/0177.html
+
+Humbatova:
+  url: https://dblp.uni-trier.de/pid/251/5495.html
+
+Bavota:
+  url: https://dblp.uni-trier.de/pid/09/8523.html
+
+Gyimesi:
+  url: https://dblp.uni-trier.de/pid/163/9153.html
+
+Vancsics:
+  url: https://dblp.uni-trier.de/pid/165/8303.html
+
+Mazinanian:
+  url: https://dblp.uni-trier.de/pid/153/5280.html
+
+Bajammal:
+  url: https://dblp.org/pid/165/7834.html
+
+Beszédes:
+  url: https://dblp.uni-trier.de/pid/60/670.html
+
+Ferenc:
+  url: https://dblp.uni-trier.de/pid/f/RudolfFerenc.html
+
+Biagiola:
+  url: https://dblp.uni-trier.de/pid/205/1273.html
+
+Leotta:
+  url: https://dblp.uni-trier.de/pid/56/9382.html
+
+Vahabzadeh:
+  url: https://dblp.uni-trier.de/pid/171/5122.html
+
+Yandrapally:
+  url: https://dblp.uni-trier.de/pid/148/1336.html
+
+Rothermel:
+  url: https://dblp.uni-trier.de/pid/25/6796.html

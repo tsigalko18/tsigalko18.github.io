@@ -1,14 +1,11 @@
-github_users:
-  - torvalds
-  - alshedivat
+# github_users:
+#   - 
 
-repo_description_lines_max: 2
+repo_description_lines_max: 3
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - ast-fortiss-tum/misbehaviour-prediction-with-uncertainty-quantification
+  - ast-fortiss-tum/I2I-quality-metrics-study
+  # - ast-fortiss-tum/opensbt-core
+  - ast-fortiss-tum/perturbation-drive
+  - ast-fortiss-tum/deep-learning-test-generation-style-mixing
