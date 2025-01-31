@@ -316,6 +316,7 @@ filtered_bibtex_keywords:
     google_scholar_id,
     note,
     html,
+    month,
     inspirehep_id,
     pdf,
     poster,
