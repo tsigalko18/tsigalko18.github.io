@@ -9,10 +9,10 @@ nav_order: 4
 
 #### Conferences
 
-+ ICSE 2026 (PC Member &#8226; Research Track)
++ [ICSE 2026](https://conf.researchr.org/track/icse-2026/icse-2026-research-track) (PC Member &#8226; Research Track)
 + [FSE 2025](https://conf.researchr.org/committee/fse-2025/fse-2025-papers-program-committee) (PC Member &#8226; Research Track)
 + [ICST 2025](https://conf.researchr.org/committee/icst-2025/icst-2025-papers-program-committee) (PC Member &#8226; Research Track)
-+ [ICST 2025](https://conf.researchr.org/committee/icst-2025/icst-2025-papers-program-committee) (PC Member &#8226; Doctoral Symposium)
++ [ICST 2025](https://conf.researchr.org/committee/icst-2025/icst-2025-papers-program-committee) (PC Chair &#8226; Doctoral Symposium)
 + [ISSTA 2025](https://2025.issta.org/committee/issta-2025-papers-program-committee) (PC Member &#8226; Research Track)
 + [FORGE 2025](https://conf.researchr.org/track/forge-2025/forge-2025-benchmarking) (PC Member &#8226; Data and Benchmarking Track)
 + [ICSE 2024](https://conf.researchr.org/track/icse-2024/icse-2024-demonstrations) (Program Chair &#8226; Demonstration Track)
