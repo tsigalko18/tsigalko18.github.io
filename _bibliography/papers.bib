@@ -1,3 +1,17 @@
+@misc{2025-Sorokin-arxiv,
+	title        = {Simulator Ensembles for Trustworthy Autonomous Driving Testing},
+	author       = {Lev Sorokin and Matteo Biagiola and Andrea Stocco},
+	year         = 2025,
+	eprint       = {2503.08936},
+	archivePrefix = {arXiv},
+	primaryClass = {cs.SE},
+	url          = {https://arxiv.org/abs/2503.08936},
+	pdf          = {2025-Sorokin-arxiv.pdf},
+	abbr         = {pre-print},
+	bibtex_show  = {true},
+	abstract = {Scenario-based testing with driving simulators is extensively used to identify failing conditions of automated driving assistance systems (ADAS) and reduce the amount of in-field road testing. However, existing studies have shown that repeated test execution in the same as well as in distinct simulators can yield different outcomes, which can be attributed to sources of flakiness or different implementations of the physics, among other factors. In this paper, we present MultiSim, a novel approach to multi-simulation ADAS testing based on a search-based testing approach that leverages an ensemble of simulators to identify failure-inducing, simulator-agnostic test scenarios. During the search, each scenario is evaluated jointly on multiple simulators. Scenarios that produce consistent results across simulators are prioritized for further exploration, while those that fail on only a subset of simulators are given less priority, as they may reflect simulator-specific issues rather than generalizable failures. Our case study, which involves testing a deep neural network-based ADAS on different pairs of three widely used simulators, demonstrates that MultiSim outperforms single-simulator testing by achieving on average a higher rate of simulator-agnostic failures by 51%. Compared to a state-of-the-art multi-simulator approach that combines the outcome of independent test generation campaigns obtained in different simulators, MultiSim identifies 54% more simulator-agnostic failing tests while showing a comparable validity rate. An enhancement of MultiSim that leverages surrogate models to predict simulator disagreements and bypass executions does not only increase the average number of valid failures but also improves efficiency in finding the first valid failure.}
+}
+
 @misc{2025-Chen-arxiv,
 	title        = {{XMutant: XAI-based Fuzzing for Deep Learning Systems}},
 	author       = {Xingcheng Chen and Matteo Biagiola and Vincenzo Riccio and Marcelo d'Amorim and Andrea Stocco},
