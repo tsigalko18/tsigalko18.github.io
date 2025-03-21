@@ -68,7 +68,7 @@ nav_order: 4
 	+ Member of the [Board of Replicated Computational Results Distinguished Reviewers](https://dl.acm.org/journal/tosem/distinguished-reviewers-board)
 	+ [Distinguished Reviewer 2023](assets/pdf/tosem-distinguished-reviewer-stocco.pdf)
 + Empirical Software Engineering
-    + Member of the [Editorial Board](https://link.springer.com/journal/10664/editorial-board) (2025-2027)
+    + Member of the [Editorial Board](https://link.springer.com/journal/10664/editorial-board) (2025-)
 	+ Lead Guest Editor of the Special Issue ``[Innovations in Software System Testing with Deep Learning](https://emsejournal.github.io/special_issues/2023_Innovations_in_Software_System_Testing_with_Deep_Learning.html)''
 	+ Lead Guest Editor of the Special Issue ``[Software Testing in the Machine Learning Era](https://emsejournal.github.io/special_issues/2021_Software_Testing_in_the_Machine_Learning_Era.html)''
 + Journal of Systems and Software
