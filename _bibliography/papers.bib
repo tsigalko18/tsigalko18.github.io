@@ -1,3 +1,52 @@
+@inproceedings{2025-Giebisch-IV,
+	author       = {Rafael Giebisch and Ken E. Friedl and Lev Sorokin and Andrea Stocco},
+	title        = {Automated Factual Benchmarking for In-Car Conversational Systems using Large Language Models}, 
+	booktitle    = {Proceedings of the 36th IEEE Intelligent Vehicles Symposium},
+	series       = {IV '25},
+	publisher    = {IEEE},
+	pdf          = {2025-Giebisch-IV.pdf},
+	pages        = {8 pages},
+	abbr         = {IV},
+	year         = 2025,
+	bibtex_show  = {true},
+	abstract = {In-car conversational systems bring the promise to
+improve the in-vehicle user experience. Modern conversational
+systems are based on Large Language Models (LLMs), which
+makes them prone to errors such as hallucinations, i.e., inaccurate,
+fictitious, and therefore factually incorrect information.
+In this paper, we present an LLM-based methodology for
+the automatic factual benchmarking of in-car conversational
+systems. We instantiate our methodology with five LLMbased
+methods, leveraging ensembling techniques and diverse
+personae to enhance agreement and minimize hallucinations.
+We use our methodology to evalute CarExpert, an in-car
+retrieval-augmented conversational question answering system,
+with respect to the factual correctness to a vehicle’s manual.
+We produced a novel dataset specifically created for the in-car
+domain, and tested our methodology against an expert evaluation.
+Our results show that the combination of GPT-4 with the
+Input Output Prompting achieves over 90% factual correctness
+agreement rate with expert evaluations, other than being the
+most efficient approach yielding an average response time of
+4.5s. Our findings suggest that LLM-based testing constitutes
+a viable approach for the validation of conversational systems
+regarding their factual correctness..}
+}
+
+@misc{2025-Vekariya-arxiv,
+      title={Latent Space Class Dispersion: Effective Test Data Quality Assessment for DNNs}, 
+      author={Vivek Vekariya and Mojdeh Golagha and Andrea Stocco and Alexander Pretschner},
+      year={2025},
+      eprint={2503.18799},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2503.18799}, 
+	  pdf          = {2025-Vekariya-arxiv.pdf},
+	  abbr         = {pre-print},
+	  bibtex_show  = {true},
+	  abstract = {High-quality test datasets are crucial for assessing the reliability of Deep Neural Networks (DNNs). Mutation testing evaluates test dataset quality based on their ability to uncover injected faults in DNNs as measured by mutation score (MS). At the same time, its high computational cost motivates researchers to seek alternative test adequacy criteria. We propose Latent Space Class Dispersion (LSCD), a novel metric to quantify the quality of test datasets for DNNs. It measures the degree of dispersion within a test dataset as observed in the latent space of a DNN. Our empirical study shows that LSCD reveals and quantifies deficiencies in the test dataset of three popular benchmarks pertaining to image classification tasks using DNNs. Corner cases generated using automated fuzzing were found to help enhance fault detection and improve the overall quality of the original test sets calculated by MS and LSCD. Our experiments revealed a high positive correlation (0.87) between LSCD and MS, significantly higher than the one achieved by the well-studied Distance-based Surprise Coverage (0.25). These results were obtained from 129 mutants generated through pre-training mutation operators, with statistical significance and a high validity of corner cases. These observations suggest that LSCD can serve as a cost-effective alternative to expensive mutation testing, eliminating the need to generate mutant models while offering comparably valuable insights into test dataset quality for DNNs.}
+}
+
 @misc{2025-Sorokin-arxiv,
 	title        = {Simulator Ensembles for Trustworthy Autonomous Driving Testing},
 	author       = {Lev Sorokin and Matteo Biagiola and Andrea Stocco},
