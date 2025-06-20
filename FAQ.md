@@ -239,13 +239,7 @@ Currently we have the following workflows:
 - `prettier-comment-on-pr.yml`: not working. For now, this action is disabled. It was supposed to run prettier on the PRs and comment on them with the changes needed. For more information, check [issue 2115](https://github.com/alshedivat/al-folio/issues/2115)
 - `prettier.yml`: runs [prettier](https://prettier.io/) on the code to ensure it is well formatted. For more information, check our [FAQ question about it](https://github.com/alshedivat/al-folio/blob/main/FAQ.md#my-code-runs-fine-locally-but-when-i-create-a-commit-and-submit-it-it-fails-with-prettier-code-formatter-workflow-run-failed-for-main-branch-how-do-i-fix-that)
 
-<<<<<<< HEAD
 ## How can I use Google Search Console ID on the template?
-=======
----
-
-### How can I use Google Search Console ID on the template?
->>>>>>> 0d4be64a (Initial commit)
 
 In the configuration file `_config.yml` the tag `google-site-verification` should be updated to use this functionality. Here is how you can proceed,
 
