@@ -40,8 +40,6 @@ Here are some frequently asked questions. If you have a different question, plea
     - [How can I update Tabler Icons version on the template](#how-can-i-update-tabler-icons-version-on-the-template-1)
     - [What do all these GitHub actions/workflows mean?](#what-do-all-these-github-actionsworkflows-mean-1)
   - [How can I use Google Search Console ID on the template?](#how-can-i-use-google-search-console-id-on-the-template)
-  - [=======](#-3)
-    - [How can I use Google Search Console ID on the template?](#how-can-i-use-google-search-console-id-on-the-template-1)
 
 <!--te-->
 
