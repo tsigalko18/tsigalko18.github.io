@@ -1,115 +1,1035 @@
----
----
-
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@misc{2025-Maryam-SCP,
+      title={GIFTbench: Generative Image Fuzz Testing Benchmark}, 
+      author={Maryam and Matteo Biagiola and Andrea Stocco and Vincenzo Riccio},
+      year={2025},
+      eprint={},
+      archivePrefix={},
+      primaryClass={},
+      url={},
+	  pdf          = {2025-Maryam-SCP.pdf},
+	  abbr         = {pre-print},
+	  bibtex_show  = {true},
+	  abstract = {GIFTbench is a modular framework for testing Deep Learning image classifiers that combines Generative AI with genetic algorithms. Its architecture integrates pretrained generative models with a user-friendly Gradio interface, enabling automated, reproducible, and interpretable robustness testing. Supporting VAE, GAN, and Diffusion models, GIFTbench generates test inputs by perturbing latent representations to expose misbehaviors of the classifier under test. By automating test input generation and reducing the need for manual coding, GIFTbench accelerates experimentation and facilitates comparative evaluation of both classifiers and generative models. Designed for researchers and practitioners, it enables reproducible assessment of image classifiers, while supporting studies on classifier vulnerabilities, mutation strategies, and the role of generative models in robustness testing.}
 }
 
-@book{einstein1956investigations,
+@misc{2025-Leonhard-SCP,
+      title={PerturbationDrive: A Framework for Perturbation-Based Testing of ADAS}, 
+      author={Hannes Leonhard and Stefano Carlo Lambertenghi and Andrea Stocco},
+      year={2025},
+      eprint={},
+      archivePrefix={},
+      primaryClass={},
+      url={},
+	  pdf          = {2025-Leonhard-SCP.pdf},
+	  abbr         = {pre-print},
+	  bibtex_show  = {true},
+	  abstract = {Advanced driver assistance systems (ADAS) often rely on deep neural networks to interpret driving images and support vehicle control. Although reliable under nominal conditions, these systems remain vulnerable to input variations and out-of-distribution data, which can lead to unsafe behavior. We present PerturbationDrive, a testing framework to perform robustness and generalization testing of ADAS. The framework features more than 30 image perturbations from the literature that mimic changes in weather, lighting, or sensor quality and extends them with dynamic and attention- based variants. PerturbationDrive supports both offline evaluation on static datasets and online closed-loop testing in different simulators. Additionally, the framework integrates with procedural road generation and search-based testing, enabling systematic exploration of diverse road topologies combined with image perturbations. Together, these features allow PerturbationDrive to evaluate robustness and generalization capabilities of ADAS across varying scenarios, making it a reproducible and extensible framework for systematic system-level testing.}
+}
+
+@misc{2025-Habicht-arxiv,
+      title={Benchmarking Contextual Understanding for In-Car Conversational Systems}, 
+      author={Philipp Habicht and Lev Sorokin and Abdullah Saydemir and Ken E. Friedl and Andrea Stocco},
+      year={2025},
+      eprint={},
+      archivePrefix={},
+      primaryClass={},
+      url={},
+	  pdf          = {2025-Habicht-arxiv.pdf},
+	  abbr         = {pre-print},
+	  bibtex_show  = {true},
+	  abstract = {In-Car Conversational Question Answering (ConvQA) systems significantly enhance user experience by enabling seamless voice interactions. However, assessing their accuracy and reliability remains a challenge. This paper explores the use of Large Language Models (LLMs) along side advanced prompt ing techniques and agent-based methods to evaluate the extent to which ConvQA system responses adhere to user utterances. The focus lies on contextual understanding, the ability to provide accurate venue recommendations considering the user constraints and situational context. To evaluate the utterance/response coherence using an LLM, we synthetically generate user utterances accompanied by correct but also modified failure-containing system responses. We use input-output, chain of thought, self-consistency prompting, as well as multi-agent prompting techniques, with 13 reasoning and non-reasoning LLMs, varying in model size and providers, from OpenAI, DeepSeek, Mistral AI, and Meta. We evaluate our approach on a case study that involves a user asking for restaurant recommendations. The most substantial improvements are observed for non-reasoning models when applying advanced prompting techniques, in particular, when applying multi-agent prompting. However, non-reasoning models are significantly surpassed by reasoning models, where the best result is achieved with single-agent prompting incorporating self-consistency. Notably, the DeepSeek-R1 model achieves the highest F1-score of 0.990 at a cost of 0.002 USD per request. Overall, the best tradeoff between effectiveness and cost/time efficiency is achieved with the non-reasoning model DeepSeek-V3.}
+}
+
+@misc{2025-Guo-arxiv,
+      title={Foundation Models in Autonomous Driving: A Survey on Scenario Generation and Scenario Analysis}, 
+      author={Yuan Gao and Mattia Piccinini and Yuchen Zhang and Dingrui Wang and Korbinian Moller and Roberto Brusnicki and Baha Zarrouki and Alessio Gambi and Jan Frederik Totz and Kai Storms and Steven Peters and Andrea Stocco and Bassam Alrifaee and Marco Pavone and Johannes Betz},
+      year={2025},
+      eprint={2506.11526},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2506.11526},
+	  pdf          = {2025-Gao-arxiv.pdf},
+	  abbr         = {pre-print},
+	  bibtex_show  = {true},
+	  abstract = {For autonomous vehicles, safe navigation in complex
+environments depends on handling a broad range of diverse and
+rare driving scenarios. Simulation- and scenario-based testing
+have emerged as key approaches to development and validation
+of autonomous driving systems. Traditional scenario generation
+relies on rule-based systems, knowledge-driven models, and
+data-driven synthesis, often producing limited diversity and
+unrealistic safety-critical cases. With the emergence of foundation
+models, which represent a new generation of pre-trained,
+general-purpose AI models, developers can process heterogeneous
+inputs (e.g., natural language, sensor data, HD maps, and control
+actions), enabling the synthesis and interpretation of complex
+driving scenarios. In this paper, we conduct a survey about
+the application of foundation models for scenario generation
+and scenario analysis in autonomous driving (as of May 2025).
+Our survey presents a unified taxonomy that includes large
+language models, vision-language models, multimodal large
+language models, diffusion models, and world models for the
+generation and analysis of autonomous driving scenarios. In
+addition, we review the methodologies, open-source datasets,
+simulation platforms, and benchmark challenges, and we
+examine the evaluation metrics tailored explicitly to scenario
+generation and analysis. Finally, the survey concludes by
+highlighting the open challenges and research questions, and
+outlining promising future research directions. All reviewed
+papers are listed in a continuously maintained repository,
+which contains supplementary materials and is available at
+GitHub.com/TUM-AVS/FM-for-Scenario-Generation-Analysis.}
+}
+
+@misc{2025-Kluge-arxiv,
+      title={Web Element Relocalization in Evolving Web Applications: A Comparative Analysis and Extension Study}, 
+      author={Anton Kluge and Andrea Stocco},
+      year={2025},
+      eprint={2505.16424},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2505.1642}, 
+	  pdf          = {2025-Kluge-arxiv.pdf},
+	  abbr         = {pre-print},
+	  bibtex_show  = {true},
+	  abstract = {Fragile web tests, primarily caused by locator breakages, are a persistent
+challenge in web development. Hence, researchers have proposed techniques
+for web-element re-identification in which algorithms utilize a range of element
+properties to relocate elements on updated versions of websites based on similarity
+scoring. In this paper, we replicate the original studies of the most recent propositions
+in the literature, namely the Similo algorithm and its successor, VON Similo.
+We also acknowledge and reconsider assumptions related to threats to validity in
+the original studies, which prompted additional analysis and the development of
+mitigation techniques. Our analysis revealed that VON Similo, despite its novel
+approach, tends to produce more false positives than Similo. We mitigated these
+issues through algorithmic refinements and optimization algorithms that enhance
+parameters and comparison methods across all Similo variants, improving the accuracy
+of Similo on its original benchmark by 5.62%. Moreover, we extend the
+replicated studies by proposing a larger evaluation benchmark (23x bigger than
+the original study) as well as a novel approach that combines the strengths of both
+Similo and VON Similo, called HybridSimilo. The combined approach achieved a
+gain comparable to the improved Similo alone. Results on the extended benchmark
+show that HybridSimilo locates 98.8% of elements with broken locators in realistic
+testing scenarios.}
+}
+
+@inproceedings{2025-Giebisch-IV,
+	author       = {Rafael Giebisch and Ken E. Friedl and Lev Sorokin and Andrea Stocco},
+	title        = {Automated Factual Benchmarking for In-Car Conversational Systems using Large Language Models}, 
+	booktitle    = {Proceedings of the 36th IEEE Intelligent Vehicles Symposium},
+	series       = {IV '25},
+	publisher    = {IEEE},
+	pdf          = {2025-Giebisch-IV.pdf},
+	pages        = {8 pages},
+	abbr         = {IV},
+	year         = 2025,
+	bibtex_show  = {true},
+	abstract = {In-car conversational systems bring the promise to
+improve the in-vehicle user experience. Modern conversational
+systems are based on Large Language Models (LLMs), which
+makes them prone to errors such as hallucinations, i.e., inaccurate,
+fictitious, and therefore factually incorrect information.
+In this paper, we present an LLM-based methodology for
+the automatic factual benchmarking of in-car conversational
+systems. We instantiate our methodology with five LLMbased
+methods, leveraging ensembling techniques and diverse
+personae to enhance agreement and minimize hallucinations.
+We use our methodology to evalute CarExpert, an in-car
+retrieval-augmented conversational question answering system,
+with respect to the factual correctness to a vehicle’s manual.
+We produced a novel dataset specifically created for the in-car
+domain, and tested our methodology against an expert evaluation.
+Our results show that the combination of GPT-4 with the
+Input Output Prompting achieves over 90% factual correctness
+agreement rate with expert evaluations, other than being the
+most efficient approach yielding an average response time of
+4.5s. Our findings suggest that LLM-based testing constitutes
+a viable approach for the validation of conversational systems
+regarding their factual correctness.}
+}
+
+@misc{2025-Vekariya-arxiv,
+      title={Latent Space Class Dispersion: Effective Test Data Quality Assessment for DNNs}, 
+      author={Vivek Vekariya and Mojdeh Golagha and Andrea Stocco and Alexander Pretschner},
+      year={2025},
+      eprint={2503.18799},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={https://arxiv.org/abs/2503.18799}, 
+	  pdf          = {2025-Vekariya-arxiv.pdf},
+	  abbr         = {pre-print},
+	  bibtex_show  = {true},
+	  abstract = {High-quality test datasets are crucial for assessing the reliability of Deep Neural Networks (DNNs). Mutation testing evaluates test dataset quality based on their ability to uncover injected faults in DNNs as measured by mutation score (MS). At the same time, its high computational cost motivates researchers to seek alternative test adequacy criteria. We propose Latent Space Class Dispersion (LSCD), a novel metric to quantify the quality of test datasets for DNNs. It measures the degree of dispersion within a test dataset as observed in the latent space of a DNN. Our empirical study shows that LSCD reveals and quantifies deficiencies in the test dataset of three popular benchmarks pertaining to image classification tasks using DNNs. Corner cases generated using automated fuzzing were found to help enhance fault detection and improve the overall quality of the original test sets calculated by MS and LSCD. Our experiments revealed a high positive correlation (0.87) between LSCD and MS, significantly higher than the one achieved by the well-studied Distance-based Surprise Coverage (0.25). These results were obtained from 129 mutants generated through pre-training mutation operators, with statistical significance and a high validity of corner cases. These observations suggest that LSCD can serve as a cost-effective alternative to expensive mutation testing, eliminating the need to generate mutant models while offering comparably valuable insights into test dataset quality for DNNs.}
+}
+
+@misc{2025-Sorokin-arxiv,
+	title        = {Simulator Ensembles for Trustworthy Autonomous Driving Testing},
+	author       = {Lev Sorokin and Matteo Biagiola and Andrea Stocco},
+	year         = 2025,
+	eprint       = {2503.08936},
+	archivePrefix = {arXiv},
+	primaryClass = {cs.SE},
+	url          = {https://arxiv.org/abs/2503.08936},
+	pdf          = {2025-Sorokin-arxiv.pdf},
+	abbr         = {pre-print},
+	bibtex_show  = {true},
+	abstract = {Scenario-based testing with driving simulators is extensively used to identify failing conditions of automated driving assistance systems (ADAS) and reduce the amount of in-field road testing. However, existing studies have shown that repeated test execution in the same as well as in distinct simulators can yield different outcomes, which can be attributed to sources of flakiness or different implementations of the physics, among other factors. In this paper, we present MultiSim, a novel approach to multi-simulation ADAS testing based on a search-based testing approach that leverages an ensemble of simulators to identify failure-inducing, simulator-agnostic test scenarios. During the search, each scenario is evaluated jointly on multiple simulators. Scenarios that produce consistent results across simulators are prioritized for further exploration, while those that fail on only a subset of simulators are given less priority, as they may reflect simulator-specific issues rather than generalizable failures. Our case study, which involves testing a deep neural network-based ADAS on different pairs of three widely used simulators, demonstrates that MultiSim outperforms single-simulator testing by achieving on average a higher rate of simulator-agnostic failures by 51%. Compared to a state-of-the-art multi-simulator approach that combines the outcome of independent test generation campaigns obtained in different simulators, MultiSim identifies 54% more simulator-agnostic failing tests while showing a comparable validity rate. An enhancement of MultiSim that leverages surrogate models to predict simulator disagreements and bypass executions does not only increase the average number of valid failures but also improves efficiency in finding the first valid failure.}
+}
+
+@misc{2025-Chen-arxiv,
+	title        = {{XMutant: XAI-based Fuzzing for Deep Learning Systems}},
+	author       = {Xingcheng Chen and Matteo Biagiola and Vincenzo Riccio and Marcelo d'Amorim and Andrea Stocco},
+	year         = 2025,
+	eprint       = {2503.07222},
+	archivePrefix = {arXiv},
+	primaryClass = {cs.SE},
+	url          = {https://arxiv.org/abs/2503.07222},
+	pdf          = {2025-Chen-arxiv.pdf},
+	abbr         = {pre-print},
+	bibtex_show  = {true},
+	abstract = {Semantic-based test generators are widely used to produce failure-inducing inputs for Deep Learning (DL) systems. They typically generate challenging test inputs by applying random perturbations to input semantic concepts until a failure is found or a timeout is reached. However, such randomness may hinder them from efficiently achieving their goal. This paper proposes XMutant, a technique that leverages explainable artificial intelligence (XAI) techniques to generate challenging test inputs. XMutant uses the local explanation of the input to inform the fuzz testing process and effectively guide it toward failures of the DL system under test. We evaluated different configurations of XMutant in triggering failures for different DL systems both for model-level (sentiment analysis, digit recognition) and system-level testing (advanced driving assistance). Our studies showed that XMutant enables more effective and efficient test generation by focusing on the most impactful parts of the input. XMutant generates up to 125% more failure-inducing inputs compared to an existing baseline, up to 7X faster. We also assessed the validity of these inputs, maintaining a validation rate above 89%, according to automated and human validators.}
+}
+
+@inproceedings{2025-Baresi-ICSE,
+	author       = {Luciano Baresi and Davide Yi Xian Hu and Andrea Stocco and Paolo Tonella},
+	title        = {Efficient Domain Augmentation for Autonomous Driving Testing Using Diffusion Models},
+	booktitle    = {Proceedings of the 47th International Conference on Software Engineering},
+	series       = {ICSE '25},
+	publisher    = {IEEE},
+	pdf          = {2025-Baresi-ICSE.pdf},
+	pages        = {12 pages},
+	abbr         = {ICSE},
+	year         = 2025,
+	bibtex_show  = {true}
+}
+
+@inproceedings{2025-Lambertenghi-ICST,
+	author       = {Stefano Carlo Lambertenghi and Hannes Leonhard and Andrea Stocco},
+	title        = {Benchmarking Image Perturbations for Testing Automated Driving Assistance Systems},
+	booktitle    = {Proceedings of the 18th IEEE International Conference on Software Testing, Verification and Validation},
+	series       = {ICST '25},
+	publisher    = {IEEE},
+	pdf          = {2025-Lambertenghi-ICST.pdf},
+	pages        = {12 pages},
+	abbr         = {ICST},
+	year         = 2025,
+	bibtex_show  = {true},
+	award        = {[Distinguished Paper Award]},
+	award_name   = {Distinguished Paper Award},
+}
+
+@inproceedings{2025-Maryam-ICST,
+	author       = {Maryam and Matteo Biagiola and Andrea Stocco and Vincenzo Riccio},
+	title        = {Benchmarking Generative AI Models for Deep Learning Test Input Generation},
+	booktitle    = {Proceedings of the 18th IEEE International Conference on Software Testing, Verification and Validation},
+	series       = {ICST '25},
+	publisher    = {IEEE},
+	pdf          = {2025-Maryam-ICST.pdf},
+	pages        = {12 pages},
+	abbr         = {ICST},
+	year         = 2025,
+	bibtex_show  = {true},
+	award        = {[Distinguished Paper Award]},
+	award_name   = {Distinguished Paper Award},
+}
+
+@inproceedings{2025-Ali-ICSEW,
+	title        = {OpenCat: Improving Interoperability of ADS Testing},
+	author       = {Qurban Ali and Andrea Stocco and Leonardo Mariani and Oliviero Riganelli},
+	year         = 2025,
+	booktitle    = {Proceedings of the 47th International Conference on Software Engineering Workshops},
+	series       = {ICSEW '24},
+	publisher    = {IEEE},
+	pdf          = {2025-Ali-ICSEW.pdf},
+	pages        = {10 pages},
+	abbr         = {ICSEW},
+	bibtex_show  = {true}
+}
+
+@misc{2024-Naziri-arXiv,
+	title        = {Misbehaviour Forecasting for Focused Autonomous Driving Systems Testing},
+	author       = {Molla Mohammad Abid Naziri and Stefano Carlo Lambertenghi and Andrea Stocco and Marcelo d'Amorim},
+	year         = 2024,
+	eprint       = {},
+	archivePrefix = {},
+	primaryClass = {},
+	url          = {},
+	pdf          = {2024-Naziri-arXiv.pdf},
+	abbr         = {pre-print},
+	bibtex_show  = {true}
+}
+
+@misc{2024-Dozono-arXiv,
+	title        = {Large Language Models for Secure Code Assessment: A Multi-Language Empirical Study},
+	author       = {Kohei Dozono and Tiago Espinha Gasiba and Andrea Stocco},
+	year         = 2024,
+	eprint       = {2408.06428},
+	archivePrefix = {arXiv},
+	primaryClass = {cs.SE},
+	url          = {https://arxiv.org/abs/2408.06428},
+	pdf          = {2024-Dozono-arXiv.pdf},
+	abbr         = {pre-print},
+	bibtex_show  = {true}
+}
+
+@misc{2025-Weissl-arXiv,
+	title        = {Targeted Deep Learning System Boundary Testing},
+	author       = {Oliver Weißl and Amr Abdellatif and Xingcheng Chen and Giorgi Merabishvili and Vincenzo Riccio and Severin Kacianka and Andrea Stocco},
+	year         = 2025,
+	eprint       = {2408.06258},
+	archivePrefix = {arXiv},
+	primaryClass = {cs.SE},
+	url          = {https://arxiv.org/abs/2408.06258},
+	pdf          = {2025-Weissl-arXiv.pdf},
+	abbr         = {pre-print},
+	bibtex_show  = {true},
+	abstract = {Evaluating the behavioral boundaries of deep learning (DL) systems is crucial for understanding their reliability across diverse, unseen inputs. Existing solutions fall short as they rely on untargeted random, model- or latent-based perturbations, due to difficulties in generating controlled input variations. In this work, we introduce Mimicry, a novel black-box test generator for fine-grained, targeted exploration of DL system boundaries. Mimicry performs boundary testing by leveraging the probabilistic nature of DL outputs to identify promising directions for exploration. It uses style-based GANs to disentangle input representations into content and style components, enabling controlled feature mixing to approximate the decision boundary. We evaluated Mimicry's effectiveness in generating boundary inputs for five widely used DL image classification systems of increasing complexity, comparing it to two baseline approaches. Our results show that Mimicry consistently identifies inputs closer to the decision boundary. It generates semantically meaningful boundary test cases that reveal new functional (mis)behaviors, while the baselines produce mainly corrupted or invalid inputs. Thanks to its enhanced control over latent space manipulations, Mimicry remains effective as dataset complexity increases, maintaining competitive diversity and higher validity rates, confirmed by human assessors.}
+}
+
+@article{2025-Ricca-IST,
+	title        = {A Multi-Year Grey Literature Review on AI-assisted Test Automation},
+	author       = {Filippo Ricca and Alessandro Marchetto and Andrea Stocco},
+	journal      = {Information and Software Technology},
+	year         = 2025,
+	url          = {https://arxiv.org/abs/2408.06224},
+	pdf          = {2025-Ricca-IST.pdf},
+	abbr         = {IST},
+	bibtex_show  = {true},
+	abstract = {Context: Test Automation (TA) techniques are crucial for quality assurance in software engineering but face limitations such as high test suite maintenance costs and the need for extensive programming skills. Artificial Intelligence (AI) offers new opportunities to address these issues through automation and improved practices. Objectives: Given the prevalent usage of AI in industry, sources of truth are held in grey literature as well as the minds of professionals, stakeholders, developers, and end-users. This study surveys grey literature to explore how AI is adopted in TA, focusing on the problems it solves, its solutions, and the available tools. Additionally, the study gathers expert insights to understand AI's current and future role in TA. Methods: We reviewed over 3,600 grey literature sources over five years, including blogs, white papers, and user manuals, and finally filtered 342 documents to develop taxonomies of TA problems and AI solutions. We also cataloged 100 AI-driven TA tools and interviewed five expert software testers to gain insights into AI's current and future role in TA. Results: The study found that manual test code development and maintenance are the main challenges in TA. In contrast, automated test generation and self-healing test scripts are the most common AI solutions. We identified 100 AI-based TA tools, with Applitools, Testim, Functionize, AccelQ, and Mabl being the most adopted in practice. Conclusion: This paper offers a detailed overview of AI's impact on TA through grey literature analysis and expert interviews. It presents new taxonomies of TA problems and AI solutions, provides a catalog of AI-driven tools, and relates solutions to problems and tools to solutions. Interview insights further revealed the state and future potential of AI in TA. Our findings support practitioners in selecting TA tools and guide future research directions.}
+}
+
+@article{2025-Sharifi-TOSEM,
+	author       = {Sepehr Sharifi and Andrea Stocco and Lionel C. Briand},
+	title        = {System Safety Monitoring of Learned Components Using Temporal Metric Forecasting},
+	journal      = {ACM Transactions on Software Engineering and Methodology},
+	publisher    = {ACM},
+	year         = 2025,
+	abbr         = {TOSEM},
+	url          = {https://doi.org/10.1145/3712196},
+	doi          = {10.1145/3712196},
+	pdf          = {2025-Sharifi-TOSEM.pdf},
+	month        = {jan},
+	publisher    = {Association for Computing Machinery},
+	address      = {New York, NY, USA},
+	issn         = {1049-331X},
+	bibtex_show  = {true},
+	abstract     = {In learning-enabled autonomous systems, safety monitoring of learned components is crucial to ensure their outputs do not lead to system safety violations, given the operational context of the system. However, developing a safety monitor for practical deployment in real-world applications is challenging. This is due to limited access to internal workings and training data of the learned component. Furthermore, safety monitors should predict safety violations with low latency, while consuming a reasonable computation resource amount.To address the challenges, we propose a safety monitoring method based on probabilistic time series forecasting. Given the learned component outputs and an operational context, we empirically investigate different Deep Learning (DL)-based probabilistic forecasting to predict the objective measure capturing the satisfaction or violation of a safety requirement (safety metric). We empirically evaluate safety metric and violation prediction accuracy, and inference latency and resource usage of four state-of-the-art models, with varying horizons, using autonomous aviation and autonomous driving case studies. Our results suggest that probabilistic forecasting of safety metrics, given learned component outputs and scenarios, is effective for safety monitoring. Furthermore, for both case studies, the Temporal Fusion Transformer (TFT) was the most accurate model for predicting imminent safety violations, with acceptable latency and resource consumption.}
+}
+
+@inproceedings{2024-Lambertenghi-ICST,
+	author       = {Stefano Carlo Lambertenghi and Andrea Stocco},
+	title        = {Assessing Quality Metrics for Neural Reality Gap Input Mitigation in Autonomous Driving Testing},
+	booktitle    = {Proceedings of the 17th IEEE International Conference on Software Testing, Verification and Validation},
+	series       = {ICST '24},
+	publisher    = {IEEE},
+	pdf          = {2024-Lambertenghi-ICST.pdf},
+	pages        = {12 pages},
+	abbr         = {ICST},
+	year         = 2024,
+	bibtex_show  = {true}
+}
+
+@inproceedings{2024-Grewal-ICST,
+	author       = {Ruben Grewal and Paolo Tonella and Andrea Stocco},
+	title        = {Predicting Safety Misbehaviours in Autonomous Driving Systems using Uncertainty Quantification},
+	booktitle    = {Proceedings of the 17th IEEE International Conference on Software Testing, Verification and Validation},
+	series       = {ICST '24},
+	publisher    = {IEEE},
+	pdf          = {2024-Grewal-ICST.pdf},
+	pages        = {12 pages},
+	abbr         = {ICST},
+	year         = 2024,
+	bibtex_show  = {true}
+}
+
+@article{2023-Stocco-arXiv,
+	author       = {Andrea Stocco and Alexandra Willi and Luigi Libero Lucio Starace and Matteo Biagiola and Paolo Tonella},
+	title        = {Neural Embeddings for Web Testing},
+	year         = 2023,
+	abbr         = {pre-print},
+	pdf          = {2023-Stocco-arXiv.pdf},
+	eprint       = {2306.07400},
+	archivePrefix = {arXiv},
+	primaryClass = {cs.SE},
+	bibtex_show  = {true}
+}
+
+@article{2024-Biagiola-EMSE,
+	author       = {Matteo Biagiola and Andrea Stocco and Vincenzo Riccio and Paolo Tonella},
+	title        = {Two is Better Than One: Digital Siblings to Improve Autonomous Driving Testing},
+	journal      = {Empirical Software Engineering},
+	publisher    = {Springer},
+	year         = 2024,
+	abbr         = {EMSE},
+	pdf          = {2024-Biagiola-EMSE.pdf},
+	note         = {[Invited Journal-first track at ICSE 2025]},
+	bibtex_show  = {true}
+}
+
+@inproceedings{2023-Ricca-QUATIC,
+	author       = {Filippo Ricca and Alessandro Marchetto and Andrea Stocco},
+	title        = {A Retrospective Analysis of Grey Literature for AI-supported Test Automation},
+	booktitle    = {Proceedings of the 16th International Conference on the Quality of Information and Communications Technology},
+	publisher    = {Springer},
+	series       = {QUATIC 2023},
+	abbr         = {QUATIC},
+	pdf          = {2023-Ricca-QUATIC.pdf},
+	award        = {[Best Paper Award]},
+	award_name   = {Best Paper Award},
+	year         = 2023,
+	bibtex_show  = {true}
+}
+
+@article{2023-Stocco-EMSE,
+	author       = {Andrea Stocco and Brian Pulfer and Paolo Tonella},
+	title        = {{Model vs System Level Testing of Autonomous Driving Systems: A Replication and Extension Study}},
+	journal      = {Empirical Software Engineering},
+	publisher    = {Springer},
+	volume       = {},
+	year         = 2023,
+	pdf          = {2023-Stocco-EMSE.pdf},
+	note         = {Invited journal first track at ICSE 2024},
+	abbr         = {EMSE},
+	bibtex_show  = {true}
+}
+
+@inproceedings{2022-Stocco-ASE,
+	author       = {Andrea Stocco and Paulo J. Nunes and Marcelo d'Amorim and Paolo Tonella},
+	title        = {{ThirdEye}: Attention Maps for Safe Autonomous Driving Systems},
+	booktitle    = {Proceedings of the 37th IEEE/ACM International Conference on Automated Software Engineering},
+	publisher    = {IEEE/ACM},
+	series       = {ASE '22},
+	abbr         = {ASE},
+	pdf          = {2022-Stocco-ASE.pdf},
+	year         = 2022,
+	doi          = {10.1145/3551349.3556968},
+	slides       = {2022-Stocco-ASE-slides.pdf}
+}
+
+@article{2022-Stocco-TSE,
+	author       = {Andrea Stocco and Brian Pulfer and Paolo Tonella},
+	title        = {{Mind the Gap! A Study on the Transferability of Virtual vs Physical-world Testing of Autonomous Driving Systems}},
+	journal      = {IEEE Transactions on Software Engineering},
+	volume       = {},
+	year         = 2022,
+	url          = {https://arxiv.org/abs/2112.11255},
+	pdf          = {2022-Stocco-TSE.pdf},
+	publisher    = {IEEE},
+	note         = {[Invited journal First track at ICSE 2023]},
+	abbr         = {TSE}
+}
+
+@article{2021-Stocco-JSEP,
+	author       = {Andrea Stocco and Paolo Tonella},
+	title        = {Confidence-driven Weighted Retraining for Predicting Safety-Critical Failures in Autonomous Driving Systems},
+	journal      = {Journal of Software: Evolution and Process},
+	pages        = {e2386},
+	volume       = 34,
+	number       = 10,
+	publisher    = {John Wiley & Sons},
+	url          = {https://doi.org/10.1002/smr.2386},
+	doi          = {10.1002/smr.2386},
+	pdf          = {2021-Stocco-JSEP.pdf},
+	abbr         = {JSEP},
+	year         = 2021
+}
+
+@inproceedings{2021-Ricca-NEXTA,
+	author       = {Filippo Ricca and Alessandro Marchetto and Andrea Stocco},
+	title        = {AI-based Test Automation: A Grey Literature Analysis},
+	booktitle    = {Proceedings of the 14th IEEE International Conference on Software Testing, Verification and Validation Workshops},
+	publisher    = {Springer},
+	series       = {ICSTW 2021},
+	abbr         = {ICSTW},
+	pdf          = {2021-Ricca-ICSTW.pdf},
+	note         = {[Best Presentation Award]},
+	year         = 2021
+}
+
+@inproceedings{2021-Jahangirova-ICST,
+	author       = {Gunel Jahangirova and Andrea Stocco and Paolo Tonella},
+	title        = {Quality Metrics and Oracles for Autonomous Vehicles Testing},
+	booktitle    = {Proceedings of the 14th IEEE International Conference on Software Testing, Verification and Validation},
+	series       = {ICST '21},
+	publisher    = {IEEE},
+	pdf          = {2021-Jahangirova-ICST.pdf},
+	pages        = {12 pages},
+	abbr         = {ICST},
+	year         = 2021
+}
+
+@inproceedings{2021-Ricca-SOFSEM,
+	author       = {Filippo Ricca and Andrea Stocco},
+	title        = {Web Test Automation: Insights from the Grey Literature},
+	booktitle    = {Proceedings of the 47th International Conference on Current Trends in Theory and Practice of Computer Science},
+	publisher    = {Springer},
+	series       = {SOFSEM 2021},
+	abbr         = {SOFSEM},
+	pdf          = {2021-Ricca-SOFSEM.pdf},
+	note         = {[Best Paper Nominee]},
+	year         = 2021
+}
+
+@article{2020-Bajammal-TSE,
+	author       = {Mohammad Bajammal and Andrea Stocco and Davood Mazinanian and Ali Mesbah},
+	title        = {{A Survey on the Use of Computer Vision to Improve Software Engineering Tasks}},
+	journal      = {IEEE Transactions on Software Engineering},
+	publisher    = {IEEE},
+	abbr         = {TSE},
+	pdf          = {2020-Bajammal-TSE.pdf},
+	year         = 2020,
+  month = {oct},
+   volume={48},
+  number={5},
+  doi={10.1109/TSE.2020.3032986},
+  abstract = {Software engineering (SE) research has traditionally revolved around engineering the source code. However, novel approaches that analyze software through computer vision have been increasingly adopted in SE. These approaches allow analyzing the software from a different complementary perspective other than the source code, and they are used to either complement existing source code-based methods, or to overcome their limitations. The goal of this manuscript is to survey the use of computer vision techniques in SE with the aim of assessing their potential in advancing the field of SE research. We examined an extensive body of literature from top-tier SE venues, as well as venues from closely related fields (machine learning, computer vision, and human-computer interaction). Our inclusion criteria targeted papers applying computer vision techniques that address problems related to any area of SE. We collected an initial pool of 2,716 papers, from which we obtained 66 final relevant papers covering a variety of SE areas. We analyzed what computer vision techniques have been adopted or designed, for what reasons, how they are used, what benefits they provide, and how they are evaluated. Our findings highlight that visual approaches have been adopted in a wide variety of SE tasks, predominantly for effectively tackling software analysis and testing challenges in the web and mobile domains. The results also show a rapid growth trend of the use of computer vision techniques in SE research.},
+  bibtex_show = {true}
+}
+
+@inproceedings{2020-Stocco-GAUSS,
+	author       = {Andrea Stocco and Paolo Tonella},
+	title        = {Towards Anomaly Detectors that Learn Continuously},
+	booktitle    = {Proceedings of the 31st International Symposium on Software Reliability Engineering Workshops},
+	publisher    = {IEEE},
+	series       = {ISSREW 2020},
+	abbr         = {ISSREW},
+	year         = 2020,
+  month = {oct},
+	pdf          = {2020-Stocco-GAUSS.pdf},
+	slides       = {2020-Stocco-GAUSS-slides.pdf},
+  doi={10.1109/ISSREW51248.2020.00073},
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+  abstract={In this paper, we first discuss the challenges of adapting an already trained DNN-based anomaly detector with knowledge mined during the execution of the main system. Then, we present a framework for the continual learning of anomaly detectors, which records in-field behavioural data to determine what data are appropriate for adaptation. We evaluated our framework to improve an anomaly detector taken from the literature, in the context of misbehavior prediction for self-driving cars. Our results show that our solution can reduce the false positive rate by a large margin and adapt to nominal behaviour changes while maintaining the original anomaly detection capability.}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+@article{2020-Riccio-EMSE,
+	author       = {Vincenzo Riccio and Gunel Jahangirova and Andrea Stocco and Nargiz Humbatova and Michael Weiss and Paolo Tonella},
+	title        = {{Testing Machine Learning based Systems: A Systematic Mapping}},
+	journal      = {Empirical Software Engineering},
+	publisher    = {Springer},
+	pdf          = {2020-Riccio-EMSE.pdf},
+	abbr         = {EMSE},
+	year         = 2020,
+  volume = {25},
+number = {6},
+doi = {10.1007/s10664-020-09881-0},
+month = nov,
+pages = {5193–5254},
+abstract  = {Context:
+A Machine Learning based System (MLS) is a software system including one or more components that learn how to perform a task from a given data set. The increasing adoption of MLSs in safety critical domains such as autonomous driving, healthcare, and finance has fostered much attention towards the quality assurance of such systems. Despite the advances in software testing, MLSs bring novel and unprecedented challenges, since their behaviour is defined jointly by the code that implements them and the data used for training them.
+Objective:
+To identify the existing solutions for functional testing of MLSs, and classify them from three different perspectives: (1) the context of the problem they address, (2) their features, and (3) their empirical evaluation. To report demographic information about the ongoing research. To identify open challenges for future research.
+Method:
+We conducted a systematic mapping study about testing techniques for MLSs driven by 33 research questions. We followed existing guidelines when defining our research protocol so as to increase the repeatability and reliability of our results.
+Results:
+We identified 70 relevant primary studies, mostly published in the last years. We identified 11 problems addressed in the literature. We investigated multiple aspects of the testing approaches, such as the used/proposed adequacy criteria, the algorithms for test input generation, and the test oracles.
+Conclusions:
+The most active research areas in MLS testing address automated scenario/input generation and test oracle creation. MLS testing is a rapidly growing and developing research area, with many open challenges, such as the generation of realistic inputs and the definition of reliable evaluation metrics and benchmarks.},
+  bibtex_show = {true}
+}
+
+@article{2020-Gyimesi-STVR,
+	author       = {P\'{e}ter Gyimesi and B\'{e}la Vancsics and Andrea Stocco and Davood Mazinanian and \'{A}rp\'{a}d Besz\'{e}des and Rudolf Ferenc and Ali Mesbah},
+	title        = {{BugJS}: A Benchmark and Taxonomy of JavaScript Bugs},
+	journal      = {Software Testing, Verification And Reliability},
+	publisher    = {John Wiley & Sons},
+	pdf          = {2020-Gyimesi-STVR.pdf},
+	abbr         = {STVR},
+	year         = 2020,
+  volume = {31},
+number = {4},
+month = {oct},
+  abstract = {Summary JavaScript is a popular programming language that is also error-prone due to its asynchronous, dynamic, and loosely typed nature. In recent years, numerous techniques have been proposed for analyzing and testing JavaScript applications. However, our survey of the literature in this area revealed that the proposed techniques are often evaluated on different datasets of programs and bugs. The lack of a commonly used benchmark limits the ability to perform fair and unbiased comparisons for assessing the efficacy of new techniques. To fill this gap, we propose BugsJS, a benchmark of 453 real, manually validated JavaScript bugs from 10 popular JavaScript server-side programs, comprising 444k lines of code (LOC) in total. Each bug is accompanied by its bug report, the test cases that expose it, as well as the patch that fixes it. We extended BugsJS with a rich web interface for visualizing and dissecting the bugs' information, as well as a programmable API to access the faulty and fixed versions of the programs and to execute the corresponding test cases, which facilitates conducting highly reproducible empirical studies and comparisons of JavaScript analysis and testing tools. Moreover, following a rigorous procedure, we performed a classification of the bugs according to their nature. Our internal validation shows that our taxonomy is adequate for characterizing the bugs in BugsJS. We discuss several ways in which the resulting taxonomy and the benchmark can help direct researchers interested in automated testing of JavaScript applications.},
+  doi = {10.1002/stvr.1751},
+  bibtex_show = {true},
+}
+
+@inproceedings{2020-Stocco-ICSE,
+	author       = {Andrea Stocco and Michael Weiss and Marco Calzana and Paolo Tonella},
+	title        = {Misbehaviour Prediction for Autonomous Driving Systems},
+	booktitle    = {Proceedings of the 42nd International Conference on Software Engineering},
+	series       = {ICSE '20},
+	publisher    = {ACM},
+	pages        = {12 pages},
+	pdf          = {2020-Stocco-ICSE.pdf},
+	abbr         = {ICSE},
+	year         = 2020,
+    month = {jun},
+    bibtex_show = {true},
+	supp         = {2020-Stocco-ICSE-poster-abstract.pdf},
+	poster       = {2020-Stocco-ICSE-poster-poster-portrait.pdf},
+  abstract = {},
+  doi = {10.1145/3377811.3380353},
+  abstract = {Deep Neural Networks (DNNs) are the core component of modern autonomous driving systems. To date, it is still unrealistic that a DNN will generalize correctly to all driving conditions. Current testing techniques consist of offline solutions that identify adversarial or corner cases for improving the training phase.In this paper, we address the problem of estimating the confidence of DNNs in response to unexpected execution contexts with the purpose of predicting potential safety-critical misbehaviours and enabling online healing of DNN-based vehicles. Our approach SelfOracle is based on a novel concept of self-assessment oracle, which monitors the DNN confidence at runtime, to predict unsupported driving scenarios in advance. SelfOracle uses autoencoder-and time series-based anomaly detection to reconstruct the driving scenarios seen by the car, and to determine the confidence boundary between normal and unsupported conditions.In our empirical assessment, we evaluated the effectiveness of different variants of SelfOracle at predicting injected anomalous driving contexts, using DNN models and simulation environment from Udacity. Results show that, overall, SelfOracle can predict 77\% misbehaviours, up to six seconds in advance, outperforming the online input validation approach of DeepRoad.}
+}
+
+@inproceedings{2020-Humbatova-ICSE,
+	author       = {Nargiz Humbatova and Gunel Jahangirova and Gabriele Bavota and Vincenzo Riccio and Andrea Stocco and Paolo Tonella},
+	title        = {Taxonomy of Real Faults in Deep Learning Systems},
+	booktitle    = {Proceedings of the 42nd International Conference on Software Engineering},
+	series       = {ICSE '20},
+	publisher    = {ACM},
+	pages        = {12 pages},
+	pdf          = {2020-Humbatova-ICSE.pdf},
+  award        = {[Best Artifact Award]},
+	award_name   = {Best Artifact Award},
+	abbr         = {ICSE},
+	year         = 2020,
+  month = {jun},
+    bibtex_show = {true},
+  doi = {10.1145/3377811.3380395},
+abstract = {The growing application of deep neural networks in safety-critical domains makes the analysis of faults that occur in such systems of enormous importance. In this paper we introduce a large taxonomy of faults in deep learning (DL) systems. We have manually analysed 1059 artefacts gathered from GitHub commits and issues of projects that use the most popular DL frameworks (TensorFlow, Keras and PyTorch) and from related Stack Overflow posts. Structured interviews with 20 researchers and practitioners describing the problems they have encountered in their experience have enriched our taxonomy with a variety of additional faults that did not emerge from the other two sources. Our final taxonomy was validated with a survey involving an additional set of 21 developers, confirming that almost all fault categories (13/15) were experienced by at least 50\% of the survey participants.}
+}
+
+@inproceedings{2020-Yandrapally-ICSE,
+	author       = {Rahulkrishna Yandrapally and Andrea Stocco and Ali Mesbah},
+	title        = {Near-Duplicate Detection in Web App Model Inference},
+	booktitle    = {Proceedings of the 42nd International Conference on Software Engineering},
+	series       = {ICSE '20},
+	publisher    = {ACM},
+	pages        = {12 pages},
+	abbr         = {ICSE},
+	pdf          = {2020-Yandrapally-ICSE.pdf},
+	year         = 2020,
+  month = {jun},
+  abstract = {Automated web testing techniques infer models from a given web app, which are used for test generation. From a testing viewpoint, such an inferred model should contain the minimal set of states that are distinct, yet, adequately cover the app's main functionalities. In practice, models inferred automatically are affected by near-duplicates, i.e., replicas of the same functional webpage differing only by small insignificant changes. We present the first study of near-duplicate detection algorithms used in within app model inference. We first characterize functional near-duplicates by classifying a random sample of state-pairs, from 493k pairs of webpages obtained from over 6,000 websites, into three categories, namely clone, near-duplicate, and distinct. We systematically compute thresholds that define the boundaries of these categories for each detection technique. We then use these thresholds to evaluate 10 near-duplicate detection techniques from three different domains, namely, information retrieval, web testing, and computer vision on nine open-source web apps. Our study highlights the challenges posed in automatically inferring a model for any given web app. Our findings show that even with the best thresholds, no algorithm is able to accurately detect all functional near-duplicates within apps, without sacrificing coverage.},
+  doi = {10.1145/3377811.3380416},
+  bibtex_show = {true}
+}
+
+@inproceedings{2020-Biagiola-ICST,
+	author       = {Matteo Biagiola and Andrea Stocco and Filippo Ricca and Paolo Tonella},
+	title        = {Dependency-Aware Web Test Generation},
+	booktitle    = {Proceedings of the 13th IEEE International Conference on Software Testing, Verification and Validation},
+	series       = {ICST '20},
+	publisher    = {IEEE},
+	pdf          = {2020-Biagiola-ICST2020.pdf},
+	pages        = {12 pages},
+	abbr         = {ICST},
+	year         = 2020,
+  month = {oct},
+  doi={10.1109/ICST46399.2020.00027},
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+  abstract={Web crawlers can perform long running in-depth explorations of a web application, achieving high coverage of the navigational structure. However, a crawling trace cannot be easily turned into a minimal test suite that achieves the same coverage. In fact, when the crawling trace is segmented into test cases, two problems arise: (1) test cases are dependent on each other, therefore they may raise errors when executed in isolation, and (2) test cases are redundant, since the same targets are covered multiple times by different test cases. In this paper, we propose DANTE, a novel web test generator that computes the test dependencies associated with the test cases obtained from a crawling session, and uses them to eliminate redundant tests and produce executable test schedules. DANTE can effectively turn a web crawler into a test case generator that produces minimal test suites, composed only of feasible tests that contribute to achieve the final coverage. Experimental results show that DANTE, on average, (1) reduces the error rate of the test cases obtained by crawling traces from 85% to zero, (2) produces minimized test suites that are 84% smaller than the initial ones, and (3) outperforms two competing crawling-based and model-based techniques in terms of coverage and breakage rate.}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
+@inproceedings{2019-Stocco-Proweb,
+	author       = {Stocco, Andrea},
+	title        = {How Artificial Intelligence Can Improve Web Development and Testing},
+	booktitle    = {Companion of the 3rd International Conference on Art, Science, and Engineering of Programming},
+	series       = {Programming '19},
+	year         = 2019,
+  month = {apr},
+	location     = {Genova, Italy},
+	pages        = {1--13},
+	articleno    = 13,
+	numpages     = 4,
+	pdf          = {2019-Stocco-Proweb.pdf},
+	url          = {http://doi.acm.org/10.1145/3328433.3328447},
+	doi          = {10.1145/3328433.3328447},
+	publisher    = {ACM},
+	address      = {New York, NY, USA},
+	abbr         = {ProWeb},
+	keywords     = {artificial intelligence, web development, web testing},
+  bibtex_show  = {true},
+  abstract = {The Artificial Intelligence (AI) revolution in software development is just around the corner. With the rise of AI, developers are expected to play a different role from the traditional role of programmers, as they will need to adapt their know-how and skillsets to complement and apply AI-based tools and techniques into their traditional web development workflow. In this extended abstract, some of the current trends on how AI is being leveraged to enhance web development and testing are discussed, along with some of the main opportunities and challenges for researchers.},
+  doi = {10.1145/3328433.3328447}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@inproceedings{2019-Biagiola-FSE-Diversity,
+	author       = {Matteo Biagiola and Andrea Stocco and Filippo Ricca and Paolo Tonella},
+	title        = {Diversity-based Web Test Generation},
+	booktitle    = {Proceedings of the 27th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering},
+	series       = {ESEC/FSE 2019},
+	publisher    = {ACM},
+	pages        = {12 pages},
+	abbr         = {ESEC/FSE},
+	pdf          = {2019-Biagiola-FSE19-Diversity.pdf},
+	year         = 2019,
+  month = {aug},
+  doi = {10.1145/3338906.3338970},
+  bibtex_show = {true},
+  abstract = {Existing web test generators derive test paths from a navigational model of the web application, completed with either manually or randomly generated input values. However, manual test data selection is costly, while random generation often results in infeasible input sequences, which are rejected by the application under test. Random and search-based generation can achieve the desired level of model coverage only after a large number of test execution at- tempts, each slowed down by the need to interact with the browser during test execution. In this work, we present a novel web test generation algorithm that pre-selects the most promising candidate test cases based on their diversity from previously generated tests. As such, only the test cases that explore diverse behaviours of the application are considered for in-browser execution. We have implemented our approach in a tool called DIG. Our empirical evaluation on six real-world web applications shows that DIG achieves higher coverage and fault detection rates significantly earlier than crawling-based and search-based web test generators.}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
+@inproceedings{2019-Biagiola-FSE-Dependencies,
+	author       = {Matteo Biagiola and Andrea Stocco and Ali Mesbah and Filippo Ricca and Paolo Tonella},
+	title        = {Web Test Dependency Detection},
+	booktitle    = {Proceedings of the 27th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering},
+	series       = {ESEC/FSE 2019},
+	publisher    = {ACM},
+	pages        = {12 pages},
+	abbr         = {ESEC/FSE},
+	pdf          = {2019-Biagiola-FSE19-Dependencies.pdf},
+	year         = 2019,
+  doi = {10.1145/3338906.3338948},
+  month = {aug},
+  abstract = {E2E web test suites are prone to test dependencies due to the heterogeneous multi-tiered nature of modern web apps, which makes it difficult for developers to create isolated program states for each test case. In this paper, we present the first approach for detecting and validating test dependencies present in E2E web test suites. Our approach employs string analysis to extract an approximated set of dependencies from the test code. It then filters potential false dependencies through natural language processing of test names. Finally, it validates all dependencies, and uses a novel recovery algorithm to ensure no true dependencies are missed in the final test dependency graph. Our approach is implemented in a tool called TEDD and evaluated on the test suites of six open-source web apps. Our results show that TEDD can correctly detect and validate test dependencies up to 72\% faster than the baseline with the original test ordering in which the graph contains all possible dependencies. The test dependency graphs produced by TEDD enable test execution parallelization, with a speed-up factor of up to 7\texttimes{}.},
+  bibtex_show = {true}
 }
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
+@inproceedings{2019-Gyimesi-ICST,
+	author       = {P\'{e}ter Gyimesi and B\'{e}la Vancsics and Andrea Stocco and Davood Mazinanian and \'{A}rp\'{a}d Besz\'{e}des and Rudolf Ferenc and Ali Mesbah},
+	title        = {{BugJS}: A Benchmark of JavaScript Bugs},
+	booktitle    = {Proceedings of the 12th IEEE International Conference on Software Testing, Verification and Validation},
+	series       = {ICST 2019},
+	publisher    = {IEEE},
+	pages        = {90-101},
+	abbr         = {ICST},
+	pdf          = {2019-Gyimesi-ICST19.pdf},
+	year         = 2019,
+  month = {apr},
   bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+  doi = {10.1109/ICST.2019.00019},
+  abstract={JavaScript is a popular programming language that is also error-prone due to its asynchronous, dynamic, and loosely-typed nature. In recent years, numerous techniques have been proposed for analyzing and testing JavaScript applications. However, our survey of the literature in this area revealed that the proposed techniques are often evaluated on different datasets of programs and bugs. The lack of a commonly used benchmark limits the ability to perform fair and unbiased comparisons for assessing the efficacy of new techniques. To fill this gap, we propose BugsJS, a benchmark of 453 real, manually validated JavaScript bugs from 10 popular JavaScript server-side programs, comprising 444k LOC in total. Each bug is accompanied by its bug report, the test cases that detect it, as well as the patch that fixes it. BugsJS features a rich interface for accessing the faulty and fixed versions of the programs and executing the corresponding test cases, which facilitates conducting highly-reproducible empirical studies and comparisons of JavaScript analysis and testing tools.}
 }
 
-@book{przibram1967letters,
+@article{2019-Ricca-Advances,
+	author       = {Filippo Ricca and Maurizio Leotta and Andrea Stocco},
+	title        = {{Three Open Problems in the Context of E2E Web Testing and a Vision: NEONATE}},
+	journal       = {Advances in Computers},
+	publisher    = {Elsevier},
+	pdf          = {2018-Ricca-Advances.pdf},
+	abbr         = {Adv. <br> Comp.},
+  volume = {113},
+pages = {89-133},
+year = {2019},
+issn = {0065-2458},
+  doi     = {10.1016/bs.adcom.2018.10.005},
+  bibshow = {true},
+  month = {jan},
+  abstract={Web applications are critical assets of our society and thus assuring their quality is of undeniable importance. Despite the advances in software testing, the ever-increasing technological complexity of these applications makes it difficult to prevent errors.
+In this work, we provide a thorough description of the three open problems hindering web test automation: fragility problem, strong coupling and low cohesion problem, and incompleteness problem. We conjecture that a major breakthrough in test automation is needed, because the problems are closely correlated, and hence need to be attacked together rather than separately. To this aim, we describe Neonate, a novel integrated testing environment specifically designed to empower the web tester.
+Our utmost purpose is to make the research community aware of the existence of the three problems and their correlation, so that more research effort can be directed in providing solutions and tools to advance the state of the art of web test automation.},
+bibtex_show={true}
+}
+
+@inproceedings{2018-Stocco-FSE-demo,
+	author       = {Andrea Stocco and Rahulkrishna Yandrapally and Ali Mesbah},
+	title        = {{VISTA}: Web Test Repair Using Computer Vision},
+	booktitle    = {Proceedings of the 26th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering},
+	series       = {ESEC/FSE 2018 - Demonstration Track},
+	publisher    = {ACM},
+	pages        = {876--879},
+	abbr         = {ESEC/FSE<br>Demo Track},
+	pdf          = {2018-Stocco-FSE18-demo.pdf},
+	year         = 2018,
+  month = {nov},
+  doi = {10.1145/3236024.3264592},
+abstract = {Repairing broken web element locators represents the major main- tenance cost of web test cases. To detect possible repairs, testers typically inspect the tests’ interactions with the application under test through the GUI. Existing automated test repair techniques focus instead on the code and ignore visual aspects of the applica- tion. In this demo paper, we give an overview of Vista, a novel test repair technique that leverages computer vision and local crawling to automatically suggest and apply repairs to broken web tests. URL: https://github.com/saltlab/Vista},
+bibtex_show={true}
+}
+
+@inproceedings{2018-Stocco-FSE,
+	author       = {Andrea Stocco and Rahulkrishna Yandrapally and Ali Mesbah},
+	title        = {Visual Web Test Repair},
+	booktitle    = {Proceedings of the 26th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering},
+	series       = {ESEC/FSE 2018},
+	publisher    = {ACM},
+	pages        = {503--514},
+	abbr         = {ESEC/FSE},
+	pdf          = {2018-Stocco-FSE18.pdf},
+	year         = 2018,
+  month = {nov},
+  doi = {10.1145/3236024.3236063},
   bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+  abstract = {Web tests are prone to break frequently as the application under test evolves, causing much maintenance effort in practice. To detect the root causes of a test breakage, developers typically inspect the test's interactions with the application through the GUI. Existing automated test repair techniques focus instead on the code and entirely ignore visual aspects of the application. We propose a test repair technique that is informed by a visual analysis of the application. Our approach captures relevant visual information from tests execution and analyzes them through a fast image processing pipeline to visually validate test cases as they re-executed for regression purposes. Then, it reports the occurrences of breakages and potential fixes to the testers. Our approach is also equipped with a local crawling mechanism to handle non-trivial breakage scenarios such as the ones that require to repair the test's workflow. We implemented our approach in a tool called Vista. Our empirical evaluation on 2,672 test cases spanning 86 releases of four web applications shows that Vista is able to repair, on average, 81\% of the breakages, a 41\% increment with respect to existing techniques.},
+}
+
+@inproceedings{2018-Arash-ICSE,
+	author       = {Arash Vahabzadeh and Andrea Stocco and Ali Mesbah},
+	title        = {Fine-Grained Test Minimization},
+	booktitle    = {Proceedings of the 40th ACM/IEEE International Conference on Software Engineering},
+	series       = {ICSE 2018},
+	publisher    = {ACM},
+	pages        = {210--221},
+	abbr         = {ICSE},
+	pdf          = {2018-Vahabzadeh-ICSE18.pdf},
+	year         = 2018,
+  month = {may},
+  doi = {10.1145/3180155.3180203},
+  bibtex_show={true},
+  abstract={As a software system evolves, its test suite can accumulate redundancies over time. Test minimization aims at removing redundant
+test cases. However, current techniques remove whole test cases
+from the test suite using test adequacy criteria, such as code coverage. This has two limitations, namely (1) by removing a whole
+test case the corresponding test assertions are also lost, which can
+inhibit test suite effectiveness, (2) the issue of partly redundant
+test cases, i.e., tests with redundant test statements, is ignored. We
+propose a novel approach for fine-grained test case minimization.
+Our analysis is based on the inference of a test suite model that
+enables automated test reorganization within test cases. It enables
+removing redundancies at the test statement level, while preserving
+the coverage and test assertions of the test suite. We evaluated our
+approach, implemented in a tool called Testler, on the test suites of
+15 open source projects. Our analysis shows that over 4,639 (24%) of
+the tests in these test suites are partly redundant, with over 11,819
+redundant test statements in total. Our results show that Testler
+removes 43% of the redundant test statements, reducing the number
+of partly redundant tests by 52%. As a result, test suite execution
+time is reduced by up to 37% (20% on average), while maintaining
+the original statement coverage, branch coverage, test assertions,
+and fault detection capability.}
+}
+
+@article{2018-Leotta-STVR,
+	author       = {Maurizio Leotta and Andrea Stocco and Filippo Ricca and Paolo Tonella},
+	journal      = {Software Testing, Verification And Reliability},
+	publisher    = {John Wiley & Sons},
+	title        = {{PESTO}: Automated Migration of {DOM}-based Web Tests towards the Visual Approach},
+	abbr         = {STVR},
+	year         = 2018,
+  month={mar},
+  doi          = {10.1002/stvr.1665},
+	pdf          = {2018-Leotta-STVR.pdf},
+  bibtex_show={true},
+  abstract={Automated test scripts are used with success in many web development projects, so as to
+automatically verify key functionalities of the web application under test, reveal possible
+regressions and run a large number of tests in short time. However, the adoption of automated
+web testing brings advantages but also novel problems, among which the test code fragility
+problem. During the evolution of the web application, existing test code may easily break and
+testers have to correct it. In the context of automated DOM-based web testing, one of the
+major costs for evolving the test code is the manual effort necessary to repair broken web
+page element locators – lines of source code identifying the web elements (e.g., form fields,
+buttons) to interact with.
+In this work, we present ROBULA+, a novel algorithm able to generate robust XPath-based
+locators – locators that are likely to work correctly on new releases of the web application.
+We compared ROBULA+ with several state of the practice/art XPath locator generator
+tools/algorithms. Results show that XPath locators produced by ROBULA+ are by far the most
+robust. Indeed, ROBULA+ reduces the locators fragility on average by 90% w.r.t. absolute
+locators and by 63% w.r.t. Selenium IDE locators.}
+}
+
+@phdthesis{phdthesis,
+	author       = {Andrea Stocco},
+	title        = {Automatic page object generation to support {E2E} testing of web applications},
+	school       = {Universit{\`a} degli Studi di Genova},
+	abbr         = {Ph.D. <br> Thesis},
+	year         = 2017
+}
+
+@article{2017-Stocco-SQJ,
+	author       = {Stocco, Andrea and Leotta, Maurizio and Ricca, Filippo and Tonella, Paolo},
+	title        = {{APOGEN: Automatic Page Object Generator for Web Testing}},
+	journal      = {Software Quality journal},
+	volume       = 25,
+	number       = 3,
+	month        = {sep},
+	year         = 2017,
+	issn         = {0963-9314},
+	pages        = {1007--1039},
+	numpages     = 33,
+	pdf          = {2017-Stocco-SQJ.pdf},
+	doi          = {10.1007/s11219-016-9331-9},
+	acmid        = 3129059,
+	abbr         = {SQJ},
+	publisher    = {Kluwer Academic publishers},
+	bibtex_show={true},
+  abstract={Modern web applications are characterized by ultra-rapid development cycles, and web testers tend to pay scant attention to the quality of their automated end-to-end test suites. Indeed, these quickly become hard to maintain, as the application under test evolves. As a result, end-to-end automated test suites are abandoned, despite their great potential for catching regressions. The use of the Page Object pattern has proven to be very effective in end-to-end web testing. Page objects are façade classes abstracting the internals of web pages into high-level business functions that can be invoked by the test cases. By decoupling test code from web page details, web test cases are more readable and maintainable. However, the manual development of such page objects requires substantial coding effort, which is paid off only later, during software evolution. In this paper, we describe a novel approach for the automatic generation of page objects for web applications. Our approach is implemented in the tool Apogen, which automatically derives a testing model by reverse engineering the target web application. It combines clustering and static analysis to identify meaningful page abstractions that are automatically turned into Java page objects for Selenium WebDriver. Our evaluation on an open-source web application shows that our approach is highly promising: Automatically generated page object methods cover most of the application functionalities and result in readable and meaningful code, which can be very useful to support the creation of more maintainable web test suites.}
+}
+
+@article{2016-Leotta-JSEP,
+	author       = {Maurizio Leotta and Andrea Stocco and Filippo Ricca and Paolo Tonella},
+	journal      = {Journal of Software: Evolution and Process},
+	pages        = {177--204},
+  volume       = {28},
+	publisher    = {John Wiley & Sons},
+	url          = {http://dx.doi.org/10.1002/smr.1771},
+	doi          = {10.1002/smr.1771},
+	title        = {{ROBULA+}: An Algorithm for Generating Robust {XPath} Locators for Web Testing},
+	pdf          = {2016-Leotta-JSEP.pdf},
+	note         = {[Invited journal First track at ICSME 2016]},
+	abbr         = {JSEP},
+	year         = 2016,
+  month={mar},
+  bibtex_show={true},
+  abstract={Automated test scripts are used with success in many web development projects, so as to automatically verify key functionalities of the web application under test, reveal possible regressions and run a large number of tests in short time. However, the adoption of automated web testing brings advantages but also novel problems, among which the test code fragility problem. During the evolution of the web application, existing test code may easily break and testers have to correct it. In the context of automated DOM-based web testing, one of the major costs for evolving the test code is the manual effort necessary to repair broken web page element locators – lines of source code identifying the web elements (e.g. form fields and buttons) to interact with.
+
+In this work, we present Robula+, a novel algorithm able to generate robust XPath-based locators – locators that are likely to work correctly on new releases of the web application. We compared Robula+ with several state of the practice/art XPath locator generator tools/algorithms. Results show that XPath locators produced by Robula+ are by far the most robust. Indeed, Robula+ reduces the locators' fragility on average by 90% w.r.t. absolute locators and by 63% w.r.t. Selenium IDE locators.}
+}
+
+@inproceedings{2016-Stocco-ICWE,
+	author       = {Andrea Stocco and Maurizio Leotta and Filippo Ricca and Paolo Tonella},
+	booktitle    = {Proceedings of the 16th International Conference on Web Engineering},
+	pages        = {132--151},
+	series       = {ICWE 2016},
+	publisher    = {Springer},
+	pdf          = {2016-Stocco-ICWE.pdf},
+	title        = {Clustering-Aided Page Object Generation for Web Testing},
+	year         = 2016,
+  month={jun},
+	abbr         = {ICWE},
+	note         = {[Best Student Paper Award]},
+	doi          = {10.1007/978-3-319-38791-8_8},
+	bibtex_show={true},
+  abstract={To decouple test code from web page details, web testers adopt the
+Page Object design pattern. Page objects are facade classes abstracting the internals of web pages (e.g., form fields) into high-level business functions that can
+be invoked by test cases (e.g., user authentication). However, writing such page
+objects requires substantial effort, which is paid off only later, during software
+evolution. In this paper we propose a clustering-based approach for the identification of meaningful abstractions that are automatically turned into Java page
+objects. Our clustering approach to page object identification has been integrated
+into our tool for automated page object generation, APOGEN. Experimental results indicate that the clustering approach provides clusters of web pages close to
+those manually produced by a human (with, on average, only 3 differences per
+web application). 75% of the code generated by APOGEN can be used as-is by
+web testers, breaking down the manual effort for page object creation. Moreover,
+a large portion (84%) of the page object methods created automatically to support
+assertion definition corresponds to useful behavioural abstractions.}
+}
+
+@inproceedings{2016-Stocco-ICWE-demo,
+	author       = {Andrea Stocco and Maurizio Leotta and Filippo Ricca and Paolo Tonella},
+	booktitle    = {Proceedings of the 16th International Conference on Web Engineering},
+	pages        = {533--537},
+	series       = {ICWE 2016 - Demo Track},
+	publisher    = {Springer},
+	pdf          = {2016-Stocco-ICWE-demo.pdf},
+	title        = {Automatic Page Object Generation with APOGEN},
+	doi          = {10.1007/978-3-319-38791-8_42},
+	year         = 2016,
+  month={jun},
+	abbr         = {ICWE<br>Demo Track},
+  bibtex_show={true},
+  abstract={Page objects are used in web test automation to decouple the test cases
+logic from their concrete implementation. Despite the undeniable advantages they
+bring, as decreasing the maintenance effort of a test suite, yet the burden of their
+manual development limits their wide adoption. In this demo paper, we give an
+overview of APOGEN, a tool that leverages reverse engineering, clustering and
+static analysis, to automatically generate Java page objects for web applications.}
+}
+
+@inproceedings{2016-Hammoudi-FSE,
+	author       = {Mouna Hammoudi and Gregg Rothermel and Andrea Stocco},
+	booktitle    = {Proceedings of the 24th ACM SIGSOFT International Symposium on the Foundations of Software Engineering},
+	pages        = {751--762},
+	series       = {FSE 2016},
+	title        = {{WATERFALL}: An Incremental Approach for Repairing Record-Replay Tests of Web Applications},
+	pdf          = {2016-Hammoudi-FSE.pdf},
+	doi          = {10.1145/2950290.2950294},
+	abbr         = {FSE},
+	year         = 2016,
+  month={nov},
+  bibtex_show={true},
+  abstract={Software engineers use record/replay tools to capture use case scenarios that can serve as regression tests for web applications. Such
+tests, however, can be brittle in the face of code changes. Thus,
+researchers have sought automated approaches for repairing broken record/replay tests. To date, such approaches have operated
+by directly analyzing differences between the releases of web applications. Often, however, intermediate versions or commits exist
+between releases, and these represent finer-grained sequences of
+changes by which new releases evolve. In this paper, we present
+WATERFALL, an incremental test repair approach that applies test
+repair techniques iteratively across a sequence of fine-grained versions of a web application. The results of an empirical study on
+seven web applications show that our approach is substantially more
+effective than a coarse-grained approach (209% overall), while maintaining an acceptable level of overhead.}
+}
+
+@inproceedings{2015-Stocco-AST,
+	author       = {Andrea Stocco and Maurizio Leotta and Filippo Ricca and Paolo Tonella},
+	booktitle    = {Proceedings of the 10th IEEE/ACM International Workshop on Automation of Software Test},
+	pages        = {70--74},
+	publisher    = {IEEE/ACM},
+	series       = {AST 2015},
+	pdf          = {2015-Stocco-AST.pdf},
+	doi          = {10.1109/AST.2015.26},
+	title        = {Why Creating Web Page Objects Manually If It Can Be Done Automatically?},
+	abbr         = {AST},
+	year         = 2015,
+  month={may},
+	bibtex_show  = {true},
+	abstract     = {Page Object is a design pattern aimed at making web test scripts more readable, robust and maintainable. The effort to manually create the page objects needed for a web application may be substantial and unfortunately existing tools do not help web developers in such task. In this paper we present APOGEN, a tool for the automatic generation of page objects for web applications. Our tool automatically derives a testing model by reverse engineering the target web application and uses a combination of dynamic and static analysis to generate Java page objects for the popular Selenium WebDriver framework. Our preliminary evaluation shows that it is possible to use around 3/4 of the automatic page object methods as they are, while the remaining 1/4 need only minor modifications.}
+}
+
+@inproceedings{2015-Leotta-SBST,
+	author       = {Maurizio Leotta and Andrea Stocco and Filippo Ricca and Paolo Tonella},
+	booktitle    = {Proceedings of the 8th International Workshop on Search-Based Software Testing},
+	pages        = {36--39},
+	publisher    = {ACM},
+	series       = {SBST 2015},
+	pdf          = {2015-Leotta-SBST.pdf},
+	slides       = {2015-Leotta-SBST-slides.pdf},
+	doi          = {10.1109/SBST.2015.16},
+	title        = {Meta-Heuristic Generation of Robust {XP}ath Locators for Web Testing},
+	abbr         = {SBST},
+	year         = 2015,
+  month = {may},
+	bibtex_show  = {true},
+	abstract     = {Test scripts used for web testing rely on DOM locators, often expressed as XPaths, to identify the active web page elements and the web page data to be used in assertions. When the web application evolves, the major cost incurred for the evolution of the test scripts is due to broken locators, which fail to locate the target element in the new version of the software. We formulate the problem of automatically generating robust XPath locators as a graph exploration problem, for which we provide an optimal, greedy algorithm. Since such an algorithm has exponential time and space complexity, we present also a genetic algorithm.}
+}
+
+@inproceedings{2015-Leotta-ICST,
+	author       = {Maurizio Leotta and Andrea Stocco and Filippo Ricca and Paolo Tonella},
+	booktitle    = {Proceedings of the 8th IEEE International Conference on Software Testing, Verification and Validation},
+	pages        = {1--10},
+	publisher    = {IEEE},
+	series       = {ICST 2015},
+	doi          = {10.1109/ICST.2015.7102611},
+	title        = {Using Multi-Locators to Increase the Robustness of Web Test Cases},
+	pdf          = {2015-Leotta-ICST.pdf},
+	abbr         = {ICST},
+	year         = 2015,
+	bibtex_show  = {true},
+  month = {apr},
+	abstract     = {The main reason for the fragility of web test cases is the inability of web element locators to work correctly when the web page DOM evolves. Web elements locators are used in web test cases to identify all the GUI objects to operate upon and eventually to retrieve web page content that is compared against some oracle in order to decide whether the test case has passed or not. Hence, web element locators play an extremely important role in web testing and when a web element locator gets broken developers have to spend substantial time and effort to repair it. While algorithms exist to produce robust web element locators to be used in web test scripts, no algorithm is perfect and different algorithms are exposed to different fragilities when the software evolves. Based on such observation, we propose a new type of locator, named multi-locator, which selects the best locator among a candidate set of locators produced by different algorithms. Such selection is based on a voting procedure that assigns different voting weights to different locator generation algorithms. Experimental results obtained on six web applications, for which a subsequent release was available, show that the multilocator is more robust than the single locators (about –30% of broken locators w.r.t. the most robust kind of single locator) and that the execution overhead required by the multiple queries done with different locators is negligible (2-3% at most).}
+}
+
+@inproceedings{2015-Leotta-SAC,
+	author       = {Maurizio Leotta and Andrea Stocco and Filippo Ricca and Paolo Tonella},
+	booktitle    = {Proceedings of the 30th ACM/SIGAPP Symposium on Applied Computing},
+	pages        = {775–782},
+	publisher    = {ACM},
+	series       = {SAC 2015},
+	pdf          = {2015-Leotta-SAC.pdf},
+	doi          = {10.1145/2695664.2695847},
+	title        = {{Automated Generation of Visual Web Tests from DOM-based Web Tests}},
+	abbr         = {SAC},
+	year         = 2015,
+  month = {apr},
+	bibtex_show  = {true},
+	abstract     = {Functional test automation is increasingly adopted by web applications developers. In particular, 2nd generation tools overcome the limitations of 1st generation tools, based on screen coordinates, by providing APIs for easy selection and interaction with Document Object Model (DOM) elements. On the other hand, a new, 3rd generation of web testing tools, based on visual image recognition, brings the promise of wider applicability and simplicity. In this paper, we consider the problem of the automated creation of 3rd generation visual web tests from 2nd generation test suites. This transformation affects mostly the way in which test cases locate web page elements to interact with or to assert the expected test case outcome.Our tool PESTO determines automatically the screen position of a web element located in the DOM by a DOM-based test case. It then determines a rectangle image centred around the web element so as to ensure unique visual matching. Based on such automatically extracted images, the original, 2nd generation test suite is rewritten into a 3rd generation, visual test suite. Experimental results show that our approach is accurate, hence potentially saving substantial human effort in the creation of visual web tests from DOM-based ones.}
+}
+
+@inproceedings{2014-Stocco-SCAM-demo,
+	author       = {Andrea Stocco and Maurizio Leotta and Filippo Ricca and Paolo Tonella},
+	booktitle    = {Proceedings of the 14th International Working Conference on Source Code Analysis and Manipulation},
+	pages        = {65--70},
+	publisher    = {IEEE},
+	series       = {SCAM 2014 - Demonstration Track},
+	doi          = {10.1109/SCAM.2014.36},
+	pdf          = {2014-Stocco-SCAM-demo.pdf},
+	title        = {PESTO: A Tool for Migrating {DOM}-based to Visual Web Tests},
+	abbr         = {SCAM<br>Demo Track},
+	year         = 2014,
+  month = {sep},
+	bibtex_show  = {true},
+	abstract     = {Test automation tools are widely adopted for testing complex Web applications. Three generations of tools exist: first, based on screen coordinates; second, based on DOM–based commands; and third, based on visual image recognition. In our previous work, we proposed Pesto, a tool able to migrate second-generation Selenium WebDriver test suites towards third-generation Sikuli ones. In this work, we extend Pesto to manage Web elements having (1) complex visual interactions and (2) multiple visual appearances. Pesto relies on aspect-oriented programming, computer vision, and code transformations. Our new improved tool has been evaluated on two Web test suites developed by an independent tester. Experimental results show that Pesto manages and transforms correctly test suites with Web elements having complex visual interactions and multistate elements. By using Pesto, the migration of existing DOM–based test suites to the visual approach requires a low manual effort, since our approach proved to be very accurate.}
+}
+
+@inproceedings{2014-Leotta-WoSAR,
+	author       = {Maurizio Leotta and Andrea Stocco and Filippo Ricca and Paolo Tonella},
+	booktitle    = {Proceedings of the 25th International Symposium on Software Reliability Engineering Workshops},
+	pages        = {449--454},
+	publisher    = {IEEE},
+	series       = {ISSREW 2014},
+	doi          = {10.1109/ISSREW.2014.17},
+	title        = {Reducing Web Test Cases Aging by means of Robust {XP}ath Locators},
+	pdf          = {2014-Leotta-ISSREW.pdf},
+	abbr         = {ISSREW},
+	year         = 2014,
+  month = {nov},
+	abstract     = {In the context of web regression testing, the main aging factor for a test suite is related to the continuous evolution of the underlying web application that makes the test cases broken. This rapid decay forces the quality experts to evolve the test ware. One of the major costs of test case evolution is due to the manual effort necessary to repair broken web page element locators. Locators are lines of source code identifying the web elements the test cases interact with. Web test cases rely heavily on locators, for instance to identify and fill the input portions of a web page (e.g., The form fields), to execute some computations (e.g., By locating and clicking on buttons) and to verify the correctness of the output (by locating the web page elements showing the results). In this paper we present ROBULA (ROBUst Locator Algorithm), a novel algorithm able to partially prevent and thus reduce the aging of web test cases by automatically generating robust XPath-based locators that are likely to work also when new releases of the web application are created. Preliminary results show that XPath locators produced by ROBULA are substantially more robust than absolute and relative locators, generated by state of the practice tools such as Fire Path. Fragility of the test suites is reduced on average by 56% for absolute locators and 41% for relative locators.},
+	bibtex_show  = {true}
+}
+
+@inproceedings{2013-Ricca-WSE,
+	author       = {Filippo Ricca and Maurizio Leotta and Andrea Stocco and Diego Clerissi and Paolo Tonella},
+	booktitle    = {Proceedings of the 15th International Symposium on Web Systems Evolution},
+	pages        = {39--44},
+	publisher    = {IEEE},
+	series       = {WSE 2013},
+	doi          = {10.1109/WSE.2013.6642415},
+	pdf          = {2013-Ricca-WSE.pdf},
+	title        = {Web Testware Evolution},
+	abbr         = {WSE},
+	year         = 2013,
+	issn         = {2160-6153},
+	bibtex_show  = {true},
+  month = {sep},
+	abstract     = {Web applications evolve at a very fast rate, to accommodate new functionalities, presentation styles and interaction modes. The test artefacts developed during web testing must be evolved accordingly. Among the other causes, one critical reason why test cases need maintenance during web evolution is that the locators used to uniquely identify the page elements under test may fail or may behave incorrectly. The robustness of web page locators used in test cases is thus critical to reduce the test maintenance effort. We present an algorithm that generates robust web page locators for the elements under test and we describe the design of an empirical study that we plan to execute to validate such robust locators.}
 }
