@@ -11,6 +11,7 @@ nav_order: 4
 
 + [ICSE 2026](https://conf.researchr.org/track/icse-2026/icse-2026-research-track) (PC Member &#8226; Research Track)
 + [FSE 2026](https://conf.researchr.org/committee/fse-2026/fse-2026-research-papers-program-committee) (PC Member &#8226; Research Track)
++ [ISSTA 2026](https://conf.researchr.org/committee/issta-2026/issta-2026-research-papers-research-papers) (PC Member &#8226; Research Track)
 + [FSE 2025](https://conf.researchr.org/committee/fse-2025/fse-2025-papers-program-committee) (PC Member &#8226; Research Track)
 + [ASE 2025](https://conf.researchr.org/committee/ase-2025/ase-2025-papers-program-committee) (PC Member &#8226; Research Track)
 + [ICST 2025](https://conf.researchr.org/committee/icst-2025/icst-2025-papers-program-committee) (PC Member &#8226; Research Track)
@@ -82,6 +83,7 @@ nav_order: 4
 + Information and Software Technology
 + ACM Transactions on the Web
 + IEEE Transactions on Services Computing
++ IEEE Transactions on Intelligent Transportation Systems
 + Software Quality Journal
 + Automated Software Engineering
 + Journal of Automotive Software Engineering
