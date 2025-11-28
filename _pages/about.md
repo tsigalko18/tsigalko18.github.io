@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p>fortiss</p>
     <p>Guerickestr. 25, München</p>
-    <p>office 317</p>
+    <p>office 309</p>
     <p>|</p>
     <p>TUM</p>
     <p>Boltzmannstr. 3, Garching bei München</p>
