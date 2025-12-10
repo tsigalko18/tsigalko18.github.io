@@ -11,6 +11,7 @@ nav_order: 4
 
 + [ICSE 2026](https://conf.researchr.org/track/icse-2026/icse-2026-research-track) (PC Member &#8226; Research Track)
 + [FSE 2026](https://conf.researchr.org/committee/fse-2026/fse-2026-research-papers-program-committee) (PC Member &#8226; Research Track)
++ [ASE 2026](https://conf.researchr.org/committee/ase-2026/ase-2026-organizing-committee) (Area Chair &#8226; Research Track)
 + [ISSTA 2026](https://conf.researchr.org/committee/issta-2026/issta-2026-research-papers-research-papers) (PC Member &#8226; Research Track)
 + [ICSME 2026](https://conf.researchr.org/track/icsme-2026/icsme-2026-registered-reports) (PC Member &#8226; Registered Reports Track)
 + [FSE 2025](https://conf.researchr.org/committee/fse-2025/fse-2025-papers-program-committee) (PC Member &#8226; Research Track)
