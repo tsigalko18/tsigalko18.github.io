@@ -1,3 +1,37 @@
+@misc{2026-Chen-arXiv,
+      title={Feature-Aware Test Generation for Deep Learning Models}, 
+      author={Xingcheng Chen and Oliver Weissl and Andrea Stocco},
+      year={2026},
+      eprint={},
+      archivePrefix={arXiv},
+      primaryClass={cs.SE},
+      url={}, 
+	  pdf          = {2026-Chen-arXiv},
+	  abbr         = {pre-print},
+	  bibtex_show  = {true},
+	  abstract = {As deep learning models are widely used in software systems, test generation plays a crucial
+role in assessing the quality of such models before deployment. To date, the most advanced
+test generators rely on generative AI to synthesize inputs; however, these approaches remain
+limited in providing semantic insight into the causes of misbehaviours and in offering fine-
+grained semantic controllability over the generated inputs. In this paper, we introduce Detect,
+a feature-aware test generation framework for vision-based deep learning (DL) models that
+systematically generates inputs by perturbing disentangled semantic attributes within the latent
+space. Detect perturbs individual latent features in a controlled way and observes how these
+changes affect the model's output. Through this process, it identifies which features lead to
+behavior shifts and uses a vision-language model for semantic attribution. By distinguishing
+between task-relevant and irrelevant features, Detect applies feature-aware perturbations
+targeted for both generalization and robustness.
+Empirical results across image classification and detection tasks show that Detect generates
+high-quality test cases with fine-grained control, reveals distinct shortcut behaviors across
+model architectures (convolutional and transformer-based), and bugs that are not captured by
+accuracy metrics. Specifically, Detect outperforms a state-of-the-art test generator in decision
+boundary discovery and a leading spurious feature localization method in identifying robustness
+failures. Our findings show that fully fine-tuned convolutional models are prone to overfitting
+on localized cues, such as co-occurring visual traits, while weakly supervised transformers tend
+to rely on global features, such as environmental variances. These findings highlight the value
+of interpretable and feature-aware testing in improving DL model reliability.}
+}
+
 @inproceedings{2026-Sorokin-SANER,
 	title        = {STELLAR: A Search-Based Testing Framework for Large Language Model Applications},
 	author       = {Lev Sorokin and Ivan Vasilev and Ken Friedl and Andrea Stocco},
@@ -8,7 +42,29 @@
 	pdf          = {2026-Sorokin-SANER.pdf},
 	pages        = {10 pages},
 	abbr         = {SANER},
-	bibtex_show  = {true}
+	bibtex_show  = {true},
+	abstract = {Large Language Model (LLM)-based applications
+are increasingly deployed across various domains, including
+customer service, education, and mobility. However, these systems
+are prone to inaccurate, fictitious, or harmful responses, and
+their vast, high-dimensional input space makes systematic testing
+particularly challenging. To address this, we present STELLAR,
+an automated search-based testing framework for LLM-based
+applications that systematically uncovers text inputs leading to
+inappropriate system responses. Our framework models test
+generation as an optimization problem and discretizes the input
+space into stylistic, content-related, and perturbation features.
+Unlike prior work that focuses on prompt optimization or
+coverage heuristics, our work employs evolutionary optimization
+to dynamically explore feature combinations that are more likely
+to expose failures. We evaluate STELLAR on three LLM-based
+conversational question-answering systems. The first focuses on
+safety, benchmarking both public and proprietary LLMs against
+malicious or unsafe prompts. The second and third target
+navigation, using an open-source and an industrial retrieval-
+augmented system for in-vehicle venue recommendations. Over-
+all, STELLAR exposes up to 4.3× (average 2.5×) more failures
+than the existing baseline approaches.}
 }
 
 @inproceedings{2026-Ali-SANER,
@@ -21,7 +77,30 @@
 	pdf          = {2026-Ali-SANER.pdf},
 	pages        = {10 pages},
 	abbr         = {SANER},
-	bibtex_show  = {true}
+	bibtex_show  = {true},
+	abstract = {utonomous Driving Assistance Systems (ADAS)
+rely on extensive testing to ensure safety and reliability, yet road
+scenario datasets often contain redundant cases that slow down
+the testing process without improving fault detection. We present a
+novel test prioritization framework that reduces redundancy while
+preserving geometric and behavioral diversity. Road scenarios are
+segmented into representative sections, which are compared using
+similarity scores based on dynamic time warping and enriched
+with dynamic features of the ADAS driving behavior. These
+features guide clustering to identify groups of similar scenarios,
+from which representative cases are selected to guarantee coverage.
+Finally, we introduce a prioritization mechanism that ranks roads
+based on geometric complexity, driving difficulty, and historical
+failures, ensuring that the most critical and challenging tests are
+executed first. We evaluate our framework on the OPENCAT
+dataset and the Udacity self-driving car simulator using two ADAS
+models. On average, our approach achieves an 89% reduction
+in test suite size while retaining an average of 79% of failed
+road scenarios. The prioritization strategy improves early failure
+detection by up to 95× compared to random baselines. These
+results demonstrate that our framework significantly improves
+test efficiency and fault detection capability, while maintaining
+scenario diversity and generalizing across different ADAS.}
 }
 
 @inproceedings{2026-Dozono-ICSEW,
@@ -32,7 +111,31 @@
 	url          = {https://arxiv.org/abs/2408.06428},
 	pdf          = {2026-Dozono-ICSEW.pdf},
 	abbr         = {ICSEW},
-	bibtex_show  = {true}
+	bibtex_show  = {true},
+	abstract = {Most vulnerability detection studies focus on
+datasets of vulnerabilities in C/C++ code, offering limited lan-
+guage diversity. Thus, the effectiveness of deep learning methods,
+including large language models (LLMs), in detecting software
+vulnerabilities beyond these languages is still largely unexplored.
+In this paper, we evaluate the effectiveness of LLMs in de-
+tecting and classifying Common Weakness Enumerations (CWE)
+using different prompt and role strategies. Our experimental
+study targets six state-of-the-art pre-trained LLMs (GPT-3.5-
+Turbo, GPT-4 Turbo, GPT-4o, CodeLLama-7B, CodeLLama-
+13B, and Gemini 1.5 Pro) and five programming languages:
+Python, C, C++, Java, and JavaScript. We compiled a multi-
+language vulnerability dataset from different sources, to ensure
+representativeness. Our results showed that GPT-4o achieves the
+highest vulnerability detection and CWE classification scores
+using a few-shot setting.
+Aside from the quantitative results of our study, we devel-
+oped a library called CODEGUARDIAN integrated with VSCode
+which enables developers to perform LLM-assisted real-time
+vulnerability analysis in real-world security scenarios. We have
+evaluated CODEGUARDIAN with a user study involving 22
+developers from the industry. Our study showed that, by using
+CODEGUARDIAN, developers are more accurate and faster at
+detecting vulnerabilities.}
 }
 
 @inproceedings{2026-Merabishvili-ICSEW,
@@ -43,7 +146,20 @@
 	url          = {},
 	pdf          = {2026-Merabishvili-ICSEW.pdf},
 	abbr         = {ICSEW},
-	bibtex_show  = {true}
+	bibtex_show  = {true},
+	abstract = {This study examines how the impact of regularization of latent
+spaces through truncation affects the quality of generated test in-
+puts for deep learning classifiers. We evaluate this effect using
+style-based GANs, a state-of-the-art generative approach, and as-
+sess quality along three dimensions: validity, diversity, and fault
+detection. We evaluate our approach on the boundary testing of
+deep learning image classifiers across three datasets — MNIST,
+Fashion-MNIST, and CIFAR-10. We compare two truncation strate-
+gies: latent code mixing with binary search optimization and ran-
+dom latent truncation for generative exploration. Our experiments
+show that the latent code–mixing approach achieves a higher fault
+detection rate than random truncation, while also improving both
+diversity and validity.}
 }
 
 @article{2025-Chen-EMSE,
@@ -53,7 +169,7 @@
 	journal      = {Empirical Software Engineering},
 	publisher    = {Springer},
 	url          = {https://arxiv.org/abs/2503.07222},
-	pdf          = {2025-Chen-arxiv.pdf},
+	pdf          = {2025-Chen-EMSE.pdf},
 	abbr         = {EMSE},
 	bibtex_show  = {true},
 	abstract = {Semantic-based test generators are widely used to produce failure-inducing inputs for Deep Learning (DL) systems. They typically generate challenging test inputs by applying random perturbations to input semantic concepts until a failure is found or a timeout is reached. However, such randomness may hinder them from efficiently achieving their goal. This paper proposes XMutant, a technique that leverages explainable artificial intelligence (XAI) techniques to generate challenging test inputs. XMutant uses the local explanation of the input to inform the fuzz testing process and effectively guide it toward failures of the DL system under test. We evaluated different configurations of XMutant in triggering failures for different DL systems both for model-level (sentiment analysis, digit recognition) and system-level testing (advanced driving assistance). Our studies showed that XMutant enables more effective and efficient test generation by focusing on the most impactful parts of the input. XMutant generates up to 125% more failure-inducing inputs compared to an existing baseline, up to 7X faster. We also assessed the validity of these inputs, maintaining a validation rate above 89%, according to automated and human validators.}
@@ -281,7 +397,29 @@ regarding their factual correctness.}
 	pages        = {12 pages},
 	abbr         = {ICSE},
 	year         = 2025,
-	bibtex_show  = {true}
+	bibtex_show  = {true},
+	abstract = {Simulation-based testing is widely used to assess
+the reliability of Autonomous Driving Systems (ADS), but its
+effectiveness is limited by the operational design domain (ODD)
+conditions available in such simulators. To address this limitation,
+in this work, we explore the integration of generative artificial
+intelligence techniques with physics-based simulators to enhance
+ADS system-level testing. Our study evaluates the effectiveness
+and computational overhead of three generative strategies based
+on diffusion models, namely instruction-editing, inpainting, and
+inpainting with refinement. Specifically, we assess these tech-
+niques' capabilities to produce augmented simulator-generated
+images of driving scenarios representing new ODDs. We employ
+a novel automated detector for invalid inputs based on semantic
+segmentation to ensure semantic preservation and realism of the
+neural generated images. We then perform system-level testing
+to evaluate the ADS's generalization ability to newly synthesized
+ODDs. Our findings show that diffusion models help increase the
+ODD coverage for system-level testing of ADS. Our automated
+semantic validator achieved a percentage of false positives as
+low as 3%, retaining the correctness and quality of the generated
+images for testing. Our approach successfully identified new ADS
+system failures before real-world testing.}
 }
 
 @inproceedings{2025-Lambertenghi-ICST,
@@ -310,8 +448,27 @@ regarding their factual correctness.}
 	abbr         = {ICST},
 	year         = 2025,
 	bibtex_show  = {true},
+	abstract = {Test Input Generators (TIGs) are crucial to assess
+the ability of Deep Learning (DL) image classifiers to provide
+correct predictions for inputs beyond their training and test sets.
+Recent advancements in Generative AI (GenAI) models have
+made them a powerful tool for creating and manipulating syn-
+thetic images, although these advancements also imply increased
+complexity and resource demands for training.
+In this work, we benchmark and combine different GenAI
+models with TIGs, assessing their effectiveness, efficiency, and
+quality of the generated test images, in terms of domain validity
+and label preservation. We conduct an empirical study involving
+three different GenAI architectures (VAEs, GANs, Diffusion
+Models), five classification tasks of increasing complexity, and 364
+human evaluations. Our results show that simpler architectures,
+such as VAEs, are sufficient for less complex datasets like
+MNIST. However, when dealing with feature-rich datasets, such
+as ImageNet, more sophisticated architectures like Diffusion
+Models achieve superior performance by generating a higher
+number of valid, misclassification-inducing inputs.},
 	award        = {[Distinguished Paper Award]},
-	award_name   = {Distinguished Paper Award},
+	award_name   = {Distinguished Paper Award}
 }
 
 @inproceedings{2025-Ali-ICSEW,
@@ -324,7 +481,32 @@ regarding their factual correctness.}
 	pdf          = {2025-Ali-ICSEW.pdf},
 	pages        = {10 pages},
 	abbr         = {ICSEW},
-	bibtex_show  = {true}
+	bibtex_show  = {true},
+	abstract = {Testing Advanced Driving Assistance Systems
+(ADAS), such as lane-keeping functions, requires creating road
+topologies or using predefined benchmarks. However, the test
+cases in existing ADAS benchmarks are often designed in specific
+formats(e.g.,OpenDRIVE)andtailoredtospecificADASmodels.
+This limits their reusability and interoperability with other
+simulators and models, making it challenging to assess ADAS
+functionalities independently of the platform-specific details used
+to create the test cases.
+This paper evaluates the interoperability of SensoDat, a
+benchmark developed for ADAS regression testing. We introduce
+OpenCat, a converter that transforms OpenDRIVE test cases
+into the Catmull-Rom spline format, which is widely supported
+by many current test generators. By applying OpenCat to the
+SensoDat dataset, we achieved high accuracy in converting test
+cases into reusable road scenarios. To validate the converted
+scenarios, we used them to evaluate a lane-keeping ADAS model
+using the Udacity simulator. Both the simulator and the ADAS
+model operate independently of the technologies underlying Sen-
+soDat, ensuring an unbiased evaluation of the original test cases.
+Our findings reveal that benchmarks built with specific ADAS
+models hinder their effective usage for regression testing. We
+conclude by offering insights and recommendations to enhance
+the reusability and transferability of ADAS benchmarks for more
+extensive applications.}
 }
 
 @misc{2024-Naziri-arXiv,
@@ -394,7 +576,37 @@ regarding their factual correctness.}
 	pages        = {12 pages},
 	abbr         = {ICST},
 	year         = 2024,
-	bibtex_show  = {true}
+	bibtex_show  = {true},
+	abstrat = {Simulation-based testing of automated driving sys-
+tems (ADS) is the industry standard, being a controlled, safe,
+and cost-effective alternative to real-world testing. Despite these
+advantages, virtual simulations often fail to accurately replicate
+real-world conditions like image fidelity, texture representation,
+and environmental accuracy. This can lead to significant dif-
+ferences in ADS behavior between simulated and real-world
+domains, a phenomenon known as the sim2real gap.
+Researchers have used Image-to-Image (I2I) neural translation
+to mitigate the sim2real gap, enhancing the realism of simulated
+environments by transforming synthetic data into more au-
+thentic representations of real-world conditions. However, while
+promising, these techniques may potentially introduce artifacts,
+distortions, or inconsistencies in the generated data that can affect
+the effectiveness of ADS testing.
+In our empirical study, we investigated how the quality of
+image-to-image (I2I) techniques influences the mitigation of
+the sim2real gap, using a set of established metrics from the
+literature. We evaluated two popular generative I2I architectures,
+pix2pix and CycleGAN, across two ADS perception tasks at
+a model level, namely vehicle detection and end-to-end lane
+keeping, using paired simulated and real-world datasets. Our
+findings reveal that the effectiveness of I2I architectures varies
+across different ADS tasks, and existing evaluation metrics do
+not consistently align with the ADS behavior. Thus, we conducted
+task-specific fine-tuning of perception metrics, which yielded a
+stronger correlation. Our findings indicate that a perception
+metric that incorporates semantic elements, tailored to each task,
+can facilitate selecting the most appropriate I2I technique for a
+reliable assessment of the sim2real gap mitigation.}
 }
 
 @inproceedings{2024-Grewal-ICST,
@@ -407,7 +619,34 @@ regarding their factual correctness.}
 	pages        = {12 pages},
 	abbr         = {ICST},
 	year         = 2024,
-	bibtex_show  = {true}
+	bibtex_show  = {true},
+	abstract = {The automated real-time recognition of unexpected
+situations plays a crucial role in the safety of autonomous
+vehicles, especially in unsupported and unpredictable scenarios.
+This paper evaluates different Bayesian uncertainty quantifica-
+tion methods from the deep learning domain for the anticipa-
+tory testing of safety-critical misbehaviours during system-level
+simulation-based testing. Specifically, we compute uncertainty
+scores as the vehicle executes, following the intuition that high
+uncertainty scores are indicative of unsupported runtime condi-
+tions that can be used to distinguish safe from failure-inducing
+driving behaviors. In our study, we conducted an evaluation
+of the effectiveness and computational overhead associated with
+two Bayesian uncertainty quantification methods, namely MC-
+Dropout and Deep Ensembles, for misbehaviour avoidance. Over-
+all, for three benchmarks from the Udacity simulator comprising
+both out-of-distribution and unsafe conditions introduced via
+mutation testing, both methods successfully detected a high
+number of out-of-bounds episodes providing early warnings
+several seconds in advance, outperforming two state-of-the-art
+misbehaviour prediction methods based on autoencoders and
+attention maps in terms of effectiveness and efficiency. Notably,
+Deep Ensembles detected most misbehaviours without any false
+alarms and did so even when employing a relatively small number
+of models, making them computationally feasible for real-time
+detection. Our findings suggest that incorporating uncertainty
+quantification methods is a viable approach for building fail-safe
+mechanisms in deep neural network-based autonomous vehicles.}
 }
 
 @article{2023-Stocco-arXiv,
@@ -419,7 +658,17 @@ regarding their factual correctness.}
 	eprint       = {2306.07400},
 	archivePrefix = {arXiv},
 	primaryClass = {cs.SE},
-	bibtex_show  = {true}
+	bibtex_show  = {true},
+	abstract = {Web test automation techniques employ web crawlers to automatically produce a web app model that is used for test
+generation. Existing crawlers rely on app-specific, threshold-based, algorithms to assess state equivalence. Such algorithms are hard
+to tune in the general case and cannot accurately identify and remove near-duplicate web pages from crawl models. Failing to retrieve
+an accurate web app model results in automated test generation solutions that produce redundant test cases and inadequate test
+suites that do not cover the web app functionalities adequately. In this paper, we propose WEBEMBED, a novel abstraction function
+based on neural network embeddings and threshold-free classifiers that can be used to produce accurate web app models during
+model-based test generation. Our evaluation on nine web apps shows that WEBEMBED outperforms state-of-the-art techniques by
+detecting near-duplicates more accurately, inferring better web app models that exhibit 22% more precision, and 24% more recall on
+average. Consequently, the test suites generated from these models achieve higher code coverage, with improvements ranging from
+2% to 59% on an app-wise basis and averaging at 23%.}
 }
 
 @article{2024-Biagiola-EMSE,
@@ -431,7 +680,29 @@ regarding their factual correctness.}
 	abbr         = {EMSE},
 	pdf          = {2024-Biagiola-EMSE.pdf},
 	note         = {[Invited Journal-first track at ICSE 2025]},
-	bibtex_show  = {true}
+	bibtex_show  = {true},
+	abstract = {Simulation-based testing represents an important step to ensure the
+reliability of autonomous driving software. In practice, when companies rely on
+third-party general-purpose simulators, either for in-house or outsourced testing,
+the generalizability of testing results to real autonomous vehicles is at stake. In this
+paper, we enhance simulation-based testing by introducing the notion of digital
+siblings—a multi-simulator approach that tests a given autonomous vehicle on
+multiple general-purpose simulators built with different technologies, that operate
+collectively as an ensemble in the testing process.
+We exemplify our approach on a case study focused on testing the lane-keeping
+component of an autonomous vehicle. We use two open-source simulators as digital
+siblings, and we empirically compare such a multi-simulator approach against a
+digital twin of a physical scaled autonomous vehicle on a large set of test cases. Our
+approach requires generating and running test cases for each individual simulator,
+in the form of sequences of road points. Then, test cases are migrated between
+simulators, using feature maps to characterize the exercised driving conditions.
+Finally, the joint predicted failure probability is computed, and a failure is reported
+only in cases of agreement among the siblings.
+Our empirical evaluation shows that the ensemble failure predictor by the
+digital siblings is superior to each individual simulator at predicting the failures
+of the digital twin. We discuss the findings of our case study and detail how
+our approach can help researchers interested in automated testing of autonomous
+driving software.}
 }
 
 @inproceedings{2023-Ricca-QUATIC,
@@ -445,7 +716,23 @@ regarding their factual correctness.}
 	award        = {[Best Paper Award]},
 	award_name   = {Best Paper Award},
 	year         = 2023,
-	bibtex_show  = {true}
+	bibtex_show  = {true},
+	abstract = {This paper provides the results of a retrospective analysis conducted on
+a survey of the grey literature about the perception of practitioners on the integration
+of artificial intelligence (AI) algorithms into Test Automation (TA) practices.
+Our study involved the examination of 231 sources, including blogs, user manuals,
+and posts. Our primary goals were to: (a) assess the generalizability of existing
+taxonomies about the usage of AI for TA, (b) investigate and understand the
+relationships between TA problems and AI-based solutions, and (c) systematically
+map out the existing AI-based tools that offer AI-enhanced solutions.
+Our analysis yielded several interesting results. Firstly, we assessed a high degree of
+generalization of the existing taxonomies. Secondly, we identified TA problems that
+can be addressed using AI-enhanced solutions integrated into existing tools. Thirdly,
+we found that some TA problems require broader solutions that involve multiple
+software testing phases simultaneously, such as test generation and maintenance.
+Fourthly, we discovered that certain solutions are being investigated but are not
+supported by existing AI-based tools. Finally, we observed that there are tools that
+supports different phases of TA and may have a broader outreach.}
 }
 
 @article{2023-Stocco-EMSE,
@@ -458,7 +745,26 @@ regarding their factual correctness.}
 	pdf          = {2023-Stocco-EMSE.pdf},
 	note         = {Invited journal first track at ICSE 2024},
 	abbr         = {EMSE},
-	bibtex_show  = {true}
+	bibtex_show  = {true},
+	abstract = {Offline model-level testing of autonomous driving software is much
+cheaper, faster, and diversified than in-field, online system-level testing. Hence, re-
+searchers have compared empirically model-level vs system-level testing using driv-
+ing simulators. They reported the general usefulness of simulators at reproducing
+the same conditions experienced in-field, but also some inadequacy of model-level
+testing at exposing failures that are observable only in online mode.
+In this work, we replicate the reference study on model vs system-level test-
+ing of autonomous vehicles while acknowledging several assumptions that we had
+reconsidered. These assumptions are related to several threats to validity affect-
+ing the original study that motivated additional analysis and the development
+of techniques to mitigate them. Moreover, we also extend the replicated study
+by evaluating the original findings when considering a physical, radio-controlled
+autonomous vehicle. Our results show that simulator-based testing of autonomous driving systems
+yields predictions that are close to the ones of real-world datasets when using
+neural-based translation to mitigate the reality gap induced by the simulation
+platform. On the other hand, model-level testing failures are in line with those
+experienced at the system level, both in simulated and physical environments,
+when considering the pre-failure site, similar-looking images, and accurate labels.},
+bibtex_show  = {true}	
 }
 
 @inproceedings{2022-Stocco-ASE,
@@ -471,7 +777,24 @@ regarding their factual correctness.}
 	pdf          = {2022-Stocco-ASE.pdf},
 	year         = 2022,
 	doi          = {10.1145/3551349.3556968},
-	slides       = {2022-Stocco-ASE-slides.pdf}
+	slides       = {2022-Stocco-ASE-slides.pdf},
+	abstract = {Automated online recognition of unexpected conditions is an in-
+dispensable component of autonomous vehicles to ensure safety
+even in unknown and uncertain situations. In this paper we pro-
+pose a runtime monitoring technique rooted in the attention maps
+computed by explainable artificial intelligence techniques. Our ap-
+proach, implemented in a tool called ThirdEye, turns attention
+maps into confidence scores that are used to discriminate safe from
+unsafe driving behaviours. The intuition is that uncommon atten-
+tion maps are associated with unexpected runtime conditions.
+In our empirical study, we evaluated the effectiveness of dif-
+ferent configurations of ThirdEye at predicting simulation-based
+injected failures induced by both unknown conditions (adverse
+weather and lighting) and unsafe/uncertain conditions created with
+mutation testing. Results show that, overall, ThirdEye can predict
+98% misbehaviours, up to three seconds in advance, outperforming
+a state-of-the-art failure predictor for autonomous vehicles.},
+bibtex_show  = {true}		
 }
 
 @article{2022-Stocco-TSE,
@@ -484,7 +807,21 @@ regarding their factual correctness.}
 	pdf          = {2022-Stocco-TSE.pdf},
 	publisher    = {IEEE},
 	note         = {[Invited journal First track at ICSE 2023]},
-	abbr         = {TSE}
+	abbr         = {TSE},
+	abstract = {Safe deployment of self-driving cars (SDC) necessitates thorough simulated and in-field testing. Most testing techniques
+consider virtualized SDCs within a simulation environment, whereas less effort has been directed towards assessing whether such
+techniques transfer to and are effective with a physical real-world vehicle.
+In this paper, we shed light on the problem of generalizing testing results obtained in a driving simulator to a physical platform and
+provide a characterization and quantification of the sim2real gap affecting SDC testing. In our empirical study, we compare SDC testing
+when deployed on a physical small-scale vehicle vs its digital twin. Due to the unavailability of driving quality indicators from the
+physical platform, we use neural rendering to estimate them through visual odometry, hence allowing full comparability with the digital
+twin. Then, we investigate the transferability of behavior and failure exposure between virtual and real-world environments, targeting
+both unintended abnormal test data and intended adversarial examples. Our study shows that, despite the usage of a faithful digital
+twin, there are still critical shortcomings that contribute to the reality gap between the virtual and physical world, threatening existing
+testing solutions that only consider virtual SDCs. On the positive side, our results present the test configurations for which physical
+testing can be avoided, either because their outcome does transfer between virtual and physical environments, or because the
+uncertainty profiles in the simulator can help predict their outcome in the real world.},
+bibtex_show  = {true}	
 }
 
 @article{2021-Stocco-JSEP,
@@ -499,10 +836,25 @@ regarding their factual correctness.}
 	doi          = {10.1002/smr.2386},
 	pdf          = {2021-Stocco-JSEP.pdf},
 	abbr         = {JSEP},
-	year         = 2021
+	year         = 2021,
+	abstract = {Safe handling of hazardous driving situations is a task of high practical relevance for build-
+ing reliable and trustworthy cyber-physical systems such as autonomous driving systems.
+This task necessitates an accurate prediction system of the vehicle's confidence to prevent
+potentiallyharmfulsystemfailuresontheoccurrenceofunpredictableconditionsthatmake
+it less safe to drive. In this paper, we discuss the challenges of adapting a misbehavior pre-
+dictor with knowledge mined during the execution of the main system. Then, we present
+a framework for the continual learning of misbehavior predictors, which records in-field
+behavioral data to determine what data are appropriate for adaptation. Our framework
+guides adaptive retraining using a novel combination of in-field confidence metric selection
+and reconstruction error-based weighing. We evaluate our framework to improve a mis-
+behavior predictor from the literature on the Udacity simulator for self-driving cars. Our
+results show that our framework can reduce the false positive rate by a large margin and
+can adapt to nominal behavior drifts while maintaining the original capability to predict
+failures up to several seconds in advance.},
+bibtex_show  = {true}
 }
 
-@inproceedings{2021-Ricca-NEXTA,
+@inproceedings{2021-Ricca-ICSTW,
 	author       = {Filippo Ricca and Alessandro Marchetto and Andrea Stocco},
 	title        = {AI-based Test Automation: A Grey Literature Analysis},
 	booktitle    = {Proceedings of the 14th IEEE International Conference on Software Testing, Verification and Validation Workshops},
@@ -511,7 +863,22 @@ regarding their factual correctness.}
 	abbr         = {ICSTW},
 	pdf          = {2021-Ricca-ICSTW.pdf},
 	note         = {[Best Presentation Award]},
-	year         = 2021
+	year         = 2021,
+	abstract = {This paper provides the results of a survey of the
+grey literature concerning the use of artificial intelligence to
+improve test automation practices. We surveyed more than 1,200
+sources of grey literature (e.g., blogs, white-papers, user manuals,
+StackOverflow posts) looking for highlights by professionals on
+how AI is adopted to aid the development and evolution of test
+code. Ultimately, we filtered 136 relevant documents from which
+we extracted a taxonomy of problems that AI aims to tackle,
+along with a taxonomy of AI-enabled solutions to such problems.
+Manual code development and automated test generation are
+the most cited problem and solution, respectively. The paper
+concludes by distilling the six most prevalent tools on the market,
+along with think-aloud reflections about the current and future
+status of artificial intelligence for test automation.},
+bibtex_show  = {true}
 }
 
 @inproceedings{2021-Jahangirova-ICST,
@@ -523,7 +890,26 @@ regarding their factual correctness.}
 	pdf          = {2021-Jahangirova-ICST.pdf},
 	pages        = {12 pages},
 	abbr         = {ICST},
-	year         = 2021
+	year         = 2021,
+	abstract = {The race for deploying AI-enabled autonomous
+vehicles (AVs) on public roads is based on the promise that such
+self-driving cars will be as safe as or safer than human drivers.
+Numerous techniques have been proposed to test AVs, which
+however lack oracle definitions that account for the quality of
+driving, due to the lack of a commonly used set of metrics.
+Towards filling this gap, we first performed a systematic
+analysis of the literature concerning the assessment of the quality
+of driving of human drivers and extracted 126 metrics. Then, we
+measured the correlation between such metrics and the human
+perception of driving quality when AVs are driving. Lastly, we
+performed a study based on mutation analysis to assess whether
+the 26 metrics that best capture the quality of AV driving
+according to the human study can be used as functional oracles.
+Our results, targeting the Udacity platform, indicate that our
+automated oracles can kill a high proportion of mutants at a
+zero or very low false alarm rate, and therefore can be used as
+effective functional oracles for the quality of driving of AVs.},
+bibtex_show  = {true}
 }
 
 @inproceedings{2021-Ricca-SOFSEM,
@@ -535,7 +921,19 @@ regarding their factual correctness.}
 	abbr         = {SOFSEM},
 	pdf          = {2021-Ricca-SOFSEM.pdf},
 	note         = {[Best Paper Nominee]},
-	year         = 2021
+	year         = 2021,
+	abstract = {This paper provides the results of a survey of the grey lit-
+erature concerning best practices for end-to-end web test automation.
+We analyzed more than 2,400 sources (e.g., blog posts, white-papers,
+user manuals, GitHub repositories) looking for guidelines by IT profes-
+sionals on how to develop and maintain web test code. Ultimately, we
+filtered 142 relevant documents from which we extracted a taxonomy of
+guidelines divided into technical tips (i.e., concerning the development,
+maintenance, and execution of web tests), and business-level tips (i.e,
+concerning the planning and management of testing teams, design, and
+process). The paper concludes with distilling the ten most cited best
+practices for developing good quality automated web tests.},
+bibtex_show  = {true}
 }
 
 @article{2020-Bajammal-TSE,
