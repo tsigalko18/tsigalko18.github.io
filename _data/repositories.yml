@@ -4,8 +4,13 @@
 repo_description_lines_max: 3
 
 github_repos:
+  - ast-fortiss-tum/STELLAR
+  - ast-fortiss-tum/SMOO/tree/archive/mimicry
+  - ast-fortiss-tum/XMutant
+  - ast-fortiss-tum/ROS-small-scale-vehicle
+  - ast-fortiss-tum/codeguardian
   - ast-fortiss-tum/misbehaviour-prediction-with-uncertainty-quantification
   - ast-fortiss-tum/I2I-quality-metrics-study
-  # - ast-fortiss-tum/opensbt-core
   - ast-fortiss-tum/perturbation-drive
-  - ast-fortiss-tum/deep-learning-test-generation-style-mixing
+  - ast-fortiss-tum/MultiSim
+  - ast-fortiss-tum/llm-code-translation

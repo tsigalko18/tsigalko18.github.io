@@ -1,3 +1,17 @@
+@misc{2026-Weissl-arXiv,
+    title={HyperNet-Adaptation for Diffusion-Based Test Case Generation}, 
+    author={Oliver Weißl and Vincenzo Riccio and Severin Kacianka and Andrea Stocco},
+    year={2026},
+    eprint={2601.15041},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG},
+    url={https://arxiv.org/abs/2601.15041},
+	abbr         = {pre-print},
+	pdf          = {2026-Weissl-arXiv},
+	bibtex_show  = {true},
+	abstract = {The increasing deployment of deep learning systems requires systematic evaluation of their reliability in real-world scenarios. Traditional gradient-based adversarial attacks introduce small perturbations that rarely correspond to realistic failures and mainly assess robustness rather than functional behavior. Generative test generation methods offer an alternative but are often limited to simple datasets or constrained input domains. Although diffusion models enable high-fidelity image synthesis, their computational cost and limited controllability restrict their applicability to large-scale testing. We present HyNeA, a generative testing method that enables direct and efficient control over diffusion-based generation. HyNeA provides dataset-free controllability through hypernetworks, allowing targeted manipulation of the generative process without relying on architecture-specific conditioning mechanisms or dataset-driven adaptations such as fine-tuning. HyNeA employs a distinct training strategy that supports instance-level tuning to identify failure-inducing test cases without requiring datasets that explicitly contain examples of similar failures. This approach enables the targeted generation of realistic failure cases at substantially lower computational cost than search-based methods. Experimental results show that HyNeA improves controllability and test diversity compared to existing generative test generators and generalizes to domains where failure-labeled training data is unavailable.}
+}
+
 @inproceedings{2026-Naziri-ICSE,
 	title        = {Misbehaviour Forecasting for Focused Autonomous Driving Systems Testing},
 	author       = {Molla Mohammad Abid Naziri and Stefano Carlo Lambertenghi and Andrea Stocco and Marcelo d'Amorim},
@@ -110,7 +124,7 @@ than the existing baseline approaches.}
 	pages        = {10 pages},
 	abbr         = {SANER},
 	bibtex_show  = {true},
-	abstract = {utonomous Driving Assistance Systems (ADAS)
+	abstract = {Autonomous Driving Assistance Systems (ADAS)
 rely on extensive testing to ensure safety and reliability, yet road
 scenario datasets often contain redundant cases that slow down
 the testing process without improving fault detection. We present a

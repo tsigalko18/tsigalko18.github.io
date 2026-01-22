@@ -43,7 +43,7 @@ Current interests involve monitoring techniques and automated functional oracles
 
 My current and past topics are:
 
-* Testing AI-based systems :robot: [ASE 2025, ICSE 2025, ICST 2025a, ICST2025b, ICSEW 2025, TOSEM 2024, EMSE 2024, TSE 2022, ASE 2022, JSEP 2021, ICST 2021, ICSE 2020, EMSE 2020, ISSREW 2020]
+* Testing AI-based systems (including LLM/cyber-physical/deep learning) :robot: [ICSE 2026, SANER 2026a, SANER 2026b, ASE 2025, ICSE 2025, ICST 2025a, ICST2025b, ICSEW 2025, TOSEM 2024, EMSE 2024, TSE 2022, ASE 2022, JSEP 2021, ICST 2021, ICSE 2020, EMSE 2020, ISSREW 2020]
 * Grey literature analysis :books: [QUATIC 2023, SOFSEM 2021, ICSTW 2021]
 * Studies of JS bugs :bug: [ICST 2019, STVR 2020]
 * Computer vision for Software Engineering :eye: [TSE 2020, ESEC/FSE 2018, STVR 2017, SAC 2015, SCAM 2014]
