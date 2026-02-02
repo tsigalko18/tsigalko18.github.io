@@ -1,3 +1,83 @@
+@article{2026-Sorokin-EMSE,
+	title        = {Simulator Ensembles for Trustworthy Autonomous Driving Testing},
+	author       = {Lev Sorokin and Matteo Biagiola and Andrea Stocco},
+	year         = 2026,
+	journal      = {Empirical Software Engineering},
+	publisher    = {Springer},
+	url          = {https://arxiv.org/abs/2503.08936},
+	pdf          = {2026-Sorokin-EMSE.pdf},
+	abbr         = {EMSE},
+	bibtex_show  = {true},
+	abstract = {Scenario-based testing with driving simulators is extensively used to identify failing conditions of automated driving assistance systems (ADAS) and reduce the amount of in-field road testing. However, existing studies have shown that repeated test execution in the same as well as in distinct simulators can yield different outcomes, which can be attributed to sources of flakiness or different implementations of the physics, among other factors. In this paper, we present MultiSim, a novel approach to multi-simulation ADAS testing based on a search-based testing approach that leverages an ensemble of simulators to identify failure-inducing, simulator-agnostic test scenarios. During the search, each scenario is evaluated jointly on multiple simulators. Scenarios that produce consistent results across simulators are prioritized for further exploration, while those that fail on only a subset of simulators are given less priority, as they may reflect simulator-specific issues rather than generalizable failures. Our case study, which involves testing a deep neural network-based ADAS on different pairs of three widely used simulators, demonstrates that MultiSim outperforms single-simulator testing by achieving on average a higher rate of simulator-agnostic failures by 51%. Compared to a state-of-the-art multi-simulator approach that combines the outcome of independent test generation campaigns obtained in different simulators, MultiSim identifies 54% more simulator-agnostic failing tests while showing a comparable validity rate. An enhancement of MultiSim that leverages surrogate models to predict simulator disagreements and bypass executions does not only increase the average number of valid failures but also improves efficiency in finding the first valid failure.}
+}
+
+@article{2025-Chen-EMSE,
+	title        = {{XMutant: XAI-based Fuzzing for Deep Learning Systems}},
+	author       = {Xingcheng Chen and Matteo Biagiola and Vincenzo Riccio and Marcelo d'Amorim and Andrea Stocco},
+	year         = 2025,
+	journal      = {Empirical Software Engineering},
+	publisher    = {Springer},
+	url          = {https://arxiv.org/abs/2503.07222},
+	pdf          = {2025-Chen-EMSE.pdf},
+	abbr         = {EMSE},
+	bibtex_show  = {true},
+	abstract = {Semantic-based test generators are widely used to produce failure-inducing inputs for Deep Learning (DL) systems. They typically generate challenging test inputs by applying random perturbations to input semantic concepts until a failure is found or a timeout is reached. However, such randomness may hinder them from efficiently achieving their goal. This paper proposes XMutant, a technique that leverages explainable artificial intelligence (XAI) techniques to generate challenging test inputs. XMutant uses the local explanation of the input to inform the fuzz testing process and effectively guide it toward failures of the DL system under test. We evaluated different configurations of XMutant in triggering failures for different DL systems both for model-level (sentiment analysis, digit recognition) and system-level testing (advanced driving assistance). Our studies showed that XMutant enables more effective and efficient test generation by focusing on the most impactful parts of the input. XMutant generates up to 125% more failure-inducing inputs compared to an existing baseline, up to 7X faster. We also assessed the validity of these inputs, maintaining a validation rate above 89%, according to automated and human validators.}
+}
+
+
+@article{2026-Guo-OJ-ITS,
+      title={Foundation Models in Autonomous Driving: A Survey on Scenario Generation and Scenario Analysis}, 
+      author={Yuan Gao and Mattia Piccinini and Yuchen Zhang and Dingrui Wang and Korbinian Moller and Roberto Brusnicki and Baha Zarrouki and Alessio Gambi and Jan Frederik Totz and Kai Storms and Steven Peters and Andrea Stocco and Bassam Alrifaee and Marco Pavone and Johannes Betz},
+      year={2026},
+      journal      = {IEEE Open Journal of Intelligent Transportation Systems},
+	  publisher	= {IEEE},
+      url={https://arxiv.org/abs/2506.11526},
+	  pdf          = {2026-Gao-OJ-ITS.pdf},
+	  abbr         = {OJ-ITS},
+	  bibtex_show  = {true},
+	  abstract = {For autonomous vehicles, safe navigation in complex
+environments depends on handling a broad range of diverse and
+rare driving scenarios. Simulation- and scenario-based testing
+have emerged as key approaches to development and validation
+of autonomous driving systems. Traditional scenario generation
+relies on rule-based systems, knowledge-driven models, and
+data-driven synthesis, often producing limited diversity and
+unrealistic safety-critical cases. With the emergence of foundation
+models, which represent a new generation of pre-trained,
+general-purpose AI models, developers can process heterogeneous
+inputs (e.g., natural language, sensor data, HD maps, and control
+actions), enabling the synthesis and interpretation of complex
+driving scenarios. In this paper, we conduct a survey about
+the application of foundation models for scenario generation
+and scenario analysis in autonomous driving (as of May 2025).
+Our survey presents a unified taxonomy that includes large
+language models, vision-language models, multimodal large
+language models, diffusion models, and world models for the
+generation and analysis of autonomous driving scenarios. In
+addition, we review the methodologies, open-source datasets,
+simulation platforms, and benchmark challenges, and we
+examine the evaluation metrics tailored explicitly to scenario
+generation and analysis. Finally, the survey concludes by
+highlighting the open challenges and research questions, and
+outlining promising future research directions. All reviewed
+papers are listed in a continuously maintained repository,
+which contains supplementary materials and is available at
+GitHub.com/TUM-AVS/FM-for-Scenario-Generation-Analysis.}
+}
+
+@article{2025-Chen-EMSE,
+	title        = {{XMutant: XAI-based Fuzzing for Deep Learning Systems}},
+	author       = {Xingcheng Chen and Matteo Biagiola and Vincenzo Riccio and Marcelo d'Amorim and Andrea Stocco},
+	year         = 2025,
+	journal      = {Empirical Software Engineering},
+	publisher    = {Springer},
+	url          = {https://arxiv.org/abs/2503.07222},
+	pdf          = {2025-Chen-EMSE.pdf},
+	abbr         = {EMSE},
+	bibtex_show  = {true},
+	abstract = {Semantic-based test generators are widely used to produce failure-inducing inputs for Deep Learning (DL) systems. They typically generate challenging test inputs by applying random perturbations to input semantic concepts until a failure is found or a timeout is reached. However, such randomness may hinder them from efficiently achieving their goal. This paper proposes XMutant, a technique that leverages explainable artificial intelligence (XAI) techniques to generate challenging test inputs. XMutant uses the local explanation of the input to inform the fuzz testing process and effectively guide it toward failures of the DL system under test. We evaluated different configurations of XMutant in triggering failures for different DL systems both for model-level (sentiment analysis, digit recognition) and system-level testing (advanced driving assistance). Our studies showed that XMutant enables more effective and efficient test generation by focusing on the most impactful parts of the input. XMutant generates up to 125% more failure-inducing inputs compared to an existing baseline, up to 7X faster. We also assessed the validity of these inputs, maintaining a validation rate above 89%, according to automated and human validators.}
+}
+
 @misc{2026-Weissl-arXiv,
     title={HyperNet-Adaptation for Diffusion-Based Test Case Generation}, 
     author={Oliver Weißl and Vincenzo Riccio and Severin Kacianka and Andrea Stocco},
@@ -297,47 +377,6 @@ transferable validation of autonomous driving systems.}
 	  abstract = {In-Car Conversational Question Answering (ConvQA) systems significantly enhance user experience by enabling seamless voice interactions. However, assessing their accuracy and reliability remains a challenge. This paper explores the use of Large Language Models (LLMs) along side advanced prompt ing techniques and agent-based methods to evaluate the extent to which ConvQA system responses adhere to user utterances. The focus lies on contextual understanding, the ability to provide accurate venue recommendations considering the user constraints and situational context. To evaluate the utterance/response coherence using an LLM, we synthetically generate user utterances accompanied by correct but also modified failure-containing system responses. We use input-output, chain of thought, self-consistency prompting, as well as multi-agent prompting techniques, with 13 reasoning and non-reasoning LLMs, varying in model size and providers, from OpenAI, DeepSeek, Mistral AI, and Meta. We evaluate our approach on a case study that involves a user asking for restaurant recommendations. The most substantial improvements are observed for non-reasoning models when applying advanced prompting techniques, in particular, when applying multi-agent prompting. However, non-reasoning models are significantly surpassed by reasoning models, where the best result is achieved with single-agent prompting incorporating self-consistency. Notably, the DeepSeek-R1 model achieves the highest F1-score of 0.990 at a cost of 0.002 USD per request. Overall, the best tradeoff between effectiveness and cost/time efficiency is achieved with the non-reasoning model DeepSeek-V3.}
 }
 
-@misc{2025-Guo-arxiv,
-      title={Foundation Models in Autonomous Driving: A Survey on Scenario Generation and Scenario Analysis}, 
-      author={Yuan Gao and Mattia Piccinini and Yuchen Zhang and Dingrui Wang and Korbinian Moller and Roberto Brusnicki and Baha Zarrouki and Alessio Gambi and Jan Frederik Totz and Kai Storms and Steven Peters and Andrea Stocco and Bassam Alrifaee and Marco Pavone and Johannes Betz},
-      year={2025},
-      eprint={2506.11526},
-      archivePrefix={arXiv},
-      primaryClass={cs.RO},
-      url={https://arxiv.org/abs/2506.11526},
-	  pdf          = {2025-Gao-arxiv.pdf},
-	  abbr         = {pre-print},
-	  bibtex_show  = {true},
-	  abstract = {For autonomous vehicles, safe navigation in complex
-environments depends on handling a broad range of diverse and
-rare driving scenarios. Simulation- and scenario-based testing
-have emerged as key approaches to development and validation
-of autonomous driving systems. Traditional scenario generation
-relies on rule-based systems, knowledge-driven models, and
-data-driven synthesis, often producing limited diversity and
-unrealistic safety-critical cases. With the emergence of foundation
-models, which represent a new generation of pre-trained,
-general-purpose AI models, developers can process heterogeneous
-inputs (e.g., natural language, sensor data, HD maps, and control
-actions), enabling the synthesis and interpretation of complex
-driving scenarios. In this paper, we conduct a survey about
-the application of foundation models for scenario generation
-and scenario analysis in autonomous driving (as of May 2025).
-Our survey presents a unified taxonomy that includes large
-language models, vision-language models, multimodal large
-language models, diffusion models, and world models for the
-generation and analysis of autonomous driving scenarios. In
-addition, we review the methodologies, open-source datasets,
-simulation platforms, and benchmark challenges, and we
-examine the evaluation metrics tailored explicitly to scenario
-generation and analysis. Finally, the survey concludes by
-highlighting the open challenges and research questions, and
-outlining promising future research directions. All reviewed
-papers are listed in a continuously maintained repository,
-which contains supplementary materials and is available at
-GitHub.com/TUM-AVS/FM-for-Scenario-Generation-Analysis.}
-}
-
 @misc{2025-Kluge-arxiv,
       title={Web Element Relocalization in Evolving Web Applications: A Comparative Analysis and Extension Study}, 
       author={Anton Kluge and Andrea Stocco},
@@ -417,20 +456,6 @@ regarding their factual correctness.}
 	  abbr         = {pre-print},
 	  bibtex_show  = {true},
 	  abstract = {High-quality test datasets are crucial for assessing the reliability of Deep Neural Networks (DNNs). Mutation testing evaluates test dataset quality based on their ability to uncover injected faults in DNNs as measured by mutation score (MS). At the same time, its high computational cost motivates researchers to seek alternative test adequacy criteria. We propose Latent Space Class Dispersion (LSCD), a novel metric to quantify the quality of test datasets for DNNs. It measures the degree of dispersion within a test dataset as observed in the latent space of a DNN. Our empirical study shows that LSCD reveals and quantifies deficiencies in the test dataset of three popular benchmarks pertaining to image classification tasks using DNNs. Corner cases generated using automated fuzzing were found to help enhance fault detection and improve the overall quality of the original test sets calculated by MS and LSCD. Our experiments revealed a high positive correlation (0.87) between LSCD and MS, significantly higher than the one achieved by the well-studied Distance-based Surprise Coverage (0.25). These results were obtained from 129 mutants generated through pre-training mutation operators, with statistical significance and a high validity of corner cases. These observations suggest that LSCD can serve as a cost-effective alternative to expensive mutation testing, eliminating the need to generate mutant models while offering comparably valuable insights into test dataset quality for DNNs.}
-}
-
-@misc{2025-Sorokin-arxiv,
-	title        = {Simulator Ensembles for Trustworthy Autonomous Driving Testing},
-	author       = {Lev Sorokin and Matteo Biagiola and Andrea Stocco},
-	year         = 2025,
-	eprint       = {2503.08936},
-	archivePrefix = {arXiv},
-	primaryClass = {cs.SE},
-	url          = {https://arxiv.org/abs/2503.08936},
-	pdf          = {2025-Sorokin-arxiv.pdf},
-	abbr         = {pre-print},
-	bibtex_show  = {true},
-	abstract = {Scenario-based testing with driving simulators is extensively used to identify failing conditions of automated driving assistance systems (ADAS) and reduce the amount of in-field road testing. However, existing studies have shown that repeated test execution in the same as well as in distinct simulators can yield different outcomes, which can be attributed to sources of flakiness or different implementations of the physics, among other factors. In this paper, we present MultiSim, a novel approach to multi-simulation ADAS testing based on a search-based testing approach that leverages an ensemble of simulators to identify failure-inducing, simulator-agnostic test scenarios. During the search, each scenario is evaluated jointly on multiple simulators. Scenarios that produce consistent results across simulators are prioritized for further exploration, while those that fail on only a subset of simulators are given less priority, as they may reflect simulator-specific issues rather than generalizable failures. Our case study, which involves testing a deep neural network-based ADAS on different pairs of three widely used simulators, demonstrates that MultiSim outperforms single-simulator testing by achieving on average a higher rate of simulator-agnostic failures by 51%. Compared to a state-of-the-art multi-simulator approach that combines the outcome of independent test generation campaigns obtained in different simulators, MultiSim identifies 54% more simulator-agnostic failing tests while showing a comparable validity rate. An enhancement of MultiSim that leverages surrogate models to predict simulator disagreements and bypass executions does not only increase the average number of valid failures but also improves efficiency in finding the first valid failure.}
 }
 
 @inproceedings{2025-Baresi-ICSE,
