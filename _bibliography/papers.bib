@@ -11,20 +11,6 @@
 	abstract = {Scenario-based testing with driving simulators is extensively used to identify failing conditions of automated driving assistance systems (ADAS) and reduce the amount of in-field road testing. However, existing studies have shown that repeated test execution in the same as well as in distinct simulators can yield different outcomes, which can be attributed to sources of flakiness or different implementations of the physics, among other factors. In this paper, we present MultiSim, a novel approach to multi-simulation ADAS testing based on a search-based testing approach that leverages an ensemble of simulators to identify failure-inducing, simulator-agnostic test scenarios. During the search, each scenario is evaluated jointly on multiple simulators. Scenarios that produce consistent results across simulators are prioritized for further exploration, while those that fail on only a subset of simulators are given less priority, as they may reflect simulator-specific issues rather than generalizable failures. Our case study, which involves testing a deep neural network-based ADAS on different pairs of three widely used simulators, demonstrates that MultiSim outperforms single-simulator testing by achieving on average a higher rate of simulator-agnostic failures by 51%. Compared to a state-of-the-art multi-simulator approach that combines the outcome of independent test generation campaigns obtained in different simulators, MultiSim identifies 54% more simulator-agnostic failing tests while showing a comparable validity rate. An enhancement of MultiSim that leverages surrogate models to predict simulator disagreements and bypass executions does not only increase the average number of valid failures but also improves efficiency in finding the first valid failure.}
 }
 
-@article{2025-Chen-EMSE,
-	title        = {{XMutant: XAI-based Fuzzing for Deep Learning Systems}},
-	author       = {Xingcheng Chen and Matteo Biagiola and Vincenzo Riccio and Marcelo d'Amorim and Andrea Stocco},
-	year         = 2025,
-	journal      = {Empirical Software Engineering},
-	publisher    = {Springer},
-	url          = {https://arxiv.org/abs/2503.07222},
-	pdf          = {2025-Chen-EMSE.pdf},
-	abbr         = {EMSE},
-	bibtex_show  = {true},
-	abstract = {Semantic-based test generators are widely used to produce failure-inducing inputs for Deep Learning (DL) systems. They typically generate challenging test inputs by applying random perturbations to input semantic concepts until a failure is found or a timeout is reached. However, such randomness may hinder them from efficiently achieving their goal. This paper proposes XMutant, a technique that leverages explainable artificial intelligence (XAI) techniques to generate challenging test inputs. XMutant uses the local explanation of the input to inform the fuzz testing process and effectively guide it toward failures of the DL system under test. We evaluated different configurations of XMutant in triggering failures for different DL systems both for model-level (sentiment analysis, digit recognition) and system-level testing (advanced driving assistance). Our studies showed that XMutant enables more effective and efficient test generation by focusing on the most impactful parts of the input. XMutant generates up to 125% more failure-inducing inputs compared to an existing baseline, up to 7X faster. We also assessed the validity of these inputs, maintaining a validation rate above 89%, according to automated and human validators.}
-}
-
-
 @article{2026-Guo-OJ-ITS,
       title={Foundation Models in Autonomous Driving: A Survey on Scenario Generation and Scenario Analysis}, 
       author={Yuan Gao and Mattia Piccinini and Yuchen Zhang and Dingrui Wang and Korbinian Moller and Roberto Brusnicki and Baha Zarrouki and Alessio Gambi and Jan Frederik Totz and Kai Storms and Steven Peters and Andrea Stocco and Bassam Alrifaee and Marco Pavone and Johannes Betz},
@@ -286,19 +272,6 @@ dom latent truncation for generative exploration. Our experiments
 show that the latent code–mixing approach achieves a higher fault
 detection rate than random truncation, while also improving both
 diversity and validity.}
-}
-
-@article{2025-Chen-EMSE,
-	title        = {{XMutant: XAI-based Fuzzing for Deep Learning Systems}},
-	author       = {Xingcheng Chen and Matteo Biagiola and Vincenzo Riccio and Marcelo d'Amorim and Andrea Stocco},
-	year         = 2025,
-	journal      = {Empirical Software Engineering},
-	publisher    = {Springer},
-	url          = {https://arxiv.org/abs/2503.07222},
-	pdf          = {2025-Chen-EMSE.pdf},
-	abbr         = {EMSE},
-	bibtex_show  = {true},
-	abstract = {Semantic-based test generators are widely used to produce failure-inducing inputs for Deep Learning (DL) systems. They typically generate challenging test inputs by applying random perturbations to input semantic concepts until a failure is found or a timeout is reached. However, such randomness may hinder them from efficiently achieving their goal. This paper proposes XMutant, a technique that leverages explainable artificial intelligence (XAI) techniques to generate challenging test inputs. XMutant uses the local explanation of the input to inform the fuzz testing process and effectively guide it toward failures of the DL system under test. We evaluated different configurations of XMutant in triggering failures for different DL systems both for model-level (sentiment analysis, digit recognition) and system-level testing (advanced driving assistance). Our studies showed that XMutant enables more effective and efficient test generation by focusing on the most impactful parts of the input. XMutant generates up to 125% more failure-inducing inputs compared to an existing baseline, up to 7X faster. We also assessed the validity of these inputs, maintaining a validation rate above 89%, according to automated and human validators.}
 }
 
 @inproceedings{2025-Lambertenghi-ASE,
