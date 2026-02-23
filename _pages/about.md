@@ -6,7 +6,7 @@ subtitle: Scientific Researcher at <a href="https://www.fortiss.org/en/">fortiss
 
 profile:
   align: right
-  image: me-van.jpeg
+  image: me-gemini.png
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>fortiss</p>
