@@ -31,6 +31,7 @@ nav_order: 4
 + ACM Transactions on the Web
 + IEEE Transactions on Services Computing
 + IEEE Transactions on Intelligent Transportation Systems
++ IEEE Transactions on Emerging Topics in Computing
 + Software Quality Journal
 + Automated Software Engineering
 + Journal of Automotive Software Engineering
