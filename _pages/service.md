@@ -43,7 +43,7 @@ nav_order: 4
 
 #### Organizing Committee
 
-+ 2026: [ASE 2026](https://conf.researchr.org/committee/ase-2026/ase-2026-organizing-committee) (Area Chair &#8226; Research Track)
++ 2026: [ASE 2026](https://conf.researchr.org/committee/ase-2026/ase-2026-organizing-committee) (Area Chair &#8226; Research Track, Program Chair &#8226; Student Research Competition)
 + 2025: [ICST 2025](https://conf.researchr.org/committee/icst-2025/icst-2025-papers-program-committee) (Program Chair &#8226; Doctoral Symposium)
 + 2024: [SCAM 2024](https://www.ieee-scam.org/2024/#org) (Program Chair &#8226; Research Track), [ESEC/FSE 2024](https://conf.researchr.org/committee/fse-2024/fse-2024-organizing-committee) (Social media Chair)
 + 2023: [DeepTest 2023](https://conf.researchr.org/home/icse-2023/deeptest-2023) (Program Chair)
@@ -66,7 +66,7 @@ nav_order: 4
 
 ##### Other Tracks
 
-+ 2026: [ICSME 2026](https://conf.researchr.org/track/icsme-2026/icsme-2026-registered-reports) (Registered Reports Track), [ICST 2026](https://conf.researchr.org/committee/icst-2026/icst-2026-doctoral-symposium-program-committee) (Program Chair &#8226; Doctoral Symposium)
++ 2026: [ICSME 2026](https://conf.researchr.org/track/icsme-2026/icsme-2026-registered-reports) (Registered Reports Track), [ICST 2026](https://conf.researchr.org/committee/icst-2026/icst-2026-doctoral-symposium-program-committee) (Doctoral Symposium), [QUATIC 2026](https://2026.quatic.org/phd-symposium-sedes) (Doctoral Symposium)
 + 2025: [FORGE 2025](https://conf.researchr.org/track/forge-2025/forge-2025-benchmarking) (Data and Benchmarking Track)
 + 2024: [ICSE 2024](https://conf.researchr.org/track/icse-2024/icse-2024-demonstrations) (Program Chair &#8226; Demonstration Track), [ESEC/FSE 2024](https://2024.esec-fse.org/track/fse-2024-industry) (Industry Track)
 + 2023: [ESEC/FSE 2023](https://2023.esec-fse.org/track/fse-2023-ideas--visions-and-reflections) (Ideas, Visions and Reflections Track), [ESEC/FSE 2023](https://2023.esec-fse.org/track/fse-2023-industry) (Industry Track), [SSBSE 2023](https://conf.researchr.org/committee/ssbse-2023/ssbse-2023-rene---nier-rene---nier) (Replication and Negative Results / New Ideas and Emerging Results Track), [SCAM 2023](https://www.ieee-scam.org/2023/#home) (New Ideas and Emerging Results Track), [SCAM 2023](https://www.ieee-scam.org/2023/#home) (Replication and Negative Results Track), [Web Conference 2023](https://www2023.thewebconf.org/calls/research-tracks/systems-infrasture/) (Systems and Infrastructure for Web, Mobile Web, and Web of Things Track), [SANER 2023](https://saner2023.must.edu.mo/programCommittee) (Reproducibility Studies and Negative Results Track)
