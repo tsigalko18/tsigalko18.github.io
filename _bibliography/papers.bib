@@ -1,12 +1,40 @@
+@inproceedings{2026-Negi-ITSC,
+	title = {Automated Evaluation of Multi-Turn Dialogues in In-Car Conversational Assistants},
+	author = {Vaishnav Negi and Lev Sorokin and Soroosh Tayebi Arasteh and Andrea Stocco},
+    year = {2026},
+	booktitle = {Proceedings of the 29th 29th IEEE International Conference on Intelligent Transportation Systems},
+	pdf = {2026-Negi-ITSC.pdf},
+	abbr = {ITSC},
+	bibtex_show = {true},
+	abstract = {In-car conversational assistants (ICAs) are increasingly
+integrated into vehicles to support route planning, vehicle
+control, and information access. Ensuring their reliability is
+challenging due to multi-turn interactions, the absence of explicit
+ground truth, and strict safety constraints. Existing evaluation
+techniques fall short, as they target single-turn settings and fail to
+capture constraint handling, context retention, and safety-critical
+behavior across turns. We propose an automated framework for
+testing the multi-turn conversational capabilities of ICAs. The
+system is treated as a black box and evaluated via closed-loop
+simulation with a strategy-guided user simulator, an adversarial
+strategy manager, and a two-tier LLM judge assessing turn-level
+failures and conversation-level quality. We evaluate the approach
+on an industrial ICA with six LLM backends and twelve human
+annotators. The automated judge shows substantial agreement
+with humans, and strategy guidance uncovers 2.96× more unique
+failure types per conversation and more than doubles the number
+of unique failing conversations compared to unguided simulation.}
+}
+
 @article{2026-Habicht-JSS,
-      title={Benchmarking Contextual Understanding for In-Car Conversational Systems}, 
-      author={Philipp Habicht and Lev Sorokin and Abdullah Saydemir and Ken E. Friedl and Andrea Stocco},
-      year={2026},
-      journal={Journal of Systems and Software},
-	  pdf          = {2026-Habicht-JSS.pdf},
-	  abbr         = {JSS},
-	  bibtex_show  = {true},
-	  abstract = {In-Car Conversational Question Answering (ConvQA) systems significantly enhance user experience by enabling seamless voice interactions. However, assessing their accuracy and reliability remains a challenge. This paper explores the use of Large Language Models (LLMs) along side advanced prompt ing techniques and agent-based methods to evaluate the extent to which ConvQA system responses adhere to user utterances. The focus lies on contextual understanding, the ability to provide accurate venue recommendations considering the user constraints and situational context. To evaluate the utterance/response coherence using an LLM, we synthetically generate user utterances accompanied by correct but also modified failure-containing system responses. We use input-output, chain of thought, self-consistency prompting, as well as multi-agent prompting techniques, with 13 reasoning and non-reasoning LLMs, varying in model size and providers, from OpenAI, DeepSeek, Mistral AI, and Meta. We evaluate our approach on a case study that involves a user asking for restaurant recommendations. The most substantial improvements are observed for non-reasoning models when applying advanced prompting techniques, in particular, when applying multi-agent prompting. However, non-reasoning models are significantly surpassed by reasoning models, where the best result is achieved with single-agent prompting incorporating self-consistency. Notably, the DeepSeek-R1 model achieves the highest F1-score of 0.990 at a cost of 0.002 USD per request. Overall, the best tradeoff between effectiveness and cost/time efficiency is achieved with the non-reasoning model DeepSeek-V3.}
+	title = {Benchmarking Contextual Understanding for In-Car Conversational Systems}, 
+	author = {Philipp Habicht and Lev Sorokin and Abdullah Saydemir and Ken E. Friedl and Andrea Stocco},
+	year = {2026},
+	journal = {Journal of Systems and Software},
+	pdf = {2026-Habicht-JSS.pdf},
+	abbr = {JSS},
+	bibtex_show  = {true},
+	abstract = {In-Car Conversational Question Answering (ConvQA) systems significantly enhance user experience by enabling seamless voice interactions. However, assessing their accuracy and reliability remains a challenge. This paper explores the use of Large Language Models (LLMs) along side advanced prompt ing techniques and agent-based methods to evaluate the extent to which ConvQA system responses adhere to user utterances. The focus lies on contextual understanding, the ability to provide accurate venue recommendations considering the user constraints and situational context. To evaluate the utterance/response coherence using an LLM, we synthetically generate user utterances accompanied by correct but also modified failure-containing system responses. We use input-output, chain of thought, self-consistency prompting, as well as multi-agent prompting techniques, with 13 reasoning and non-reasoning LLMs, varying in model size and providers, from OpenAI, DeepSeek, Mistral AI, and Meta. We evaluate our approach on a case study that involves a user asking for restaurant recommendations. The most substantial improvements are observed for non-reasoning models when applying advanced prompting techniques, in particular, when applying multi-agent prompting. However, non-reasoning models are significantly surpassed by reasoning models, where the best result is achieved with single-agent prompting incorporating self-consistency. Notably, the DeepSeek-R1 model achieves the highest F1-score of 0.990 at a cost of 0.002 USD per request. Overall, the best tradeoff between effectiveness and cost/time efficiency is achieved with the non-reasoning model DeepSeek-V3.}
 }
 
 @inproceedings{2026-Kanaththage-ICST,
