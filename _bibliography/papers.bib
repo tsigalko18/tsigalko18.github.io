@@ -1,3 +1,34 @@
+@article{2026-Kluge-EMSE,
+    title={Web Element Relocalization in Evolving Web Applications: A Comparative Analysis and Extension Study}, 
+    author={Anton Kluge and Andrea Stocco},
+    year={2026},
+	journal      = {Empirical Software Engineering},
+	publisher    = {Springer},
+    url={https://arxiv.org/abs/2505.1642}, 
+	pdf          = {2026-Kluge-EMSE.pdf},
+	abbr         = {EMSE},
+	bibtex_show  = {true},
+	abstract = {Fragile web tests, primarily caused by locator breakages, are a persistent
+challenge in web development. Hence, researchers have proposed techniques
+for web-element re-identification in which algorithms utilize a range of element
+properties to relocate elements on updated versions of websites based on similarity
+scoring. In this paper, we replicate the original studies of the most recent propositions
+in the literature, namely the Similo algorithm and its successor, VON Similo.
+We also acknowledge and reconsider assumptions related to threats to validity in
+the original studies, which prompted additional analysis and the development of
+mitigation techniques. Our analysis revealed that VON Similo, despite its novel
+approach, tends to produce more false positives than Similo. We mitigated these
+issues through algorithmic refinements and optimization algorithms that enhance
+parameters and comparison methods across all Similo variants, improving the accuracy
+of Similo on its original benchmark by 5.62%. Moreover, we extend the
+replicated studies by proposing a larger evaluation benchmark (23x bigger than
+the original study) as well as a novel approach that combines the strengths of both
+Similo and VON Similo, called HybridSimilo. The combined approach achieved a
+gain comparable to the improved Similo alone. Results on the extended benchmark
+show that HybridSimilo locates 98.8% of elements with broken locators in realistic
+testing scenarios.}
+}
+
 @inproceedings{2026-Negi-ITSC,
 	title = {Automated Evaluation of Multi-Turn Dialogues in In-Car Conversational Assistants},
 	author = {Vaishnav Negi and Lev Sorokin and Soroosh Tayebi Arasteh and Andrea Stocco},
@@ -59,8 +90,7 @@ Siamese neural networks (SNNs) to infer web application models
 more accurately. By learning similarity-based representations,
 SNNs capture structural and textual relationships among web
 pages, improving near-duplicate detection during crawling and
-enhancing the quality of inferred models, and thus, the effec-
-tiveness of generated test suites. Our evaluation across nine web
+enhancing the quality of inferred models, and thus, the effectiveness of generated test suites. Our evaluation across nine web
 apps shows that SNNs outperform state-of-the-art techniques in
 near-duplicate detection, resulting in superior web app models
 with an average F-1 score improvement of 56%. These enhanced
@@ -179,7 +209,7 @@ GitHub.com/TUM-AVS/FM-for-Scenario-Generation-Analysis.}
 	pdf          = {2026-Naziri-ICSE.pdf},
 	bibtex_show  = {true},
 	abstract = {Simulation-based testing is the standard practice for assessing the
-reliability of self-driving cars’ software before deployment. Existing
+reliability of self-driving cars' software before deployment. Existing
 bug-finding techniques are either unreliable or expensive. We build
 on the insight that near misses observed during simulations may
 point to potential failures. We propose Foresee, a technique that
@@ -442,38 +472,6 @@ capabilities of ADAS across varying scenarios, making it a reproducible and
 extensible framework for systematic system-level testing.}
 }
 
-@misc{2025-Kluge-arxiv,
-      title={Web Element Relocalization in Evolving Web Applications: A Comparative Analysis and Extension Study}, 
-      author={Anton Kluge and Andrea Stocco},
-      year={2025},
-      eprint={2505.16424},
-      archivePrefix={arXiv},
-      primaryClass={cs.SE},
-      url={https://arxiv.org/abs/2505.1642}, 
-	  pdf          = {2025-Kluge-arxiv.pdf},
-	  abbr         = {pre-print},
-	  bibtex_show  = {true},
-	  abstract = {Fragile web tests, primarily caused by locator breakages, are a persistent
-challenge in web development. Hence, researchers have proposed techniques
-for web-element re-identification in which algorithms utilize a range of element
-properties to relocate elements on updated versions of websites based on similarity
-scoring. In this paper, we replicate the original studies of the most recent propositions
-in the literature, namely the Similo algorithm and its successor, VON Similo.
-We also acknowledge and reconsider assumptions related to threats to validity in
-the original studies, which prompted additional analysis and the development of
-mitigation techniques. Our analysis revealed that VON Similo, despite its novel
-approach, tends to produce more false positives than Similo. We mitigated these
-issues through algorithmic refinements and optimization algorithms that enhance
-parameters and comparison methods across all Similo variants, improving the accuracy
-of Similo on its original benchmark by 5.62%. Moreover, we extend the
-replicated studies by proposing a larger evaluation benchmark (23x bigger than
-the original study) as well as a novel approach that combines the strengths of both
-Similo and VON Similo, called HybridSimilo. The combined approach achieved a
-gain comparable to the improved Similo alone. Results on the extended benchmark
-show that HybridSimilo locates 98.8% of elements with broken locators in realistic
-testing scenarios.}
-}
-
 @inproceedings{2025-Giebisch-IV,
 	author       = {Rafael Giebisch and Ken E. Friedl and Lev Sorokin and Andrea Stocco},
 	title        = {Automated Factual Benchmarking for In-Car Conversational Systems using Large Language Models}, 
@@ -497,7 +495,7 @@ methods, leveraging ensembling techniques and diverse
 personae to enhance agreement and minimize hallucinations.
 We use our methodology to evalute CarExpert, an in-car
 retrieval-augmented conversational question answering system,
-with respect to the factual correctness to a vehicle’s manual.
+with respect to the factual correctness to a vehicle's manual.
 We produced a novel dataset specifically created for the in-car
 domain, and tested our methodology against an expert evaluation.
 Our results show that the combination of GPT-4 with the
@@ -1283,7 +1281,7 @@ bibtex_show={true}
 	year         = 2018,
   month = {nov},
   doi = {10.1145/3236024.3264592},
-abstract = {Repairing broken web element locators represents the major main- tenance cost of web test cases. To detect possible repairs, testers typically inspect the tests’ interactions with the application under test through the GUI. Existing automated test repair techniques focus instead on the code and ignore visual aspects of the applica- tion. In this demo paper, we give an overview of Vista, a novel test repair technique that leverages computer vision and local crawling to automatically suggest and apply repairs to broken web tests. URL: https://github.com/saltlab/Vista},
+abstract = {Repairing broken web element locators represents the major main- tenance cost of web test cases. To detect possible repairs, testers typically inspect the tests' interactions with the application under test through the GUI. Existing automated test repair techniques focus instead on the code and ignore visual aspects of the applica- tion. In this demo paper, we give an overview of Vista, a novel test repair technique that leverages computer vision and local crawling to automatically suggest and apply repairs to broken web tests. URL: https://github.com/saltlab/Vista},
 bibtex_show={true}
 }
 
