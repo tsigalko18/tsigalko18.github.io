@@ -1,3 +1,31 @@
+@inproceedings{2026-Jannussi-ASE-demo,
+	author       = {Davide Jannussi and Stefano Carlo Lambertenghi and Constantin Carste and Andrea Stocco},
+	title        = {Cam2Sim: Neural Scenario Reconstruction for Closed-Loop Autonomous Driving Simulation},
+	booktitle    = {Proceedings of the 41th IEEE/ACM International Conference on Automated Software Engineering - Tools and Datasets Track},
+	series       = {ASE '26 - Tools and Datasets Track},
+	publisher    = {IEEE},
+	pdf          = {2026-Jannussi-ASE-demo.pdf},
+	pages        = {4 pages},
+	abbr         = {ASE<br>Demo Track},
+	year         = 2026,
+	bibtex_show  = {true},
+	abstract = {Simulation-based testing enables autonomous driving systems to be evaluated safely and repeatedly, but its usefulness is limited by the gap between synthetic simulator outputs and real-world camera observations. This gap is particularly problematic for camera-based systems, whose behavior can change under visual domain shifts. To address this problem, we present Cam2Sim, a tool that transforms real-world driving recordings into playable CARLA simulation scenarios. Starting from camera images and poses, Cam2Sim reconstructs road geometry, ego trajectories, parked vehicles, and simulation assets, and augments the reconstructed environment with Gaussian Splatting to render camera observations that resemble the original recording. The framework supports ROS-based data extraction, parked-vehicle detection, OpenStreetMap-based map generation, CARLA scenario construction, Gaussian Splatting training, trajectory replay, and closed-loop execution with a system under test. We validate Cam2Sim on a real-world urban-driving scenario with a camera-based end-to-end driving model, comparing reconstruction quality, image-generation quality, and closed-loop behavior against both a simulation-only baseline and the real-world target. Results show that Gaussian-Splatting-based rendering reduces the visual gap with respect to standard simulator rendering and improves behavioral similarity to the real-world reference runs. The artifact is publicly available at https://github.com/ast-fortiss-tum/cam2sim, and a screencast showing the tool is available at https://youtu.be/KmZ74l1__lI}
+}
+
+@inproceedings{2026-Napolitano-ASE-demo,
+	author       = {Manfredi Napolitano and Alessandra Somma and Alessio Gambi and Andrea Stocco and Nicola Mazzocca},
+	title        = {E-CoDrive: A Co-Simulation Framework for Testing Energy-Critical Driving Scenarios},
+	booktitle    = {Proceedings of the 41th IEEE/ACM International Conference on Automated Software Engineering - Tools and Datasets Track},
+	series       = {ASE '26 - Tools and Datasets Track},
+	publisher    = {IEEE},
+	pdf          = {2026-Napolitano-ASE-demo.pdf},
+	pages        = {4 pages},
+	abbr         = {ASE<br>Demo Track},
+	year         = 2026,
+	bibtex_show  = {true},
+	abstract = {Autonomous driving research has largely focused on safety while giving limited attention to non-functional aspects such as energy consumption and sustainability. As Autonomous Electric Vehicles (AEVs) become increasingly common in urban traffic, understanding how complex traffic dynamics influence their energy consumption is paramount to test whether AEVs can complete trips before battery depletion. To support energy-aware scenario-based testing of AEVs, we present \toolname, a framework for reproducible closed-loop driving co-simulations that integrates an energy-\ consumption model, a micro-traffic simulator, and a high-fidelity driving simulator to test AEV software stacks in urban scenarios. This tool paper describes the architecture of \toolname and demonstrates its applicability by testing an Autoware-based AEV stack. Our evaluation shows that varying traffic conditions produce substantial differences in vehicle energy consumption. The artifact is publicly available at \url{https://doi.org/10.6084/m9.figshare.32244783}, and a screencast showing the tool is available at \url{https://youtu.be/yX9fWHqCvgc}.}
+}
+
 @inproceedings{2026-Lambertenghi-ASE,
 	author       = {Stefano Carlo Lambertenghi and Matthias Weil and Andrea Stocco},
 	title        = {Real-World Perturbation Testing of Autonomous Driving Systems},
