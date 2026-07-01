@@ -1,3 +1,37 @@
+@inproceedings{2026-Sorokin-ASE-industry,
+	author       = {Lev Sorokin and Chen Yang and Ken E. Friedl and Andrea Stocco},
+	title        = {Search-based Testing of Vision Language Models for In-Car Scene Understanding},
+	booktitle    = {Proceedings of the 41th IEEE/ACM International Conference on Automated Software Engineering - Industry Showcase Track},
+	series       = {ASE '26 - Industry Showcase Track},
+	publisher    = {IEEE},
+	pdf          = {2026-Sorokin-ASE-industry.pdf},
+	pages        = {12 pages},
+	abbr         = {ASE<br>Industry Track},
+	year         = 2026,
+	bibtex_show  = {true},
+	abstract = {In the automotive domain, in-car scene understanding (ISU) enables
+the detection of safety-critical events, such as driver distraction, and
+supports drivers or passengers by analyzing the in-car scene and
+adapting the environment (e.g., ambient lighting). The industry is
+increasingly exploring vision-language models (VLMs) to interpret
+camera-recorded in-car scenes and extract information for down-
+stream reasoning tasks. However, VLMs may generate incomplete,
+erroneous, or misleading scene descriptions, highlighting the need
+for systematic testing. Collecting real in-vehicle data is costly, diffi-
+cult to scale, and often infeasible, particularly in early design stages.
+In this paper, we present ISU-Test, an automated testing approach
+that combines rendering-based scene generation with search-based
+testing to evaluate ISU systems. By framing testing as an optimiza-
+tion problem and systematically modifying scene parameters, our
+method generates diverse in-car scenarios and explores a wide
+range of configurations. We evaluate ISU-Test on both an industrial
+prototype and open-source VLMs across two case studies: question
+answering and captioning, comparing against randomized scenario
+generation. Results show that ISU-Test significantly outperforms
+the baseline, achieving up to 10x higher failure rates and up to 3.6x
+higher coverage.}
+}
+
 @inproceedings{2026-Jannussi-ASE-demo,
 	author       = {Davide Jannussi and Stefano Carlo Lambertenghi and Constantin Carste and Andrea Stocco},
 	title        = {Cam2Sim: Neural Scenario Reconstruction for Closed-Loop Autonomous Driving Simulation},
@@ -321,7 +355,7 @@ of interpretable and feature-aware testing in improving DL model reliability.}
 
 @inproceedings{2026-Sorokin-SANER,
 	title        = {STELLAR: A Search-Based Testing Framework for Large Language Model Applications},
-	author       = {Lev Sorokin and Ivan Vasilev and Ken Friedl and Andrea Stocco},
+	author       = {Lev Sorokin and Ivan Vasilev and Ken E. Friedl and Andrea Stocco},
 	year         = 2026,
 	booktitle    = {Proceedings of the 33rd IEEE International Conference on Software Analysis, Evolution and Reengineering},
 	series       = {SANER '26},
