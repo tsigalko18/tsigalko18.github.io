@@ -1,3 +1,21 @@
+@inproceedings{2026-Chen-ESEM,
+	author       = {Xingcheng Chen and Mehmet Besenk and Andrea Stocco},
+	title        = {Explanation-Guided Metamorphic Testing of Specialized Language Models: An Empirical Study},
+	booktitle    = {Proceedings of the 2026 International Symposium on Empirical Software Engineering and Measurement},
+	series       = {ESEM '26},
+	publisher    = {IEEE},
+	pdf          = {2026-Chen-ESEM.pdf},
+	pages        = {12 pages},
+	abbr         = {ESEM},
+	year         = 2026,
+	bibtex_show  = {true},
+	abstract = {Background. Task-specialized language models are increasingly integrated into software engineering workflows to support vertical-domain activities such as issue triaging, document classification, and automated analysis. Despite their growing adoption, there is limited empirical evidence on how to systematically test their robustness and detect brittle decision behaviors under semantics-preserving input transformations.
+Aims. This paper investigates whether explainability-guided metamorphic testing can improve the effectiveness and validity of robustness testing for specialized language models compared to heuristic mutation strategies.
+Method. We conduct a large-scale empirical study of explanation-guided metamorphic testing across three datasets, four model architectures, and 20 testing configurations derived from combinations of attribution methods and mutation strategies. The evaluated configurations combine attribution-based token prioritization, LLM-driven mutation, and automated semantic verification to generate linguistically valid test variants. We assess failure discovery capability, semantic validity, and testing efficiency against heuristic baselines.
+Results. Explanation-guided metamorphic testing generates 2.30× more verified failure-inducing test cases than heuristic mutation strategies. Semantic verification substantially improves mutation validity and achieves high label-preservation precision among gate-accepted variants according to human annotation. The study further reveals systematic shortcut behaviors across models, including over-reliance on named entities and formatting cues. In addition, adversarial refinement using verified variants improves robust accuracy by up to 7.4% without substantially degrading performance on the original tasks.
+Conclusions. The results provide evidence that explanation-guided metamorphic testing is an effective and practical approach for empirically evaluating and improving the robustness of task-specialized language models used in vertical AI applications.}
+}
+
 @inproceedings{2026-Sorokin-ASE-industry,
 	author       = {Lev Sorokin and Chen Yang and Ken E. Friedl and Andrea Stocco},
 	title        = {Search-based Testing of Vision Language Models for In-Car Scene Understanding},
