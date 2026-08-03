@@ -171,6 +171,7 @@ of unique failing conversations compared to unguided simulation.}
 	year = {2026},
 	journal = {Journal of Systems and Software},
 	pdf = {2026-Habicht-JSS.pdf},
+	note = {[Invited Journal-first track at ASE 2026]},
 	abbr = {JSS},
 	bibtex_show  = {true},
 	abstract = {In-Car Conversational Question Answering (ConvQA) systems significantly enhance user experience by enabling seamless voice interactions. However, assessing their accuracy and reliability remains a challenge. This paper explores the use of Large Language Models (LLMs) along side advanced prompt ing techniques and agent-based methods to evaluate the extent to which ConvQA system responses adhere to user utterances. The focus lies on contextual understanding, the ability to provide accurate venue recommendations considering the user constraints and situational context. To evaluate the utterance/response coherence using an LLM, we synthetically generate user utterances accompanied by correct but also modified failure-containing system responses. We use input-output, chain of thought, self-consistency prompting, as well as multi-agent prompting techniques, with 13 reasoning and non-reasoning LLMs, varying in model size and providers, from OpenAI, DeepSeek, Mistral AI, and Meta. We evaluate our approach on a case study that involves a user asking for restaurant recommendations. The most substantial improvements are observed for non-reasoning models when applying advanced prompting techniques, in particular, when applying multi-agent prompting. However, non-reasoning models are significantly surpassed by reasoning models, where the best result is achieved with single-agent prompting incorporating self-consistency. Notably, the DeepSeek-R1 model achieves the highest F1-score of 0.990 at a cost of 0.002 USD per request. Overall, the best tradeoff between effectiveness and cost/time efficiency is achieved with the non-reasoning model DeepSeek-V3.}
@@ -231,6 +232,7 @@ achieve higher code coverage, with improvements ranging from
   	volume    = {31},
   	number    = {4},
   	pages     = {80},
+	note         = {[Invited Journal-first track at ASE 2026]},
 	url          = {https://link.springer.com/article/10.1007/s10664-026-10821-7},
 	pdf          = {2026-Sorokin-EMSE.pdf},
 	abbr         = {EMSE},
@@ -287,6 +289,7 @@ GitHub.com/TUM-AVS/FM-for-Scenario-Generation-Analysis.}
 	url          = {https://arxiv.org/abs/2503.07222},
 	pdf          = {2026-Chen-EMSE.pdf},
 	abbr         = {EMSE},
+	note         = {[Invited Journal-first track at ASE 2026]},
 	bibtex_show  = {true},
 	abstract = {Semantic-based test generators are widely used to produce failure-inducing inputs for Deep Learning (DL) systems. They typically generate challenging test inputs by applying random perturbations to input semantic concepts until a failure is found or a timeout is reached. However, such randomness may hinder them from efficiently achieving their goal. This paper proposes XMutant, a technique that leverages explainable artificial intelligence (XAI) techniques to generate challenging test inputs. XMutant uses the local explanation of the input to inform the fuzz testing process and effectively guide it toward failures of the DL system under test. We evaluated different configurations of XMutant in triggering failures for different DL systems both for model-level (sentiment analysis, digit recognition) and system-level testing (advanced driving assistance). Our studies showed that XMutant enables more effective and efficient test generation by focusing on the most impactful parts of the input. XMutant generates up to 125% more failure-inducing inputs compared to an existing baseline, up to 7X faster. We also assessed the validity of these inputs, maintaining a validation rate above 89%, according to automated and human validators.}
 }
@@ -760,6 +763,7 @@ extensive applications.}
 	year         = 2025,
 	url          = {https://arxiv.org/abs/2408.06258},
 	pdf          = {2025-Weissl-TOSEM.pdf},
+	note         = {[Invited Journal-first track at ASE 2026]},
 	abbr         = {TOSEM},
 	bibtex_show  = {true},
 	abstract = {Evaluating the behavioral boundaries of deep learning (DL) systems is crucial for understanding their reliability across diverse, unseen inputs. Existing solutions fall short as they rely on untargeted random, model- or latent-based perturbations, due to difficulties in generating controlled input variations. In this work, we introduce Mimicry, a novel black-box test generator for fine-grained, targeted exploration of DL system boundaries. Mimicry performs boundary testing by leveraging the probabilistic nature of DL outputs to identify promising directions for exploration. It uses style-based GANs to disentangle input representations into content and style components, enabling controlled feature mixing to approximate the decision boundary. We evaluated Mimicry's effectiveness in generating boundary inputs for five widely used DL image classification systems of increasing complexity, comparing it to two baseline approaches. Our results show that Mimicry consistently identifies inputs closer to the decision boundary. It generates semantically meaningful boundary test cases that reveal new functional (mis)behaviors, while the baselines produce mainly corrupted or invalid inputs. Thanks to its enhanced control over latent space manipulations, Mimicry remains effective as dataset complexity increases, maintaining competitive diversity and higher validity rates, confirmed by human assessors.}
