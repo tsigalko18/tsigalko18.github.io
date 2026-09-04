@@ -1,3 +1,34 @@
+@article{2026-Kowalczuk-EMSE,
+	title = {CodeTransBenchmark: Evaluating LLM-based Code Translation and Repair Across Programming Languages},
+    author = {Vera Kowalczuk and Oliver Weißl and Severin Kacianka and Andrea Stocco},
+    year = {2026},
+	journal      = {Empirical Software Engineering},
+	publisher    = {Springer},
+    url={}, 
+	pdf          = {2026-Kowalczuk-EMSE.pdf},
+	abbr         = {EMSE},
+	bibtex_show  = {true},
+	abstract = {Large Language Models (LLMs) pre-trained on expansive text and code
+corpora have revealed promising code generation abilities and have attracted increasing
+attention in code translation. In this work, we investigate the effectiveness
+of LLMs in code translation and translation error repair. First, we present Code-
+TransBenchmark, a framework for evaluating LLM-based translation and repair
+and devise a post-processing strategy to extract code from inconsistent LLM outputs.
+Then, we discuss an empirical study evaluates eight models on three datasets
+and 12 language pairs, in which we categorize incorrect translations by errors to
+identify weaknesses of existing LLMs. Our work shows that while LLMs specifically
+trained for multi-lingual coding, like Codestral, correctly translate the majority of
+code, most general-purpose models struggle with the syntactic rules of the target
+language. The analysis of erroneous translations reveals the substantial impact of
+the interrelationship between involved programming languages and training data
+on the effectiveness. We show that a general post-processing approach must tolerate
+inconsistencies and leverage the predictability of LLM answers. Further, we
+show that iterative translation repair via automated feedback significantly improves
+translation accuracy. While our combined findings highlight the potential
+of LLMs to automate code translation, an effective deployment of LLM-based code
+translation in practice would require models with larger context windows.}
+}
+
 @inproceedings{2026-Chen-ESEM,
 	author       = {Xingcheng Chen and Mehmet Besenk and Andrea Stocco},
 	title        = {Explanation-Guided Metamorphic Testing of Specialized Language Models: An Empirical Study},
