@@ -1,3 +1,17 @@
+@inproceedings{2027-Sorokin-ICSE,
+  author    = {Lev Sorokin and Berfin Dinler and Alessio Gambi and Andrea Stocco},
+  title     = {{SimFusion}: Multi-Fidelity Simulation-based Testing of Automated Driving Systems},
+  booktitle = {Proceedings of the 49th IEEE/ACM International Conference on Software Engineering (ICSE)},
+  year      = {2027},
+  pdf       = {2027-Sorokin-ICSE.pdf},
+  series    = {ICSE '27},
+  publisher    = {ACM/IEEE},
+  pages        = {12 pages}, 
+  abbr         = {ICSE},
+  bibtex_show  = {true},
+  abstract     = {Simulation is widely used in the development and validation of automated driving systems (ADS) because it enables testing safety-critical behaviors without the risks and costs of onroad experimentation. During development, engineers often rely on different simulators: low-fidelity (LoFi) simulators support rapid prototyping and large-scale scenario exploration, while high-fidelity (HiFi) simulators provide realistic physics and perception modeling for reliable validation. However, integrating multiple simulators within the same testing workflow requires substantial engineering effort, and most pipelines therefore rely on a single simulator, limiting the ability to combine scalability with realism. In this paper, we present SimFusion, a multifidelity testing framework that dynamically orchestrates LoFi and HiFi simulations during test generation. SimFusion learns to predict whether simulations at different fidelity levels will agree on the criticality of a scenario. Scenarios likely to produce consistent outcomes are executed in fast LoFi simulation, while disagreement-prone cases are evaluated in HiFi simulation to ensure reliable failure detection. We evaluate SimFusion on two ADS stacks, Autoware Mini and the Frenetix motion planner, across four simulators: CARLA and BeamNG (HiFi) and CommonRoad and a ROS-based kinematic simulator (LoFi). SimFusion discovers more failures and achieves greater failure diversity than single-fidelity baselines while substantially reducing the number of HiFi simulations required. Our results show that multi-fidelity testing can improve both the effectiveness and scalability of system-level ADS validation, enabling faster testing cycles during system development and evolution.}
+}
+
 @article{2026-Chen-TOSEM,
       title={Feature-Aware Test Generation for Deep Learning Models}, 
       author={Xingcheng Chen and Oliver Weissl and Andrea Stocco},
@@ -409,7 +423,7 @@ GitHub.com/TUM-AVS/FM-for-Scenario-Generation-Analysis.}
 @inproceedings{2026-Naziri-ICSE,
 	title        = {Misbehaviour Forecasting for Focused Autonomous Driving Systems Testing},
 	author       = {Molla Mohammad Abid Naziri and Stefano Carlo Lambertenghi and Andrea Stocco and Marcelo d'Amorim},
-	booktitle    = {Proceedings of the 51st International Conference on Software Engineering},
+	booktitle    = {Proceedings of the 48th International Conference on Software Engineering},
 	series       = {ICSE '26},
 	year         = 2026,
 	publisher    = {ACM/IEEE},
