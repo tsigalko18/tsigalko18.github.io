@@ -9,12 +9,11 @@ last_name: Stocco
 contact_note: >
   Most responsive via e-mail.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Based on [*folio](https://github.com/bogoli/-folio) design.
+  Andrea Stocco, Assistant Professor at the Technical University of Munich and head of Automated Software Testing at fortiss. Research on testing and reliability of AI-based and autonomous systems.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
-keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
+keywords: Andrea Stocco, software testing, software engineering, testing AI systems, autonomous driving, deep learning testing, TUM, fortiss # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: ⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
@@ -63,9 +62,9 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: https://tsigalko18.github.io/assets/img/me-gemini.png # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -122,13 +121,7 @@ disqus_shortname: al-folio # put your disqus shortname
 # External sources.
 # If you have blog posts published on medium.com or other external sources,
 # you can display them in your blog by adding a link to the RSS feed.
-external_sources:
-  - name: medium.com
-    rss_url: https://medium.com/@al-folio/feed
-  - name: Google Blog
-    posts:
-      - url: https://blog.google/technology/ai/google-gemini-update-flash-ai-assistant-io-2024/
-        published_date: 2024-05-14
+external_sources: []
 
 # -----------------------------------------------------------------------------
 # Newsletter
@@ -188,6 +181,18 @@ exclude:
   - package.json
   - package-lock.json
   - _pages/about_einstein.md
+  # template/unfinished content, not published
+  - _pages/cv.md
+  - _pages/profiles.md
+  - _pages/teaching.md
+  - _pages/projects.md
+  - _pages/books.md
+  - _pages/blog.md
+  - _pages/dropdown.md
+  - _pages/service-old.md
+  - _posts/
+  - _projects/
+  - _books/
   - purgecss.config.js
   - README.md
   - readme_preview/
