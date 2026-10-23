@@ -34,17 +34,22 @@ latest_posts:
 I am a scientific researcher and head of the Automated Software Testing (AST) Field of Competence at [fortiss](https://www.fortiss.org/en/) and 
 an Assistant Professor at the Chair of Software Engineering for Data-intensive Applications of the School of Computation, Information and Technology of the [Technical University of Munich (TUM)](https://www.tum.de/en/).
 
-My research focuses on the interface between software engineering and deep learning with the goals of improving the robustness, reliability, and dependability of data-intensive software systems. 
-
-Current interests involve monitoring techniques and automated functional oracles for deep learning-based systems, with a particular focus on autonomous vehicles, and the robustness and maintainability of test suites of modern web applications.
+My research sits at the intersection of software engineering and AI, with the goal of making AI-enabled software systems, from deep learning components to autonomous vehicles and LLM-based applications, robust, reliable, and safe.
 
 <!--**💥 [Ph.D. positions available at the AST lab!](openings/)💥
 🚨 Working on testing AI-enabled systems or using AI to test software? 🤖📊🧠 Consider submitting your papers on this special issues at the [Journal of Systems and Software](https://www.sciencedirect.com/journal/journal-of-systems-and-software/about/call-for-papers)! **-->
 
-My current and past topics are:
+Current research themes:
 
-* Testing AI-based systems (including LLM/cyber-physical/deep learning) :robot: [ICSE 2026, SANER 2026a, SANER 2026b, ASE 2025, ICSE 2025, ICST 2025a, ICST2025b, ICSEW 2025, TOSEM 2024, EMSE 2024, TSE 2022, ASE 2022, JSEP 2021, ICST 2021, ICSE 2020, EMSE 2020, ISSREW 2020]
-* Grey literature analysis :books: [QUATIC 2023, SOFSEM 2021, ICSTW 2021]
+* **Testing autonomous driving systems** :car: — multi-fidelity and simulation-based testing, simulator ensembles, the sim-to-real gap, real-world perturbation testing [ICSE 2027, ASE 2026, EMSE 2026, ICSE 2025, ASE 2025, ICST 2025]
+* **Misbehaviour prediction and runtime monitoring** :crystal_ball: — forecasting failures of learned components before they happen [ICSE 2026, TOSEM 2025, ICST 2024, ICSE 2020]
+* **Test generation for deep learning** :brain: — generative, feature-aware, and XAI-guided test input generation [TOSEM 2026, EMSE 2026, TOSEM 2025, ICST 2025]
+* **Testing LLM-based applications** :speech_balloon: — search-based testing of LLM apps, vision-language models, and in-car conversational assistants [SANER 2026, ESEM 2026, JSS 2026, ITSC 2026]
+* **AI for web testing and code** :globe_with_meridians: — LLM-based page object generation, web element relocalization, code translation, and secure code assessment [ICST 2026a, ICST 2026b, EMSE 2026, ICSEW 2026]
+
+Earlier topics:
+
+* Grey literature analysis :books: [IST 2025, QUATIC 2023, SOFSEM 2021, ICSTW 2021]
 * Studies of JS bugs :bug: [ICST 2019, STVR 2020]
 * Computer vision for Software Engineering :eye: [TSE 2020, ESEC/FSE 2018, STVR 2017, SAC 2015, SCAM 2014]
 * Near-duplicate detection in web app models :family_man_boy_boy: [ICSE 2020]
