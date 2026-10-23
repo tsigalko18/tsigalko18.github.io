@@ -1,9 +1,36 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+# Badge colors on the publications page, keyed by the bib `abbr` field.
+# Venues not listed here use the theme accent color.
 
-"PhysRev":
-  url: https://journals.aps.org/
+# Flagship SE conferences
+"ICSE": &flagship
+  color: "#1f4e8c"
+"ESEC/FSE": *flagship
+"FSE": *flagship
+"ASE": *flagship
+"ISSTA": *flagship
 
-"Vision":
-  color: "#009f36"
+# Journals
+"TSE": &journal
+  color: "#2e7d4f"
+"TOSEM": *journal
+"EMSE": *journal
+"JSS": *journal
+"IST": *journal
+"STVR": *journal
+"JSEP": *journal
+"SQJ": *journal
+"SCICO": *journal
+"OJ-ITS": *journal
+"Adv. <br> Comp.": *journal
+
+# Workshops, demos, pre-prints
+"ICSEW": &minor
+  color: "#6c757d"
+"ICSTW": *minor
+"ISSREW": *minor
+"WSE": *minor
+"ASE<br>Demo Track": *minor
+"ESEC/FSE<br>Demo Track": *minor
+"ICWE<br>Demo Track": *minor
+"SCAM<br>Demo Track": *minor
+"pre-print": *minor
