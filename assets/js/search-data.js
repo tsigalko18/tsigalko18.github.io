@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/group/";
           },
+        },{id: "nav-openings",
+          title: "openings",
+          description: "Positions, theses, and visits at the Automated Software Testing (AST) group.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/openings/";
+          },
         },{id: "nav-teaching",
           title: "teaching",
           description: "Courses at the Technical University of Munich and earlier teaching.",
