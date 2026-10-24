@@ -1,0 +1,27 @@
+# Members shown on /group/.
+phd:
+  - name: Stefano Carlo Lambertenghi
+    role: PhD candidate
+    since: 2023
+    topic: Sim-to-real gap and real-world testing of autonomous driving systems
+  - name: Xingcheng Chen
+    role: PhD candidate
+    since: 2023
+    topic: Explainability-guided test generation for deep learning systems
+  - name: Lev Sorokin
+    role: PhD candidate (industrial PhD with BMW)
+    since: 2023
+    topic: Search-based testing of autonomous driving systems and LLM-based applications
+  - name: Oliver Weißl
+    role: PhD candidate
+    since: 2024
+    topic: Generative test input generation and boundary testing of deep learning systems
+
+visitors:
+  - name: Davide Yi Xian Hu
+  - name: Qurban Ali
+  - name: Maryam
+  - name: Davide Jannussi
+  - name: Leonardo Tiso
+  - name: Debora Russo
+  - name: Manfredi Napolitano

@@ -1,0 +1,322 @@
+# Completed theses and student projects shown on /group/ (newest first).
+
+"2026":
+  - name: "Ruben Kaiser"
+    title: "Multi-modal Boundary Testing of Vision–Language Models"
+    type: MSc thesis
+    with: "Oliver Weissl (fortiss)"
+  - name: "Emily Louise Kissel"
+    title: "Evidence-Grounded LLM-based Requirement Coverage Analysis of System Model Elements"
+    type: BSc thesis
+    with: "Konstantin Blaschke (fortiss)"
+  - name: "Stefania Mocan"
+    title: "Reference Claim Verification in Scientific Writing: Design and Evaluation of a Semi-Automated Approach"
+    type: MSc thesis
+    with: "Florian Angermeir (fortiss), Mark Kreitz (Bundeswehr University Munich)"
+  - name: "Yulan Xie"
+    title: "Feature-Aware Testing via Diffusion Hidden Space Interventions"
+    type: BSc thesis
+    with: "Xingcheng Chen (fortiss)"
+  - name: "Umut Deniz Zorgül"
+    title: "Automation for Linking Cross-References in Semi-Structured Regulations (Legal Documents): A Feasibility Study"
+    type: MSc thesis
+    with: "Parisa Elahidoost, Hugo Ricardo Guarín Villamizar (fortiss)"
+  - name: "Hussein Mohamed"
+    title: "Automated Standards Mapping for Cybersecurity Compliance"
+    type: MSc thesis
+    with: "Florian Angermeir (fortiss)"
+  - name: "Ivan Vasilev"
+    title: "Search-based Testing of In-Car Conversational Systems"
+    type: MSc thesis
+    with: "Lev Sorokin (BMW)"
+    papers: [2026-Sorokin-SANER]
+  - name: "Anna Schmitt"
+    title: "A Model-Based Product-Line Engineering Approach for the Analysis of Voltage Stability in Low-Voltage Electrical Grids"
+    type: MSc thesis
+    with: "Markus Duchon, Simon Barner (fortiss)"
+  - name: "Berk Kerem Bercin"
+    title: "Mapping Cloud Scheduling and Optimization Algorithms to Customer Energy Management (CEM) Systems"
+    type: MSc thesis
+    with: "Mahsa Faraji Shoyari (fortiss)"
+  - name: "Ahmed Elsherif"
+    title: "Forecasting Urban Solar Panel Deployment with Remote Sensing Using Machine Learning"
+    type: MSc thesis
+    with: "Jessy Matar (fortiss)"
+  - name: "Maximilian Amougou Mbida"
+    title: "Agentic Artifact-based Evaluation of the Reproducibility of Software Engineering Research"
+    type: MSc thesis
+    with: "Florian Angermeir (fortiss)"
+  - name: "Eduardo Breitembach Appio"
+    title: "Counterfactual Analysis in Multimodal Latent Spaces for Deep Learning Models"
+    type: MSc thesis
+    with: "Oliver Weissl (fortiss)"
+  - name: "Xuan Phuoc Bui"
+    title: "Impact of Crawling Strategies on Automated Model Inference for Web Application Testing"
+    type: MSc thesis
+    repo: https://github.com/ast-fortiss-tum/crawlbench
+  - name: "Yanis Xabier Wilbrand Peña"
+    title: "Adversarial Attacks on ASR via TTS Latent Manipulation"
+    type: BSc thesis
+    with: "Oliver Weissl (fortiss)"
+  - name: "Zhanpeng He"
+    title: "Automated Test Generation with LLM-Based Oracles"
+    type: MSc thesis
+    with: "Stefan Winter (LMU)"
+  - name: "Ma Xun"
+    title: "Simulation-to-Reality Gap Mitigation in Autonomous Driving Systems"
+    type: MSc thesis
+    with: "Stefano Carlo Lambertenghi (fortiss)"
+  - name: "Timo Götz"
+    title: "A Framework for the Validation of Acoustic Measurement Data in Automotive Engines"
+    type: BSc thesis
+    with: "Stefano Carlo Lambertenghi (fortiss)"
+  - name: "Matthias Weil"
+    title: "On-Vehicle Robustness Assessment of Camera and LiDAR Perception under Sensor Perturbations"
+    type: BSc thesis
+    with: "Stefano Carlo Lambertenghi (fortiss)"
+    papers: [2026-Lambertenghi-ASE]
+  - name: "Berkay Geyik"
+    title: "Automated Web Apps Model Inference using Large Language Models"
+    type: MSc thesis
+  - name: "Kilic Dilruba"
+    title: "Automated Web Element Locators Generation using Large Language Models"
+    type: MSc thesis
+  - name: "Berfin Dinler"
+    title: "Combining Multiple Simulation Fidelities for Testing Autonomous Driving Systems"
+    type: MSc thesis
+    with: "Lev Sorokin (BMW)"
+    papers: [2027-Sorokin-ICSE]
+  - name: "Adnan Fidan"
+    title: "Ensemble-based Virtual Testing of Automated Driving Systems"
+    type: MSc thesis
+    with: "Lev Sorokin (BMW)"
+  - name: "Chen Yang"
+    title: "Automated Benchmarking of Interior Scene Understanding Systems in the Automotive Domain"
+    type: MSc thesis
+    with: "Lev Sorokin (BMW)"
+    papers: [2026-Sorokin-ASE-industry]
+  - name: "Maxim Alexander Prince Igenbergs"
+    title: "Dual-Axis Testing of Visual Robustness and Topological Generalization in Vision-based End-to-End Driving Models"
+    type: BSc thesis
+    with: "Xingcheng Chen (fortiss)"
+
+"2025":
+  - name: "Yunus Melih Gözütok"
+    title: "Multi-Layer Mutation Testing for E2E Web Applications Testing"
+    type: MSc thesis
+    repo: https://github.com/ast-fortiss-tum/multilayer-mt
+  - name: "Tuna Karacan"
+    title: "DragGAN-Based Adversarial Testing for Deep Neural Networks"
+    type: MSc thesis
+    with: "Oliver Weissl (fortiss)"
+    repo: https://github.com/ast-fortiss-tum/DragGAN-based-Adversarial-Test-Case-Generation-for-DNNs
+  - name: "Gökce Sengün"
+    title: "Assessing Neural Reality Gap Input Mitigation for System Level Autonomous Driving Testing"
+    type: MSc thesis
+    with: "Stefano Carlo Lambertenghi (fortiss)"
+  - name: "Ignacio Alejandro García Nunez"
+    title: "Industrial Product Backlog Exploration: Potential and Limitations of NLP-based Analyses for Security Purposes"
+    type: BSc thesis
+    with: "Florian Angermeir (fortiss), Fabiola Moyón (Siemens)"
+  - name: "Mehmet Beşenk"
+    title: "Adversarial Testing of Transformer Models with XAI Techniques"
+    type: MSc thesis
+    with: "Xingcheng Chen (fortiss)"
+    papers: [2026-Chen-ESEM]
+  - name: "Arkadii Sapozhnikov"
+    title: "Mutation-Based Assertion Generation Agent"
+    type: Guided research
+    with: "Pouria Derakhshanfar (JetBrains)"
+  - name: "Iurii Zaitsev"
+    title: "Test Repair Agent"
+    type: Guided research
+    with: "Pouria Derakhshanfar (JetBrains)"
+  - name: "Nataliia Severynenko"
+    title: "GenAI to Detect and Extract Requirements from Security Standards: A Feasibility Study"
+    type: MSc thesis
+    with: "Florian Angermeir (fortiss), Fabiola Moyón (Siemens)"
+  - name: "Magnus Kühne"
+    title: "Development and Evaluation of a native iOS/WatchOS Application for Recreational Scuba Diving"
+    type: BSc thesis
+    with: "Florian Angermeir (fortiss)"
+  - name: "Başak Balci"
+    title: "A Taxonomy of Test Case Breakages in the Web Application Domain"
+    type: MSc thesis
+  - name: "Burak Emre Özer"
+    title: "Zero-Shot Domain Expansion for Testing Autonomous Vehicles with Diffusion Models and LLMs"
+    type: MSc thesis
+    with: "Davide Yi Xian Hu (PoliMi)"
+  - name: "Jana El Kari"
+    title: "Implementation and Evaluation of an ML-Assisted Requirements Engineering Quick Check"
+    type: MSc thesis
+    with: "Daniel Mendez, Anton Luckhardt"
+  - name: "Constantin Carste"
+    title: "Towards Neural Simulation for Autonomous Driving Systems Testing"
+    type: BSc thesis
+    with: "Stefano Carlo Lambertenghi (fortiss)"
+    papers: [2026-Jannussi-ASE-demo]
+  - name: "Sedat Dalkiran"
+    title: "Integration of Artificial Intelligence for Predictive Maintenance in River-based Energy Production Systems"
+    type: MSc thesis
+    with: "Georg Walder (Energyminer)"
+  - name: "Jeongrim Kim"
+    title: "Unsupervised Group Action Detection via Disentangled Representation Learning"
+    type: MSc thesis
+    with: "Carlos Valle (fortiss)"
+  - name: "Skander Jneyeh"
+    title: "Development of a Scaled IoT-Enabled Traffic Light System for Mixed Reality Autonomous Vehicle Testing and Simulation"
+    type: BSc thesis
+    with: "Stefano Carlo Lambertenghi (fortiss)"
+  - name: "Cristian Sebastián Cubides Herrera"
+    title: "Simulation-to-Reality Gap Mitigation in Reinforcement Learning: Analyzing Observational and Dynamical Shifts in Smart Grids and Self-Driving Systems"
+    type: MSc thesis
+    with: "Camilo Amaya (fortiss)"
+    repo: https://github.com/ast-fortiss-tum/sim2real-gap-rl
+  - name: "Jonas Stempel"
+    title: "Benchmarking Scene Understanding for the In-Car Domain"
+    type: MSc thesis
+    with: "Ken E. Friedl (BMW)"
+  - name: "Ziyad Mourabiti"
+    title: "Enhancing Photovoltaic Detection Using Generative AI for Super-Resolution Satellite Imagery"
+    type: MSc thesis
+    with: "Jessy Matar (fortiss), Zhiwei Han, Jimmy Tekle"
+  - name: "Betül Karagöz"
+    title: "Towards Automated Page Object Generation using Large Language Models"
+    type: MSc thesis
+    papers: [2026-Karagoz-ICST]
+  - name: "Oğuz Gögebakan"
+    title: "On the Impact of Requirements Smells in Prompts: The Case of Automated Sequence Diagram Creation"
+    type: MSc thesis
+    with: "Jannick Fischbach (fortiss)"
+  - name: "Mert Şahin"
+    title: "On the Impact of Requirements Smells in Prompts: The Case of Automated Code Generation"
+    type: MSc thesis
+    with: "Jannick Fischbach (fortiss)"
+  - name: "Kasun Vimukthi Chamara Kanaththage"
+    title: "Deep Siamese Neural Approaches for Near-Duplicate Detection in Web Application Testing"
+    type: MSc thesis
+    papers: [2026-Kanaththage-ICST]
+  - name: "Ruben Kaiser"
+    title: "Visualizing Token Importance in Large Language Models"
+    type: Guided research
+    with: "Xingcheng Chen"
+  - name: "Qianqian Jia"
+    title: "Comprehensive Evaluation of Failure Prediction Methods"
+    type: MSc thesis
+    with: "Xingcheng Chen"
+  - name: "Ghita El Alaoui Talibi"
+    title: "Ensuring Data Quality in Event Log Generation for Process Mining"
+    type: MSc thesis
+    with: "Oleksandr Kosenkov (fortiss)"
+  - name: "Wafa'a El Abu-Sa'dah"
+    title: "A Secondary Study on Legal Text Processing Solutions for Developing Compliant Software Systems"
+    type: MSc thesis
+    with: "Oleksandr Kosenkov (fortiss)"
+  - name: "Daria Tarasova"
+    title: "Implementation and Evaluation of an AI-based Educational Chatbot Assistant for Requirements Engineering"
+    type: MSc thesis
+    with: "Daniel Mendez (fortiss)"
+
+"2024":
+  - name: "Kamran Aliyev"
+    title: "Adaption of Pipeline for Machine-Learning Based Schedulability Analysis for Mixed-Criticality Real-Time Systems"
+    type: Internship
+    with: "Octavio Delgadillo Ruiz (fortiss)"
+  - name: "Mirena Flores Valdez"
+    title: "Design and Implementation of a ROS-Based Mixed Reality Framework for Autonomous Small-Scale Vehicles: Bridging the Gap Between Simulation and Reality"
+    type: BSc thesis
+    with: "Stefano Carlo Lambertenghi"
+    papers: [2025-Lambertenghi-ASE]
+  - name: "Luca Kollmer"
+    title: "Improving Web App Model Inference with Transformer-Based Near-Duplicate Detection"
+    type: BSc thesis
+    repo: https://github.com/ast-fortiss-tum/near-duplicate-detection-transformers
+  - name: "Rafael Giebisch"
+    title: "Large Language Model Based Automated Evaluation for Factual Correctness and Consistency for In-Car Conversational Question Answering Systems"
+    type: MSc thesis
+    with: "Ken Friedl (BMW)"
+    repo: https://github.com/ast-fortiss-tum/factual-correctness-assessment-llms
+    papers: [2025-Giebisch-IV]
+  - name: "Franz Kunze"
+    title: "Operationalized Software Architecture Documentation"
+    type: BSc thesis
+    with: "Jonathan Streit (itestra)"
+    repo: https://github.com/ast-fortiss-tum/oparchdoc-maven-plugin
+  - name: "Vera Julienne Kowalczuk"
+    title: "Large Language Model-based Code Translation between Programming Languages"
+    type: MSc thesis
+    with: "Franz Blaim (Dr. Johannes Heidenhain GmbH)"
+    repo: https://github.com/ast-fortiss-tum/llm-code-translation
+    papers: [2026-Kowalczuk-EMSE]
+  - name: "Damiana Todorova"
+    title: "Benchmarking XPath Locator Generation Algorithms for GUI-Based Automated Testing: A Case Study in BMW's Software Environment"
+    type: BSc thesis
+    with: "Leif Batato (BMW)"
+  - name: "Timo Kühne"
+    title: "Similarity Classification of HTML with Large Language Models"
+    type: Seminar
+    repo: https://github.com/ast-fortiss-tum/geminiscan
+  - name: "Lutian Zhang"
+    title: "Search-based Testing of Automated Driving Systems Guided by Support Vector Machines"
+    type: BSc thesis
+    with: "Lev Sorokin"
+  - name: "Shangsu Feng"
+    title: "XAI guided Test Generation from Latent Space"
+    type: BSc thesis
+    with: "Xingcheng Chen"
+  - name: "Amr Abdellatif"
+    title: "Unveiling Deep Learning Systems Behaviors through Latent Space Exploration"
+    type: MSc thesis
+    repo: https://github.com/ast-fortiss-tum/deep-learning-test-generation-style-mixing
+    papers: [2025-Weissl-TOSEM]
+  - name: "Alvaro Pérez-Lozao Alonso"
+    title: "Machine Learning-Based Identification of Factors Leading to Vehicle OTA Campaign Exclusions"
+    type: MSc thesis
+    with: "Stefan Postler (Mercedes-Benz AG)"
+  - name: "Kohei Dozono"
+    title: "Dynamic Secure Code Review with Large Language Models"
+    type: MSc thesis
+    with: "Tiago Espinha Gasiba (Siemens AG)"
+    papers: [2026-Dozono-ICSEW]
+  - name: "Linfeng Guo"
+    title: "Integrating Explainable AI and Semantic Segmentation for Advanced Failure Prediction in Autonomous Driving"
+    type: BSc thesis
+    with: "Xingcheng Chen"
+    repo: https://github.com/ast-fortiss-tum/S-Eye
+  - name: "Bengisu Duran"
+    title: "Evaluation of Coverage Criteria in Deep Neural Network Testing"
+    type: BSc thesis
+    with: "Fathiyeh Faghih (fortiss)"
+    repo: https://github.com/ast-fortiss-tum/coverage-criteria-dnn-testing
+
+"2023":
+  - name: "Ghita El Alaoui Talibi"
+    title: "Data Challenges and Requirements for Process Mining in Practice"
+    type: Guided research
+    with: "Oleksandr Kosenkov"
+  - name: "Jana El Kari"
+    title: "Designing an International Study on the Influence of Human Factors on Requirements Engineering"
+    type: Guided research
+    with: "Daniel Mendez, Anton Luckhardt"
+  - name: "Wafaa N. Abu Sa'dah"
+    title: "Secondary Study on Semantic Meta-data Models for Processing of Regulations"
+    type: Guided research
+    with: "Oleksandr Kosenkov"
+  - name: "Hannes Leonhard"
+    title: "Benchmarking Self-Driving Cars Robustness: A System-level Testing Framework"
+    type: BSc thesis
+    with: "Stefano Carlo Lambertenghi"
+    papers: [2026-Leonhard-SCICO, 2025-Lambertenghi-ICST]
+  - name: "Luca Kollmer"
+    title: "An Empirical Assessment of Neural Embeddings Techniques for Web Testing"
+    type: Seminar
+  - name: "Anton Kluge"
+    title: "Web Element Relocation in Evolving Web Applications: Enhancing the VON Similo Approach"
+    type: BSc thesis
+    repo: https://github.com/ast-fortiss-tum/web-element-localization-using-similo-like-approaches
+    papers: [2026-Kluge-EMSE]
+  - name: "Ruben Grewal"
+    title: "White-Box Failure Prediction for Autonomous Driving Systems using Uncertainty Quantification"
+    type: MSc thesis
+    repo: https://github.com/ast-fortiss-tum/misbehaviour-prediction-with-uncertainty-quantification
+    papers: [2024-Grewal-ICST]

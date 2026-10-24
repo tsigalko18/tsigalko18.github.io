@@ -4,7 +4,7 @@ permalink: /service/
 title: service
 description: Professional activities.
 nav: true
-nav_order: 4
+nav_order: 6
 ---
 
 #### Editorial Board

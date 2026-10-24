@@ -4,7 +4,7 @@ permalink: /awards/
 title: awards & talks
 description: Awards, grants, and invited talks.
 nav: true
-nav_order: 3
+nav_order: 5
 ---
 
 #### Paper Awards
@@ -38,7 +38,6 @@ nav_order: 3
 #### Keynotes
 
 + **2026** · *Testing of Autonomous Driving Systems: From Simulated to Real-world Environments*. 9th Workshop on Validation, Analysis and Evolution of Software Tests (VST) at SANER 2026, Limassol, Cyprus
-+ **2026** · *Testing of Autonomous Driving Systems: From Simulated to Real-world Environments*. ConVeY – Continuous Verification of Cyber-Physical Systems, LMU Munich, Germany
 + **2025** · *Testing of Autonomous Driving Systems: From Simulated to Real-world Environments*. E-SARS Workshop on Embodied and Safe-Assured Robotic Systems at NeurIPS 2025 (virtual)
 + **2024** · *Generative AI for Autonomous Driving Systems Testing*. NII Shonan Meeting No. 208 "Trustworthy Machine Learning System Engineering Techniques for Practical Applications", Shonan, Japan
 + **2024** · *Generative AI for Autonomous Driving Systems Testing*. CAIDAS Workshop: AI for Software Engineering, Würzburg, Germany
@@ -47,6 +46,7 @@ nav_order: 3
 
 #### Invited Talks & Guest Lectures
 
++ **2026** · *Testing of Autonomous Driving Systems: From Simulated to Real-world Environments*. Guest lecture, ConVeY – Continuous Verification of Cyber-Physical Systems, LMU Munich, Germany
 + **2023** · *Software Engineering & Software Testing: What Changes with Deep Learning? The Case of Self-Driving Cars, from Simulated to Real-world Environments*. Guest lecture, Web Engineering, Simon Fraser University, Canada (virtual)
 + **2022** · *E2E Web Test Automation: A(I) look into the future with an eye to the past*. Guest lecture, Web Engineering, Simon Fraser University, Canada (virtual)
 + **2022** · *Software Engineering & Software Testing: What Changes with Deep Learning? The Case of Self-Driving Cars, from Simulated to Real-world Environments*. Guest lecture, Software Engineering for Data Analytics, University of Genoa, Italy

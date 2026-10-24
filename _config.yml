@@ -184,7 +184,6 @@ exclude:
   # template/unfinished content, not published
   - _pages/cv.md
   - _pages/profiles.md
-  - _pages/teaching.md
   - _pages/projects.md
   - _pages/books.md
   - _pages/blog.md

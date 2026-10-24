@@ -41,7 +41,7 @@ My research sits at the intersection of software engineering and AI, with the go
 
 Current research themes:
 
-* **Testing autonomous driving systems** :car: — multi-fidelity and simulation-based testing, simulator ensembles, the sim-to-real gap, real-world perturbation testing [ICSE 2027, ASE 2026, EMSE 2026, ICSE 2025, ASE 2025, ICST 2025]
+* **Testing autonomous driving systems** :oncoming_automobile: — multi-fidelity and simulation-based testing, simulator ensembles, the sim-to-real gap, real-world perturbation testing [ICSE 2027, ASE 2026, EMSE 2026, ICSE 2025, ASE 2025, ICST 2025]
 * **Misbehaviour prediction and runtime monitoring** :crystal_ball: — forecasting failures of learned components before they happen [ICSE 2026, TOSEM 2025, ICST 2024, ICSE 2020]
 * **Test generation for deep learning** :brain: — generative, feature-aware, and XAI-guided test input generation [TOSEM 2026, EMSE 2026, TOSEM 2025, ICST 2025]
 * **Testing LLM-based applications** :speech_balloon: — search-based testing of LLM apps, vision-language models, and in-car conversational assistants [SANER 2026, ESEM 2026, JSS 2026, ITSC 2026]
