@@ -16,12 +16,26 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "",
+        },{id: "nav-group",
+          title: "group",
+          description: "Automated Software Testing (AST) group at fortiss and TUM.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/repositories/";
+            window.location.href = "/group/";
+          },
+        },{id: "nav-teaching",
+          title: "teaching",
+          description: "Courses at the Technical University of Munich and earlier teaching.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/teaching/";
+          },
+        },{id: "nav-awards-amp-talks",
+          title: "awards &amp; talks",
+          description: "Awards, grants, and invited talks.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/awards/";
           },
         },{id: "nav-service",
           title: "service",
@@ -29,6 +43,13 @@ ninja.data = [{
           section: "Navigation",
           handler: () => {
             window.location.href = "/service/";
+          },
+        },{id: "nav-repositories",
+          title: "repositories",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/repositories/";
           },
         },{id: "news-pushpin-pushpin-two-papers-accepted-for-esec-fse-2019-main-technical-track",
           title: ':pushpin: :pushpin: Two papers accepted for ESEC/FSE 2019 (Main Technical Track)!',
