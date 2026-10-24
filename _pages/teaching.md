@@ -4,7 +4,7 @@ permalink: /teaching/
 title: teaching
 description: Courses at the Technical University of Munich and earlier teaching.
 nav: true
-nav_order: 4
+nav_order: 5
 ---
 
 #### Lectures

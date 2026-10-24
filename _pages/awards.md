@@ -4,7 +4,7 @@ permalink: /awards/
 title: awards & talks
 description: Awards, grants, and invited talks.
 nav: true
-nav_order: 5
+nav_order: 6
 ---
 
 #### Paper Awards
