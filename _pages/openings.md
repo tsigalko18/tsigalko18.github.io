@@ -46,3 +46,5 @@ Our seminars and practical courses are listed on the [teaching page](/teaching/)
 #### Visiting Students
 
 We host visiting PhD students who bring their own funding (e.g., from their home university or a scholarship) and whose research fits our themes. Email me with the subject line **[AST Visit] Your Name**, your CV, the planned period, and a short description of what you want to work on.
+
+I do not supervise remote internships.
