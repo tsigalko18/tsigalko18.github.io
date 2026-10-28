@@ -1,5 +1,5 @@
 @inproceedings{2027-Sorokin-ICSE,
-	code         = {https://github.com/ast-fortiss-tum/simfusion},
+  code         = {https://github.com/ast-fortiss-tum/simfusion},
   author    = {Lev Sorokin and Berfin Dinler and Alessio Gambi and Andrea Stocco},
   title     = {{SimFusion}: Multi-Fidelity Simulation-based Testing of Automated Driving Systems},
   booktitle = {Proceedings of the 49th IEEE/ACM International Conference on Software Engineering (ICSE)},
@@ -11,6 +11,18 @@
   abbr         = {ICSE},
   bibtex_show  = {true},
   abstract     = {Simulation is widely used in the development and validation of automated driving systems (ADS) because it enables testing safety-critical behaviors without the risks and costs of onroad experimentation. During development, engineers often rely on different simulators: low-fidelity (LoFi) simulators support rapid prototyping and large-scale scenario exploration, while high-fidelity (HiFi) simulators provide realistic physics and perception modeling for reliable validation. However, integrating multiple simulators within the same testing workflow requires substantial engineering effort, and most pipelines therefore rely on a single simulator, limiting the ability to combine scalability with realism. In this paper, we present SimFusion, a multifidelity testing framework that dynamically orchestrates LoFi and HiFi simulations during test generation. SimFusion learns to predict whether simulations at different fidelity levels will agree on the criticality of a scenario. Scenarios likely to produce consistent outcomes are executed in fast LoFi simulation, while disagreement-prone cases are evaluated in HiFi simulation to ensure reliable failure detection. We evaluate SimFusion on two ADS stacks, Autoware Mini and the Frenetix motion planner, across four simulators: CARLA and BeamNG (HiFi) and CommonRoad and a ROS-based kinematic simulator (LoFi). SimFusion discovers more failures and achieves greater failure diversity than single-fidelity baselines while substantially reducing the number of HiFi simulations required. Our results show that multi-fidelity testing can improve both the effectiveness and scalability of system-level ADS validation, enabling faster testing cycles during system development and evolution.}
+}
+
+@misc{2027-Lambertenghi-arxiv,
+  title        = {The Reality Gap in Automated Driving Systems Testing: Landscape, Challenges, and Research Directions},
+  author       = {Stefano Carlo Lambertenghi and Oliver Weißl and Johannes Betz and Andrea Stocco},
+  year         = {2027},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.SE},
+  abbr         = {pre-print},
+  pdf          = {2027-Lambertenghi-arxiv.pdf},
+  bibtex_show  = {true},
+  abstract     = {Simulation is essential for testing automated driving systems (ADS), but discrepancies between simulation and reality can undermine testing conclusions. It remains unclear which discrepancies the literature addresses and what evidence supports correspondence claims. We present a systematic mapping of 235 primary studies that measure or mitigate the reality gap in ADS testing, selected from 4,195 publications. We characterise objectives, targets, approaches, experimental setups, and evaluation evidence. Our classification distinguishes simulated and real-world execution across six ADS test components, separately for each approach and its evaluation reference. This distinguishes real-world information used to construct an approach from evidence used to evaluate its claims. Of the included studies, 76% address mitigation, primarily targeting scenario and actor realism and perception, while 94% report validation or measurement procedures. Only 61 studies report metrics from multiple families covering sensor/perception correspondence, ADS behaviour, vehicle dynamics, or safety outcomes; this coverage does not establish causal links between discrepancies and test verdicts. The synthesis highlights that real-world content and physical execution must be interpreted against the claim evaluated. The findings motivate claim-specific evaluation and component-level reporting to establish which discrepancies affect testing conclusions and when simulation evidence supports conclusions about real-world ADS behaviour.}
 }
 
 @article{2026-Chen-TOSEM,
