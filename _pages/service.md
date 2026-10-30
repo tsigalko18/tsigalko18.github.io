@@ -11,6 +11,8 @@ nav_order: 7
 
 + IEEE Transactions on Software Engineering
     + Member of the [Editorial Board](https://www.computer.org/csdl/journal/ts/about/107385?title=Editorial%20Board&periodical=IEEE%20Transactions%20on%20Software%20Engineering) (2026-)
++ Software Testing, Verification and Reliability
+    + Member of the [Editorial Board](https://onlinelibrary.wiley.com/journal/10991689) (2026-)
 + Empirical Software Engineering
     + Member of the [Editorial Board](https://link.springer.com/journal/10664/editorial-board) (2025-)
 	+ Lead Guest Editor of the Special Issue [Innovations in Software System Testing with Deep Learning](https://emsejournal.github.io/special_issues/2023_Innovations_in_Software_System_Testing_with_Deep_Learning.html)
@@ -28,7 +30,6 @@ nav_order: 7
 	+ [Distinguished Reviewer 2023](assets/pdf/tosem-distinguished-reviewer-stocco.pdf)
 + Journal of Systems and Software
 	+ Guest Editor of the Special Issue [Automated Testing and Analysis for Dependable AI-enabled Software and Systems](https://www.sciencedirect.com/journal/journal-of-systems-and-software/about/call-for-papers)
-+ Software Testing, Verification & Reliability
 + Information and Software Technology
 + ACM Transactions on the Web
 + IEEE Transactions on Services Computing
