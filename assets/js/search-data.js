@@ -454,6 +454,9 @@ ninja.data = [{
           section: "News",},{id: "news-pushpin-the-paper-simfusion-multi-fidelity-simulation-based-testing-of-automated-driving-systems-has-been-accepted-for-publication-at-icse-2027",
           title: ':pushpin: The paper SimFusion: Multi-Fidelity Simulation-based Testing of Automated Driving Systems has been...',
           description: "",
+          section: "News",},{id: "news-man-technologist-i-joined-the-editorial-board-of-the-ieee-transactions-on-software-engineering-journal-consider-submitting-your-research",
+          title: ':man_technologist: I joined the editorial board of the IEEE Transactions on Software Engineering...',
+          description: "",
           section: "News",},{
         id: 'social-acm',
         title: 'ACM DL',
