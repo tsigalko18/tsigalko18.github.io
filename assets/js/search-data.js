@@ -457,6 +457,9 @@ ninja.data = [{
           section: "News",},{id: "news-man-technologist-i-joined-the-editorial-board-of-the-ieee-transactions-on-software-engineering-journal-consider-submitting-your-research",
           title: ':man_technologist: I joined the editorial board of the IEEE Transactions on Software Engineering...',
           description: "",
+          section: "News",},{id: "news-man-technologist-i-joined-the-editorial-board-of-the-software-testing-verification-and-reliability-journal-consider-submitting-your-research",
+          title: ':man_technologist: I joined the editorial board of the Software Testing, Verification and Reliability...',
+          description: "",
           section: "News",},{
         id: 'social-acm',
         title: 'ACM DL',
