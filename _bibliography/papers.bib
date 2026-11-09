@@ -13,16 +13,44 @@
   abstract     = {Simulation is widely used in the development and validation of automated driving systems (ADS) because it enables testing safety-critical behaviors without the risks and costs of onroad experimentation. During development, engineers often rely on different simulators: low-fidelity (LoFi) simulators support rapid prototyping and large-scale scenario exploration, while high-fidelity (HiFi) simulators provide realistic physics and perception modeling for reliable validation. However, integrating multiple simulators within the same testing workflow requires substantial engineering effort, and most pipelines therefore rely on a single simulator, limiting the ability to combine scalability with realism. In this paper, we present SimFusion, a multifidelity testing framework that dynamically orchestrates LoFi and HiFi simulations during test generation. SimFusion learns to predict whether simulations at different fidelity levels will agree on the criticality of a scenario. Scenarios likely to produce consistent outcomes are executed in fast LoFi simulation, while disagreement-prone cases are evaluated in HiFi simulation to ensure reliable failure detection. We evaluate SimFusion on two ADS stacks, Autoware Mini and the Frenetix motion planner, across four simulators: CARLA and BeamNG (HiFi) and CommonRoad and a ROS-based kinematic simulator (LoFi). SimFusion discovers more failures and achieves greater failure diversity than single-fidelity baselines while substantially reducing the number of HiFi simulations required. Our results show that multi-fidelity testing can improve both the effectiveness and scalability of system-level ADS validation, enabling faster testing cycles during system development and evolution.}
 }
 
-@misc{2027-Lambertenghi-arxiv,
+@misc{2026-Lambertenghi-arxiv,
   title        = {The Reality Gap in Automated Driving Systems Testing: Landscape, Challenges, and Research Directions},
   author       = {Stefano Carlo Lambertenghi and Oliver Weißl and Johannes Betz and Andrea Stocco},
-  year         = {2027},
+  year         = {2026},
   archivePrefix = {arXiv},
   primaryClass = {cs.SE},
   abbr         = {pre-print},
-  pdf          = {2027-Lambertenghi-arxiv.pdf},
+  pdf          = {2026-Lambertenghi-arxiv.pdf},
   bibtex_show  = {true},
   abstract     = {Simulation is essential for testing automated driving systems (ADS), but discrepancies between simulation and reality can undermine testing conclusions. It remains unclear which discrepancies the literature addresses and what evidence supports correspondence claims. We present a systematic mapping of 235 primary studies that measure or mitigate the reality gap in ADS testing, selected from 4,195 publications. We characterise objectives, targets, approaches, experimental setups, and evaluation evidence. Our classification distinguishes simulated and real-world execution across six ADS test components, separately for each approach and its evaluation reference. This distinguishes real-world information used to construct an approach from evidence used to evaluate its claims. Of the included studies, 76% address mitigation, primarily targeting scenario and actor realism and perception, while 94% report validation or measurement procedures. Only 61 studies report metrics from multiple families covering sensor/perception correspondence, ADS behaviour, vehicle dynamics, or safety outcomes; this coverage does not establish causal links between discrepancies and test verdicts. The synthesis highlights that real-world content and physical execution must be interpreted against the claim evaluated. The findings motivate claim-specific evaluation and component-level reporting to establish which discrepancies affect testing conclusions and when simulation evidence supports conclusions about real-world ADS behaviour.}
+}
+
+@misc{2026-Weissl-arxiv2,
+  title        = {Search-Based Testing of Modality Sensitivity in Vision Language Models},
+  author       = {Oliver Weißl and Eduardo Breitembach and Andrea Stocco},
+  year         = {2026},
+  eprint       = {2610.32360},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.CV},
+  url          = {https://arxiv.org/abs/2610.32360},
+  abbr         = {pre-print},
+  pdf          = {2026-Weissl-arxiv2.pdf},
+  bibtex_show  = {true},
+  abstract     = {Vision-language models (VLMs) process images and text jointly, yet robustness evaluations often perturb these inputs separately or assess only predefined corruption levels. Such evaluations provide limited evidence of which modality is more susceptible to perturbations and whether smaller changes across both modalities can jointly expose failures. We present MoST, a black-box testing framework that characterizes modality sensitivity by comparing image-only, text-only, and joint perturbations. MoST uses multi-objective search to select and combine perturbations and adjust their severity, seeking prediction degradation while limiting changes to images and prompts. We evaluate MoST on four VLMs performing object localization on ImageNet and driving images. The models exhibit distinct sensitivities: textual perturbations dominate for some, whereas others are susceptible across both modalities. In several configurations, joint perturbations match or exceed the effectiveness of single-modality perturbations with smaller modifications to each input. In a human study, 60–76% of assessments across models judge the perturbed inputs sufficiently understandable to perform the task, and human localization is more accurate than that of the corresponding VLMs. These results show that evaluating modalities separately can overlook failure-inducing combinations and that modality sensitivity provides a more detailed account of VLM robustness than aggregate failure rates alone.}
+}
+
+@misc{2026-Pena-arxiv,
+  title        = {Generative Testing of Automated Speech Recognition Systems},
+  author       = {Yanis Xabier Wilbrand Peña and Oliver Weißl and Andrea Stocco},
+  year         = {2026},
+  eprint       = {2607.09833},
+  archivePrefix = {arXiv},
+  primaryClass = {cs.CR},
+  url          = {https://arxiv.org/abs/2607.09833},
+  abbr         = {pre-print},
+  pdf          = {2026-Pena-arxiv.pdf},
+  bibtex_show  = {true},
+  abstract     = {Automatic speech recognition (ASR) systems have achieved high accuracy with transformer-based models, enabling deployment in critical applications. However, they remain vulnerable to adversarial manipulation, particularly in black-box settings where attacks must preserve perceptual naturalness. This work introduces GATAS, a black-box testing approach that generates failure inducing inputs by operating in the phoneme-level latent space of a text-to-speech model. Instead of perturbing waveforms directly, the approach interpolates latent representations to induce transcription errors while remaining within the manifold of natural speech. The attack is formulated as a multi-objective optimization problem balancing semantic divergence and perceptual quality. Our empirical evaluation against both white-box and black-box baselines shows that GATAS achieves a 98% success rate while producing lower distortion and higher perceptual quality, as confirmed by human studies. Despite operating without gradient access, GATAS remains competitive against white-box methods, highlighting that representation and perceptual alignment are more critical than access to model internals. Overall, our results demonstrate that untargeted latent-space optimization enables the efficient generation of realistic and effective test cases for ASR systems.}
 }
 
 @article{2026-Chen-TOSEM,
